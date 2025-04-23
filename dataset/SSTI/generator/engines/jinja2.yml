@@ -1,0 +1,12 @@
+name: Jinja2
+contexts:
+  - begin: "{{"
+    end: "}}"
+    level: 1
+  - begin: "[["
+    end: "]]"
+    level: 1
+attack_techniques:
+  - technique: "Render"
+    payloads:
+      - "{{.FirstNum}}*{{.SecondNum}}"

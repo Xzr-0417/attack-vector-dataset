@@ -1,0 +1,9 @@
+name: Twig
+contexts:
+  - begin: "{{"
+    end: "}}"
+    level: 1
+attack_techniques:
+  - technique: "Render"
+    payloads:
+      - "{{.FirstNum}}*{{.SecondNum}}"

