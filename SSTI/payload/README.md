@@ -1,3 +1,3 @@
-- payloadbox:  `<url id="d0532q0s8jdl60600dk0" type="url" status="parsed" title="GitHub - payloadbox/ssti-payloads: 🎯 Server Side Template Injection Payloads" wc="8428">https://github.com/payloadbox/ssti-payloads</url>`
-- Subhashis360: `<url id="d0532q0s8jdl60600dkg" type="url" status="parsed" title="GitHub - Subhashis360/PayloadsAll" wc="767">https://github.com/Subhashis360/PayloadsAll</url>`
-- err0rr:      `<url id="d0532q0s8jdl60600dl0" type="url" status="parsed" title="SSTI/Wordlist at master · err0rr/SSTI" wc="136">https://github.com/err0rr/SSTI/blob/master/Wordlist</url>`
+- payloadbox:   https://github.com/payloadbox/ssti-payloads
+- Subhashis360: https://github.com/Subhashis360/PayloadsAll
+- err0rr:       https://github.com/err0rr/SSTI/blob/master/Wordlist
