@@ -4,8 +4,12 @@ import (
 	"fmt"
 	"os"
 	"path/filepath"
-	
 	"gopkg.in/yaml.v3"
+)
+
+const (
+	debugMode   = true
+	extraChecks = 3
 )
 
 type EngineConfig struct {
@@ -43,24 +47,42 @@ type Payload struct {
 func ParseAllEngines(dir string) ([]*EngineConfig, error) {
 	var configs []*EngineConfig
 
+	log("开始扫描引擎目录: %s", dir)
+	
 	err := filepath.Walk(dir, func(path string, info os.FileInfo, err error) error {
-		if err != nil || info.IsDir() || filepath.Ext(path) != ".yaml" {
+		if err != nil {
+			return fmt.Errorf("目录遍历错误: %w", err)
+		}
+
+		// 跳过非YAML文件和目录
+		if info.IsDir() || !isYamlFile(path) {
 			return nil
 		}
 
+		log("找到配置文件: %s", path)
+
 		data, err := os.ReadFile(path)
 		if err != nil {
-			return fmt.Errorf("failed to read %s: %w", path, err)
+			return fmt.Errorf("文件读取失败: %w", err)
 		}
 
 		var cfg EngineConfig
 		if err := yaml.Unmarshal(data, &cfg); err != nil {
-			return fmt.Errorf("failed to parse %s: %w", path, err)
+			return fmt.Errorf("YAML解析失败: %w", err)
+		}
+		log("成功解析 %s 配置", cfg.Name)
+
+		// 校验必要字段
+		if cfg.Name == "" {
+			return fmt.Errorf("缺少引擎名称(name字段)")
+		}
+		if len(cfg.Contexts) == 0 {
+			return fmt.Errorf("%s 缺少上下文(contexts)", cfg.Name)
 		}
 
-		rendered, err := renderConfig(cfg)
+		rendered, err := renderEngineConfig(cfg)
 		if err != nil {
-			return fmt.Errorf("failed to render %s: %w", path, err)
+			return fmt.Errorf("配置渲染失败: %w", err)
 		}
 
 		configs = append(configs, rendered)
@@ -70,75 +92,54 @@ func ParseAllEngines(dir string) ([]*EngineConfig, error) {
 	return configs, err
 }
 
-func renderConfig(raw EngineConfig) (*EngineConfig, error) {
-	rendered := &EngineConfig{
+func renderEngineConfig(raw EngineConfig) (*EngineConfig, error) {
+	engine := &EngineConfig{
 		Name:     raw.Name,
 		Contexts: raw.Contexts,
 	}
 
+	if len(raw.AttackTechniques) == 0 {
+		log("警告: %s 没有配置攻击技术", raw.Name)
+		return engine, nil
+	}
+
 	for _, tech := range raw.AttackTechniques {
+		log("处理攻击技术: %s", tech.Name)
+		
 		var workflow SSTIWorkflow
 		var err error
 
 		switch tech.Name {
 		case "Render":
-			workflow, err = createRenderPayloads(tech, raw.Contexts)
+			workflow, err = generateRenderWorkflow(tech, raw.Contexts)
 		case "Exec":
-			workflow, err = createExecPayloads(tech, raw.Contexts)
+			workflow, err = generateExecWorkflow(tech, raw.Contexts)
 		default:
+			log("跳过未支持的技术类型: %s", tech.Name)
 			continue
 		}
 
 		if err != nil {
 			return nil, err
 		}
-		rendered.Workflows = append(rendered.Workflows, workflow)
+		engine.Workflows = append(engine.Workflows, workflow)
 	}
 
-	return rendered, nil
+	log("完成 %s 的配置渲染，生成 %d 个工作流", 
+		raw.Name, 
+		len(engine.Workflows))
+	
+	return engine, nil
 }
 
-func getPayloadsFromWorkflows(workflows []SSTIWorkflow) []string {
-	var payloads []string
-	for _, wf := range workflows {
-		for _, attack := range wf.Attacks {
-			payloads = append(payloads, attack.BasicPayload.Payload)
-			for _, extra := range attack.ExtraPayloads {
-				payloads = append(payloads, extra.Payload)
-			}
-		}
-	}
-	return payloads
+// 辅助函数
+func isYamlFile(path string) bool {
+	ext := filepath.Ext(path)
+	return ext == ".yaml" || ext == ".yml"
 }
 
-func createExecPayloads(tech Technique, contexts []Context) (SSTIWorkflow, error) {
-	var attacks []Attack
-
-	for _, payload := range tech.Payloads {
-		for _, ctx := range contexts {
-			basic, err := generateExecPayload(payload, ctx, tech.Commands)
-			if err != nil {
-				return SSTIWorkflow{}, err
-			}
-
-			var extras []Payload
-			for i := 0; i < 3; i++ {
-				p, err := generateExecPayload(payload, ctx, tech.Commands)
-				if err != nil {
-					return SSTIWorkflow{}, err
-				}
-				extras = append(extras, Payload{Payload: p})
-			}
-
-			attacks = append(attacks, Attack{
-				BasicPayload:   Payload{Payload: basic},
-				ExtraPayloads: extras,
-			})
-		}
+func log(format string, args ...interface{}) {
+	if debugMode {
+		fmt.Printf("[Parser] "+format+"\n", args...)
 	}
-
-	return SSTIWorkflow{
-		Attacks:   attacks,
-		Technique: tech.Name,
-	}, nil
 }

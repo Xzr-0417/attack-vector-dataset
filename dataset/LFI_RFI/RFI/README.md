@@ -1,2 +1,2 @@
-williamlaurent:   https://github.com/williamlaurent/LRFI
-heVulnerableMMII: https://github.com/theVulnerableMMII/oSkan/tree/main/lib
+- williamlaurent:   `<url id="d0532c0onf4n6nrb3feg" type="url" status="failed" title="" wc="0">https://github.com/williamlaurent/LRFI</url>`
+- heVulnerableMMII: `<url id="d0532c0onf4n6nrb3ff0" type="url" status="parsed" title="oSkan/lib at main · theVulnerableMMII/oSkan" wc="767">https://github.com/theVulnerableMMII/oSkan/tree/main/lib</url>`

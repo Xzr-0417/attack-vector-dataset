@@ -1,4 +1,4 @@
-module github.com/Xzr-0417/sstigen
+module github.com/Xzr-0417/attack-vector-dataset/dataset/SSTI/generator
 
 go 1.23.4
 

@@ -1,8 +1,8 @@
-ASR511-OO7:        https://github.com/ASR511-OO7/lfi-payloads-wordlist
-FlyingEagl3:       https://github.com/FlyingEagl3/LFI-scan 
-1amthebest1:       https://github.com/1amthebest1/LFI-payloads
-freyxfi:           https://github.com/freyxfi/Payloads/tree/main/LFI
-mrco24:            https://github.com/mrco24/mrco24-lfi       
-JehadAlqurashi:    https://github.com/JehadAlqurashi/LFI-Payloads
-ifconfig-me :      https://github.com/ifconfig-me/Directory-Traversal-Payloads
-theVulnerableMMII: https://github.com/theVulnerableMMII/oSkan/blob/main/lib/LFI
+- ASR511-OO7:        `<url id="d0531m4chmtskrn9e1g0" type="url" status="parsed" title="GitHub - ASR511-OO7/lfi-payloads-wordlist: wordlist for LFI | list of LFI payloads" wc="767">https://github.com/ASR511-OO7/lfi-payloads-wordlist</url>`
+- FlyingEagl3:       `<url id="d0531m4chmtskrn9e1gg" type="url" status="parsed" title="GitHub - FlyingEagl3/LFI-scan: LFI Payloads" wc="767">https://github.com/FlyingEagl3/LFI-scan</url>`
+- 1amthebest1:       `<url id="d0531m4chmtskrn9e1h0" type="url" status="parsed" title="GitHub - 1amthebest1/LFI-payloads: LFI payloads" wc="767">https://github.com/1amthebest1/LFI-payloads</url>`
+- freyxfi:           `<url id="d0531m4chmtskrn9e1hg" type="url" status="failed" title="" wc="0">https://github.com/freyxfi/Payloads/tree/main/LFI</url>`
+- mrco24:            `<url id="d0531m4chmtskrn9e1i0" type="url" status="failed" title="GitHub - mrco24/mrco24-lfi: Mrco24-Lfi-Scanner is a high-speed Local File Inclusion (LFI) vulnerability scanning tool developed in the Go programming language. It's designed for efficient multi-threaded scanning of multiple URLs, comprehensive payload testing, and super-fast vulnerability detection. This repository contains the source code and documentation for the tool." wc="1340">https://github.com/mrco24/mrco24-lfi</url>`
+- JehadAlqurashi:    `<url id="d0531m4chmtskrn9e1ig" type="url" status="failed" title="" wc="0">https://github.com/JehadAlqurashi/LFI-Payloads</url>`
+- ifconfig-me :      `<url id="d0531m4chmtskrn9e1j0" type="url" status="parsed" title="GitHub - ifconfig-me/Directory-Traversal-Payloads: List of Directory Traversal/LFI Payloads Scraped from the Internet" wc="1592">https://github.com/ifconfig-me/Directory-Traversal-Payloads</url>`
+- theVulnerableMMII: `<url id="d0531m4chmtskrn9e1jg" type="url" status="parsed" title="oSkan/lib/LFI at main · theVulnerableMMII/oSkan" wc="145">https://github.com/theVulnerableMMII/oSkan/blob/main/lib/LFI</url>`
