@@ -100,7 +100,7 @@ The main function executes the payload generation process:
 1. **Clone the repository**:
 
    ```bash
-   git clone [https://github.com/inpentest/rce](https://github.com/Xzr-0417/attack-vector-dataset/edit/main/RCE/generator/generate_payloads/)
+   git clone https://github.com/Xzr-0417/attack-vector-dataset/edit/main/RCE/generator/generate_payloads
    cd rce
    ```
 
