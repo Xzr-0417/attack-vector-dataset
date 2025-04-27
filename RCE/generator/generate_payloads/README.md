@@ -4,9 +4,9 @@ This repository contains a Python-based payload generator designed for generatin
 
 The payloads are crafted to test common injection points in web applications, such as URL parameters, form inputs, and other user-controlled input vectors. This tool is focused on shell command injection, Java, Python, and PowerShell invocations, among others, to simulate potential attack vectors that an attacker might use in real-world exploitation scenarios.
 
-## Components
+## Overview
 
-### Prefixes
+## Prefixes
 
 Prefixes are used to construct commands and include:
 
@@ -14,7 +14,7 @@ Prefixes are used to construct commands and include:
 * **Space bypasses and special encoding characters**: Like `${IFS}`, `%0A` (URL-encoded newline), etc.
 * **Language-specific invocation prefixes**: E.g., `Runtime.getRuntime().exec("`, `powershell -Command "`, etc., for executing commands within specific programming languages.
 
-### Payloads
+## Payloads
 
 Payloads are the core commands or scripts intended for execution. They are categorized as follows:
 
@@ -22,7 +22,7 @@ Payloads are the core commands or scripts intended for execution. They are categ
 * **Windows-specific commands**: Such as `ipconfig /all`, `tasklist`, `net user`, etc.
 * **Cross-platform commands**: Commands that can be executed across different platforms or within specific programming languages.
 
-### Suffixes
+## Suffixes
 
 Suffixes are appended to the end of commands and serve purposes such as:
 
