@@ -1,10 +1,8 @@
 # RCE Payload Generator
 
-## Overview
+This repository contains a Python-based payload generator designed for generating over **207,000 Remote Code Execution (RCE)** payloads, useful for penetration testing, vulnerability assessments, and security research.
 
-This repository contains a Remote Code Execution (RCE) Payload Generator. It is designed to create a comprehensive list of potential RCE payloads by combining various elements such as prefixes, payloads, suffixes, and encoding modes.
-
----
+The payloads are crafted to test common injection points in web applications, such as URL parameters, form inputs, and other user-controlled input vectors. This tool is focused on shell command injection, Java, Python, and PowerShell invocations, among others, to simulate potential attack vectors that an attacker might use in real-world exploitation scenarios.
 
 ## Components
 
@@ -76,14 +74,7 @@ The main function executes the payload generation process:
 * Each payload is printed to the console and simultaneously written to a file named `rce.txt`, with each payload on a new line.
 
 
-# RCE Payload Generator
-
-This repository contains a Python-based payload generator designed for generating over **207,000 Remote Code Execution (RCE)** payloads, useful for penetration testing, vulnerability assessments, and security research.
-
-The payloads are crafted to test common injection points in web applications, such as URL parameters, form inputs, and other user-controlled input vectors. This tool is focused on shell command injection, Java, Python, and PowerShell invocations, among others, to simulate potential attack vectors that an attacker might use in real-world exploitation scenarios.
-
 ### Contents
-
 
 - **`generate_payloads.py`**: Python script for generating the payloads.
 - **`rce.txt`**: Generated payloads saved in a text file (over 207,000 unique payloads).
