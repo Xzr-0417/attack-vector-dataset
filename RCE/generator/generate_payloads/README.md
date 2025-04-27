@@ -100,7 +100,7 @@ The main function executes the payload generation process:
 1. **Clone the repository**:
 
    ```bash
-   git clone https://github.com/inpentest/rce
+   git clone [https://github.com/inpentest/rce](https://github.com/Xzr-0417/attack-vector-dataset/edit/main/RCE/generator/generate_payloads/)
    cd rce
    ```
 
@@ -121,8 +121,3 @@ You can view the generated payloads directly in the rce.txt file. These payloads
 
 Modify the parameters, prefixes, payloads, and suffixes lists in the Python script to adjust the types of payloads generated based on your testing requirements.
 
-### Important Note
-This tool is intended for ethical penetration testing and security research only. Ensure you have explicit permission to test the target systems before using the generated payloads. Unauthorized use of these payloads may be illegal and unethical.
-
-### License
-This repository is licensed under the MIT License. See LICENSE for more information.
