@@ -1,8 +1,6 @@
 # SQL Payload Generator
 
-This repository contains a Go-based payload generator designed for generating SQL injection payloads, useful for penetration testing, vulnerability assessments, and security research.
-
-The payloads are crafted to test common injection points in web applications, such as URL parameters, form inputs, and other user-controlled input vectors. This tool focuses on generating various SQL injection patterns and techniques that can be used to simulate potential attack vectors.
+This generator script is from the sql-injection-scanner repository in solidpoint. It uses a collaborator server to accept blind-type payloads. When the target system executes these commands, it sends requests to the collaborator server, triggering a callback. If the server receives the request, it means the command ran successfully. But in this script, we use the rand package to make a random token, part of the payload, with the seconds parameter set to 1-10s, to understand payload generation.
 
 ## Overview
 
