@@ -1,6 +1,6 @@
 # XSS Payload Generator
 
-This repository contains a Python-based payload generator designed for generating Cross-Site Scripting (XSS) payloads. It's useful for penetration testing, vulnerability assessments, and security research. The generator creates payloads tailored to different contexts (HTML, attribute, script) to simulate potential attack vectors that an attacker might use in real-world exploitation scenarios.
+This generator script originates from the XSStrike repository. It integrates utils.py, jsContexter.py, and config.py into generator.py. In the main section, it simulates occurrences (the contexts where XSS tags appear, such as HTML and attributes) and response (HTTP response content). The goal is to grasp the mechanics of payload generation.
 
 ### Overview
 
