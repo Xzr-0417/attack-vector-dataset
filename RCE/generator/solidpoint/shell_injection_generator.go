@@ -15,6 +15,7 @@ type transformer struct {
 	rarity   int
 }
 
+// create a new transformer
 func makeTransformer(function func(string) string, rarity int) transformer {
 	return transformer{
 		function: function,
@@ -22,6 +23,7 @@ func makeTransformer(function func(string) string, rarity int) transformer {
 	}
 }
 
+// filter transformers by rarity
 func filterTransformers(unfiltered []transformer, rarity int) []func(string) string {
 	filtered := []func(string) string{}
 	for _, i := range unfiltered {
@@ -32,6 +34,7 @@ func filterTransformers(unfiltered []transformer, rarity int) []func(string) str
 	return filtered
 }
 
+// structure to hold different types of payloads for an operating system
 type osPayloads struct {
 	payloads        []transformer
 	blindPayloads   []transformer
@@ -39,6 +42,7 @@ type osPayloads struct {
 	blindEmbeddings []transformer
 }
 
+// escape string with backslashes for dash
 func backslashEscapeForDash(s string) string {
 	builder := strings.Builder{}
 	for _, c := range s {
@@ -47,35 +51,42 @@ func backslashEscapeForDash(s string) string {
 	return builder.String()
 }
 
+// double escape for bash
 func doubleEscapeForBash(s string) string {
 	builder := strings.Builder{}
 	builder.WriteString(`"`)
+
 	b := []byte(s)
 	for _, code := range b {
 		builder.WriteString(fmt.Sprintf("\\\\x%02x", code))
 	}
+
 	builder.WriteString(`"`)
 	return builder.String()
 }
 
+// create a sprintf function with backslash escape
 func sprintfWithBackslashEscape(s string) func(string) string {
 	return func(t string) string {
 		return fmt.Sprintf(s, backslashEscapeForDash(t))
 	}
 }
 
+// create a sprintf function with double escape
 func sprintfWithDoubleEscape(s string) func(string) string {
 	return func(t string) string {
 		return fmt.Sprintf(s, doubleEscapeForBash(t))
 	}
 }
 
+// create a sprintf function with dot escape
 func sprintfWithDotEscape(s string) func(string) string {
 	return func(t string) string {
-		return fmt.Sprintf(s, strings.ReplaceAll(t, ".", "\\."))
+		return fmt.Sprintf(s, strings.ReplaceAll(t, ".", "\\.")) // escape dots
 	}
 }
 
+// Unix/Linux payloads
 var unixPayloads osPayloads = osPayloads{
 	payloads: []transformer{
 		makeTransformer(sprintfWithDoubleEscape("echo -e %s"), 2),
@@ -134,6 +145,7 @@ var unixPayloads osPayloads = osPayloads{
 	},
 }
 
+// escape string for Windows cmd.exe
 func escapeStringForCmdExe(s string) string {
 	builder := strings.Builder{}
 	for _, c := range s {
@@ -142,18 +154,21 @@ func escapeStringForCmdExe(s string) string {
 	return builder.String()
 }
 
+// create a sprintf function for cmd.exe
 func sprintfForCmdExe(s string) func(string) string {
 	return func(t string) string {
 		return fmt.Sprintf(s, escapeStringForCmdExe(t))
 	}
 }
 
+// create a sprintf function with dot escape for cmd.exe
 func sprintfWithDotEscapeForCmdExe(s string) func(string) string {
 	return func(t string) string {
-		return fmt.Sprintf(s, strings.ReplaceAll(t, ".", "^."))
+		return fmt.Sprintf(s, strings.ReplaceAll(t, ".", "^.")) // escape dots
 	}
 }
 
+// Windows payloads
 var windowsPayloads osPayloads = osPayloads{
 	payloads: []transformer{
 		makeTransformer(sprintfForCmdExe("echo %s"), 1),
@@ -169,8 +184,10 @@ var windowsPayloads osPayloads = osPayloads{
 	},
 }
 
+// list of operating systems
 var operatingSystems []osPayloads = []osPayloads{unixPayloads, windowsPayloads}
 
+// list of escapers
 var escapers = []transformer{
 	makeTransformer(func(arg string) string {
 		return arg
@@ -180,6 +197,7 @@ var escapers = []transformer{
 	}, 1),
 }
 
+// generate a random token
 func randomToken() string {
 	var token [32]byte
 	rand.Seed(time.Now().UnixNano())
@@ -187,6 +205,7 @@ func randomToken() string {
 	return hex.EncodeToString(token[:])
 }
 
+// generate normal payloads
 func GenerateNormalPayloads(rarity int) []func(string) string {
 	payloads := []func(string) string{}
 	for _, os := range operatingSystems {
@@ -203,6 +222,7 @@ func GenerateNormalPayloads(rarity int) []func(string) string {
 	return payloads
 }
 
+// generate blind payloads
 func GenerateBlindPayloads(rarity int) []func(string) string {
 	payloads := []func(string) string{}
 	for _, os := range operatingSystems {
@@ -227,37 +247,37 @@ func GenerateBlindPayloads(rarity int) []func(string) string {
 }
 
 func main() {
-	// 命令行参数
-	outputFile := flag.String("output", "payloads.txt", "输出文件名")
-	rarity := flag.Int("rarity", 1, "payload 的稀有度（1 到 2）")
+	// command-line arguments
+	outputFile := flag.String("output", "payloads.txt", "output file name")
+	rarity := flag.Int("rarity", 1, "rarity level for payloads (1 to 2)")
 	flag.Parse()
 
-	// 生成正常负载和盲目负载
+	// generate normal and blind payloads
 	normalPayloads := GenerateNormalPayloads(*rarity)
 	blindPayloads := GenerateBlindPayloads(*rarity)
 
-	// 将 payload 写入文件
+	// write payloads to file
 	file, err := os.Create(*outputFile)
 	if err != nil {
-		fmt.Fprintf(os.Stderr, "error: 创建文件失败: %v\n", err)
+		fmt.Fprintf(os.Stderr, "error: failed to create file: %v\n", err)
 		os.Exit(1)
 	}
 	defer file.Close()
 
-	// 生成随机令牌
+	// generate random token
 	token := randomToken()
 
-	// 写入正常负载
+	// write normal payloads
 	for _, payloadFunc := range normalPayloads {
 		payload := payloadFunc(token)
-		fmt.Fprintf(file, "Normal Payload: %s\n", payload)
+		fmt.Fprintln(file, payload)
 	}
 
-	// 写入盲目负载
+	// write blind payloads
 	for _, payloadFunc := range blindPayloads {
 		payload := payloadFunc(token)
-		fmt.Fprintf(file, "Blind Payload: %s\n", payload)
+		fmt.Fprintln(file, payload)
 	}
 
-	fmt.Printf("已生成 %d 个正常负载和 %d 个盲目负载到 %s\n", len(normalPayloads), len(blindPayloads), *outputFile)
+	fmt.Printf("Generated %d normal payloads and %d blind payloads to %s\n", len(normalPayloads), len(blindPayloads), *outputFile)
 }

