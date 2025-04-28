@@ -39,8 +39,8 @@ The payloads are crafted to test common injection points in web applications, su
 1. **Clone the repository**:
 
    ```bash
-   git clone <repository-url>
-   cd rce-payload-generator-go
+   git clone https://github.com/Xzr-0417/attack-vector-dataset/tree/main/RCE/generator/solidpoint
+   cd solidpoint
    ```
 
 2. **Generate Payloads**:
