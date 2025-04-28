@@ -1,9 +1,6 @@
 # RCE Payload Generator
 
-This repository contains a Python-based payload generator designed for generating over **207,000 Remote Code Execution (RCE)** payloads, useful for penetration testing, vulnerability assessments, and security research.
-
-The payloads are crafted to test common injection points in web applications, such as URL parameters, form inputs, and other user-controlled input vectors. This tool is focused on shell command injection, Java, Python, and PowerShell invocations, among others, to simulate potential attack vectors that an attacker might use in real-world exploitation scenarios.
-
+This generator script originates from the shell-injection-scanner repository in solidpoint. It uses a collaborator server to receive blind payloads. When the target system executes these commands, requests are sent to the collaborator server, triggering a callback. A received request indicates successful command execution. However, in this script, the randomToken() function generates a random 32 - byte string instead of a token, aiming to help understand payload generation.
 ### Overview
 
 #### Prefixes
