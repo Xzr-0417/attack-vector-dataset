@@ -1,4 +1,4 @@
-# RCE Payload Generator (Go Version)
+# RCE Payload Generator 
 
 This repository contains a Go-based payload generator designed for generating Remote Code Execution (RCE) payloads, useful for penetration testing, vulnerability assessments, and security research.
 
