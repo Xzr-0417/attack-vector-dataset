@@ -47,7 +47,7 @@ The `generator` function is the core of the payload generation process. It:
 1. **Clone the Repository**:
 
 ```bash
-git clone <repository-url>
+git clone https://github.com/Xzr-0417/attack-vector-dataset/tree/main/XSS/generator/XSStrike
 cd xss-generator
 ```
 
