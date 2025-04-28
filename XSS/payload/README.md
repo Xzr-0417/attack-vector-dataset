@@ -1,3 +1,4 @@
+## Citations 
 - DeveloperAvik:https://github.com/DeveloperAvik/Hacking-payloads
 - moften:https://github.com/moften/PayloadCollection
 - akalankauk:https://github.com/akalankauk/XSS-SQL-Master-Payloads/blob/master/Awesome-XSS-Payloads
