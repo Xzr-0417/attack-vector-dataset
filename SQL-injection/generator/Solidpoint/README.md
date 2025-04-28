@@ -53,15 +53,3 @@ This generator script is from the sql-injection-scanner repository in solidpoint
 4. **Customize Parameters**:
 
    Modify the transformer functions, payloads, and encoding handlers in the Go script to adjust the types of payloads generated based on your testing requirements.
-
-## Example
-
-### Example Command
-
-To generate payloads and save them to `my_sql_payloads.txt`:
-
-```bash
-go run main.go -output my_sql_payloads.txt
-```
-
-This will generate SQL injection payloads with the specified settings and save them to `my_sql_payloads.txt`.
