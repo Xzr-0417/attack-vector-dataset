@@ -7,7 +7,7 @@
 - JehadAlqurashi: https://github.com/JehadAlqurashi/LFI-Payloads
 - ifconfig-me : https://github.com/ifconfig-me/Directory-Traversal-Payloads
 - theVulnerableMMII: https://github.com/theVulnerableMMII/oSkan/blob/main/lib/LFI
-##LFI Payload List(part)
+## LFI Payload List(part)
 ```
 /etc/passwd
 /etc/shadow
