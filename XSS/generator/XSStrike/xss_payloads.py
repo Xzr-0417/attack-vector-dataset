@@ -5,7 +5,7 @@ import json
 from urllib.parse import urlparse
 
 # --------------------------
-# 核心配置 (原core.config)
+# Core Configuration (Original core.config)
 # --------------------------
 xsschecker = 'v3dm0s'
 badTags = ('iframe', 'title', 'textarea', 'noembed', 'style', 'template', 'noscript')
@@ -25,7 +25,7 @@ functions = (
 )
 
 # --------------------------
-# JS上下文闭合生成 (原jsContexter)
+# JavaScript Context Closure Generation (Original jsContexter)
 # --------------------------
 def stripper(string, substring, direction='right'):
     done = False
@@ -70,7 +70,7 @@ def jsContexter(script):
     return breaker[::-1]
 
 # --------------------------
-# 核心工具函数 (原core.utils)
+# Core Utility Functions (Original core.utils)
 # --------------------------
 def randomUpper(s):
     return ''.join(random.choice([c.upper(), c.lower()]) for c in s)
@@ -109,7 +109,7 @@ def genGen(fillings, eFillings, lFillings, eventHandlers, tags, functions, ends,
     return vectors
 
 # --------------------------
-# Payload生成主逻辑 (原generator.py)
+# Payload Generation Main Logic (Original generator.py)
 # --------------------------
 def generator(occurences, response):
     scripts = extractScripts(response)
@@ -121,14 +121,14 @@ def generator(occurences, response):
         details = occurences[i].get('details', {})
         scores = occurences[i]['score']
         
-        # HTML上下文处理
+        # HTML Context Processing
         if ctx == 'html':
             if scores.get('>', 0) == 100:
                 payloads = genGen(fillings, eFillings, lFillings,
                                  eventHandlers, tags, functions, ['>'])
                 vectors[10].update(payloads)
         
-        # 属性上下文处理
+        # Attribute Context Processing
         elif ctx == 'attribute':
             tag = details.get('tag', '')
             quote = details.get('quote', '')
@@ -143,15 +143,15 @@ def generator(occurences, response):
                                                                    eventHandlers, tags, functions, ['>'])]
                 vectors[9].update(payloads)
         
-        # 其他上下文类型可根据需要补充...
+        # Other context types can be added as needed...
     
     return vectors
 
 # --------------------------
-# 独立运行测试
+# Independent Running Test
 # --------------------------
 if __name__ == "__main__":
-    # 示例输入
+    # Sample Input
     test_occurences = {
         0: {
             'context': 'html',
@@ -178,17 +178,17 @@ if __name__ == "__main__":
     </html>
     """
     
-    # 生成Payload
+    # Generate Payloads
     results = generator(test_occurences, test_response)
     
-    # 格式化输出
+    # Formatted Output
     print("Generated XSS Payloads:")
     for level in sorted(results.keys(), reverse=True):
         if results[level]:
-            print(f"\n▶ Priority {level} (共 {len(results[level])} 条):")
+            print(f"\n▶ Priority {level} (Total: {len(results[level])}):")
             for idx, payload in enumerate(results[level], 1):
                 print(f"  {idx:02d}. {payload}")
 
-    # 空结果提示
+    # Empty Result Notice
     if not any(results.values()):
-        print("⚠ 未生成有效Payload，请检查输入参数！")
+        print("⚠ No Valid Payloads Generated. Please Check Input Parameters!")
