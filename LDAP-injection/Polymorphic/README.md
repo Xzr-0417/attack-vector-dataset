@@ -1,6 +1,5 @@
-Вот объяснение ключевых моментов кода на русском языке:
 
-### 1. Кодировка URL (URL Encoding)
+### Кодировка URL (URL Encoding)
 ```python
 def url_encode(line):
     return urllib.parse.quote(line)
@@ -10,7 +9,7 @@ def url_encode(line):
 url_encode("Hello World!") → "Hello%20World%21"
 ```
 
-### 2. Преобразование регистра символов (Case Conversion)
+### Преобразование регистра символов (Case Conversion)
 ```python
 def case_convert(line):
     converted = []
@@ -29,7 +28,7 @@ case_convert("Hello World!") → "hElLo wOrLd!"
 ```
 Это делает строку менее узнаваемой для человека.
 
-### 3. Кодирование Base64
+### Кодирование Base64
 ```python
 def base64_encode(line):
     return base64.b64encode(line.encode()).decode()
@@ -40,7 +39,7 @@ base64_encode("Hello") → "SGVsbG8="
 ```
 Работает путем деления входных данных на 3-байтовые блоки и преобразования их в 4-символьные последовательности.
 
-### 4. Unicode-эскейп (Unicode Escape)
+### Unicode-эскейп (Unicode Escape)
 ```python
 def unicode_escape(line):
     escaped = []
@@ -58,7 +57,7 @@ unicode_escape("A") → "\\u0041"
 ```
 Символы представляются в формате `\uXXXX` (для BMP) или `\UXXXXXXXX` (для символов вне BMP).
 
-### 5. HTML-эскейп (HTML Encoding)
+### HTML-эскейп (HTML Encoding)
 ```python
 def html_encode(line):
     return html.escape(line, quote=True)
