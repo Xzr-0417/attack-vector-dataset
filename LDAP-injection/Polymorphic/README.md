@@ -1,6 +1,6 @@
 # Polymorphic.py
 
-### Кодировка URL (URL Encoding)
+### - Кодировка URL (URL Encoding)
 ```python
 def url_encode(line):
     return urllib.parse.quote(line)
