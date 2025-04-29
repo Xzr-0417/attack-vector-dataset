@@ -1,17 +1,12 @@
-Вот объяснение ключевых моментов кода на русском языке:
+import urllib.parse
+import sys
+import base64
+import html
 
-### 1. Кодировка URL (URL Encoding)
-```python
+#======================= Core Encoding Functions ========================
 def url_encode(line):
     return urllib.parse.quote(line)
-```
-**Принцип работы**: Функция преобразует строку в формат, безопасный для передачи в URL. Небезопасные символы (например, пробелы, кириллица) заменяются на `%` и двузначное шестнадцатеричное число, соответствующее коду символа в таблице ASCII. Например:
-```python
-url_encode("Hello World!") → "Hello%20World%21"
-```
 
-### 2. Преобразование регистра символов (Case Conversion)
-```python
 def case_convert(line):
     converted = []
     letter_count = 0
@@ -22,26 +17,10 @@ def case_convert(line):
         else:
             converted.append(char)
     return ''.join(converted)
-```
-**Принцип работы**: Функция меняет регистр букв через одну. Например:
-```python
-case_convert("Hello World!") → "hElLo wOrLd!"
-```
-Это делает строку менее узнаваемой для человека.
 
-### 3. Кодирование Base64
-```python
 def base64_encode(line):
     return base64.b64encode(line.encode()).decode()
-```
-**Принцип работы**: Преобразует строку в представление из 64 печатаемых символов. Например:
-```python
-base64_encode("Hello") → "SGVsbG8="
-```
-Работает путем деления входных данных на 3-байтовые блоки и преобразования их в 4-символьные последовательности.
 
-### 4. Unicode-эскейп (Unicode Escape)
-```python
 def unicode_escape(line):
     escaped = []
     for char in line:
@@ -51,20 +30,76 @@ def unicode_escape(line):
         else:
             escaped.append(f"\\U{cp:08X}")
     return ''.join(escaped)
-```
-**Принцип работы**: Заменяет каждый символ на его Unicode-представление. Например:
-```python
-unicode_escape("A") → "\\u0041"
-```
-Символы представляются в формате `\uXXXX` (для BMP) или `\UXXXXXXXX` (для символов вне BMP).
 
-### 5. HTML-эскейп (HTML Encoding)
-```python
 def html_encode(line):
     return html.escape(line, quote=True)
-```
-**Принцип работы**: Заменяет специальные символы HTML (`<`, `>`, `&` и др.) на соответствующие HTML-сущности. Например:
-```python
-html_encode("<script>alert('Hello')</script>") → "&lt;script&gt;alert(&#x27;Hello&#x27;)&lt;/script&gt;"
-```
-Это предотвращает интерпретацию символов как HTML-разметки.
+
+#======================= Encoder List ========================
+ENCODERS = [
+    ("url", url_encode),
+    ("case", case_convert),
+    ("base64", base64_encode),
+    ("unicode", unicode_escape),
+    ("html", html_encode)
+]
+
+#======================= Main Processing Logic ========================
+def process_file(input_file, output_file, encode_mode):
+    try:
+        with open(input_file, "rb") as src, \
+             open(output_file, "w", encoding="utf-8") as dest:
+            
+            for line_num, byte_line in enumerate(src, 1):
+                try:
+                    raw_line = byte_line.decode('utf-8').rstrip('\n')
+                except UnicodeDecodeError:
+                    print(f"Skip line {line_num}: Invalid UTF-8 encoding")
+                    continue
+                
+                # Default mode: Full encoding processing
+                if encode_mode == "all":
+                    for enc_name, encoder in ENCODERS:
+                        try:
+                            encoded = encoder(raw_line)
+                            dest.write(f"{encoded}\n")
+                        except Exception as e:
+                            print(f"Line {line_num} [{enc_name}] encoding failed - {str(e)}")
+                # Single encoding mode
+                else:
+                    encoder = dict(ENCODERS).get(encode_mode)
+                    if not encoder:
+                        raise ValueError(f"Invalid encoding type: {encode_mode}")
+                    encoded = encoder(raw_line)
+                    dest.write(f"{encoded}\n")
+
+        print(f"Processing completed! Results saved to {output_file}")
+
+    except FileNotFoundError:
+        print(f"Error: Input file {input_file} not found")
+    except PermissionError:
+        print(f"Error: No write permission for {output_file}")
+    except Exception as e:
+        print(f"Program terminated abnormally: {str(e)}")
+
+#======================= Command Line Argument Processing ========================
+if __name__ == "__main__":
+    if len(sys.argv) not in [3, 4]:
+        print("Usage: python3 unified_encoder.py <input file> <output file> [encoding type]")
+        print("Encoding types (optional): url, case, base64, unicode, html")
+        print("Example1 (all encodings): python3 unified_encoder.py input.txt output.txt")
+        print("Example2 (single encoding): python3 unified_encoder.py input.txt output.txt url")
+        sys.exit(1)
+
+    # Argument parsing
+    if len(sys.argv) == 3:
+        _, input_file, output_file = sys.argv
+        encode_mode = "all"
+    else:
+        _, input_file, output_file, encode_type = sys.argv
+        encode_mode = encode_type.lower()
+
+    try:
+        process_file(input_file, output_file, encode_mode)
+    except ValueError as ve:
+        print(ve)
+        sys.exit(1)
