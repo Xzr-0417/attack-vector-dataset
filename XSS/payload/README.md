@@ -5,6 +5,7 @@
 - andripwn:https://github.com/andripwn/PayloadsAll/tree/master/XSS%20Injection
 - ayloadbox:https://github.com/payloadbox/xss-payload-list
 - TraceX0:https://github.com/TraceX0/XSS-Payload-Collection
+- ddosi:https://www.ddosi.org/xss-payloads/#xss_payloads_%E5%9C%B0%E5%9D%80%EF%BC%9A
 
 ## XSS payload list：
 ```
