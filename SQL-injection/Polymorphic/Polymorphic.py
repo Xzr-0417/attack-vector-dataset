@@ -3,7 +3,7 @@ import sys
 import base64
 import html
 
-#======================= 核心编码函数 ========================
+#======================= Core Encoding Functions ========================
 def url_encode(line):
     return urllib.parse.quote(line)
 
@@ -34,7 +34,7 @@ def unicode_escape(line):
 def html_encode(line):
     return html.escape(line, quote=True)
 
-#======================= 编码器列表 ========================
+#======================= Encoder List ========================
 ENCODERS = [
     ("url", url_encode),
     ("case", case_convert),
@@ -43,7 +43,7 @@ ENCODERS = [
     ("html", html_encode)
 ]
 
-#======================= 主处理逻辑 ========================
+#======================= Main Processing Logic ========================
 def process_file(input_file, output_file, encode_mode):
     try:
         with open(input_file, "rb") as src, \
@@ -53,44 +53,44 @@ def process_file(input_file, output_file, encode_mode):
                 try:
                     raw_line = byte_line.decode('utf-8').rstrip('\n')
                 except UnicodeDecodeError:
-                    print(f"跳过第 {line_num} 行：无效的UTF-8编码")
+                    print(f"Skip line {line_num}: Invalid UTF-8 encoding")
                     continue
                 
-                # 默认模式：全编码处理
+                # Default mode: Full encoding processing
                 if encode_mode == "all":
                     for enc_name, encoder in ENCODERS:
                         try:
                             encoded = encoder(raw_line)
                             dest.write(f"{encoded}\n")
                         except Exception as e:
-                            print(f"第 {line_num} 行 [{enc_name}] 编码失败 - {str(e)}")
-                # 单编码模式
+                            print(f"Line {line_num} [{enc_name}] encoding failed - {str(e)}")
+                # Single encoding mode
                 else:
                     encoder = dict(ENCODERS).get(encode_mode)
                     if not encoder:
-                        raise ValueError(f"无效编码类型：{encode_mode}")
+                        raise ValueError(f"Invalid encoding type: {encode_mode}")
                     encoded = encoder(raw_line)
                     dest.write(f"{encoded}\n")
 
-        print(f"处理完成！结果已保存到 {output_file}")
+        print(f"Processing completed! Results saved to {output_file}")
 
     except FileNotFoundError:
-        print(f"错误：输入文件 {input_file} 不存在")
+        print(f"Error: Input file {input_file} not found")
     except PermissionError:
-        print(f"错误：没有 {output_file} 的写入权限")
+        print(f"Error: No write permission for {output_file}")
     except Exception as e:
-        print(f"程序异常终止：{str(e)}")
+        print(f"Program terminated abnormally: {str(e)}")
 
-#======================= 命令行参数处理 ========================
+#======================= Command Line Argument Processing ========================
 if __name__ == "__main__":
     if len(sys.argv) not in [3, 4]:
-        print("用法: python3 unified_encoder.py <输入文件> <输出文件> [编码类型]")
-        print("编码类型（可选）: url, case, base64, unicode, html")
-        print("示例1（全编码）: python3 unified_encoder.py input.txt output.txt")
-        print("示例2（单编码）: python3 unified_encoder.py input.txt output.txt url")
+        print("Usage: python3 unified_encoder.py <input file> <output file> [encoding type]")
+        print("Encoding types (optional): url, case, base64, unicode, html")
+        print("Example1 (all encodings): python3 unified_encoder.py input.txt output.txt")
+        print("Example2 (single encoding): python3 unified_encoder.py input.txt output.txt url")
         sys.exit(1)
 
-    # 参数解析
+    # Argument parsing
     if len(sys.argv) == 3:
         _, input_file, output_file = sys.argv
         encode_mode = "all"
