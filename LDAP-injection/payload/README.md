@@ -1,6 +1,13 @@
 ## Citations
 - InfoSecWarrior:  https://github.com/InfoSecWarrior/Offensive-Pentesting-Web/tree/main/Injections/LDAP-Injection
 - PayLoadAllTheThings: https://github.com/Ne3o1/PayLoadAllTheThings/tree/master/LDAP%20injection
+- LDAP_payload:https://www.freebuf.com/vuls/356049.html
+               https://exp-blog.com/safe/ctf/rootme/web-server/ldap-injection-authentication/
+               https://blog.csdn.net/qq_45290991/article/details/113713261
+               https://blog.csdn.net/luoshu88/article/details/132149278
+               https://rce.moe/2022/01/25/ldap-inject-1/
+
+
 
 ## LDAP payload list：
 ```

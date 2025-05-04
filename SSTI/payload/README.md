@@ -3,6 +3,11 @@
 - Subhashis360: https://github.com/Subhashis360/PayloadsAll
 - err0rr:       https://github.com/err0rr/SSTI/blob/master/Wordlist
 - Ne3o1:        https://github.com/Ne3o1/PayLoadAllTheThings/tree/master/Server%20Side%20Template%20injections
+- SSTI_payload: https://www.cnblogs.com/Article-kelp/p/14797393.html
+                https://blog.csdn.net/weixin_54515836/article/details/113778233
+                https://cloud.tencent.com/developer/article/2130787
+                https://blog.csdn.net/Myon5/article/details/131548888
+                https://developer.aliyun.com/article/1384681
 ## SSTI Payload List :
 ```
 <pre><!--#exec cmd="ls" --></pre>
