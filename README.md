@@ -12,7 +12,7 @@
 # Hangman
 Классическая консольная игра "Виселица" на языке Go. Угадайте слово по буквам, прежде чем исчерпаете все попытки!
 
-## play
+## How to play (linux)
 ```
 git clone
 go build -o hangman ./cmd/main.go
