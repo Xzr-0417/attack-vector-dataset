@@ -1,13 +1,13 @@
-# Local File Inclusion
+# Локальное включение файлов (Local File Inclusion)
 
-## Concept
+## Концепция
 
-Attackers exploit vulnerabilities in web applications by manipulating user - controllable inputs to include local files, thereby accessing sensitive server - side information or executing malicious code.
+Злоумышленники эксплуатируют уязвимости в веб-приложениях, манипулируя пользовательскими вводами, чтобы включить локальные файлы. Это позволяет получить доступ к конфиденциальной информации на стороне сервера или выполнить вредоносный код.
 
-## Attack Principle
+## Принцип атаки
 
-When applications use user inputs to generate file paths or URLs without strict validation and sanitization, attackers can input malicious paths to make the application include local files, such as system configuration files and password files.
+Если приложение использует пользовательский ввод для генерации путей к файлам или URL-адресов без строгой проверки и санитизации, злоумышленники могут ввести вредоносные пути. Это заставляет приложение включить локальные файлы, такие как системные конфигурации или файлы с паролями.
 
-## Attack Instance
+## Пример атаки
 
-Take a website with the URL http://example.com/index.php?page=home  as an example. The`page` parameter specifies the page file to be included. If an attacker changes the URL to http://example.com/index.php?page=../../etc/passwd  and the application has an LFI vulnerability, the server's`/etc/passwd` file content might be displayed.
+Рассмотрим сайт с URL: `http://example.com/index.php?page=home`. Параметр `page` указывает, какой файл страницы нужно включить. Если злоумышленник изменит URL на `http://example.com/index.php?page=../../etc/passwd` при наличии уязвимости LFI, содержимое файла `/etc/passwd` сервера может быть отображено.
