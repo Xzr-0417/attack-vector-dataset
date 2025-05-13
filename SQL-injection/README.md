@@ -1,13 +1,17 @@
-# SQL-Injection 
+# SQL-инъекция  
 
-## Concept
+## Концепция  
 
-SQL injection vulnerabilities allow attackers to manipulate an application's SQL queries by injecting malicious SQL code into user inputs. This can lead to unauthorized access to sensitive data, data tampering, or even complete database compromise.
+Уязвимости SQL-инъекций позволяют злоумышленникам манипулировать SQL-запросами приложения путём внедрения вредоносного SQL-кода через пользовательские входные данные. Это может привести к несанкционированному доступу к конфиденциальной информации, изменению данных или даже полной компрометации базы данных.  
 
-## Attack Principle
+## Принцип атаки  
 
-When an application uses user inputs directly in SQL statements without proper validation or sanitization, it creates an entry point for attackers. Attackers insert malicious SQL code into input fields or parameters, which the application then executes as part of its SQL queries, allowing them to alter, retrieve, or delete unauthorized data.
+Если приложение использует пользовательские входные данные напрямую в SQL-запросах без должной проверки или санации, это создаёт точку входа для атак. Злоумышленники внедряют вредоносный SQL-код в поля ввода или параметры, который затем выполняется приложением как часть SQL-запроса. Это позволяет им изменять, получать или удалять данные без авторизации.  
 
-## Attack Example
+## Пример атаки  
 
-Consider a login page where the application constructs an SQL query using the username and password provided by the user. If the application does not properly sanitize the user input, an attacker can input a username like `' OR '1'='1` and a password like `' OR '1'='1`. The resulting SQL query becomes `SELECT * FROM users WHERE username = '' OR '1'='1' AND password = '' OR '1'='1'`, which would bypass authentication and grant the attacker access to the system.
+Рассмотрим страницу входа, где приложение формирует SQL-запрос на основе введённых пользователем имени пользователя и пароля. Если приложение не обрабатывает входные данные должным образом, злоумышленник может ввести имя пользователя вида `' OR '1'='1` и пароль вида `' OR '1'='1`. Итоговый SQL-запрос примет вид:  
+```sql  
+SELECT * FROM users WHERE username = '' OR '1'='1' AND password = '' OR '1'='1'  
+```  
+Этот запрос обходит проверку аутентификации, предоставляя злоумышленнику доступ к системе.
