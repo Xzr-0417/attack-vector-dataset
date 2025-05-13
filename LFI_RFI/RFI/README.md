@@ -1,4 +1,3 @@
-```markdown
 # Удалённое включение файлов (Remote File Inclusion)
 
 ## Концепция
@@ -16,7 +15,3 @@
 ```php
 $templateUrl = $_POST['template_url'];
 include($templateUrl);
-```
-
-Если злоумышленник установит параметр `template_url` в значение `http://attacker-controlled-server/malicious-template.php`, сервер во время обработки запроса загрузит и выполнит PHP-код из удалённого вредоносного файла. Это позволит злоумышленнику получить контроль над сервером.
-```
