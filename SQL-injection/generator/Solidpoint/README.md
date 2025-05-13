@@ -1,55 +1,56 @@
-# SQL Payload Generator
+# Генератор SQL-полезной нагрузки
 
-This generator script is from the sql-injection-scanner repository in solidpoint. It uses a collaborator server to accept blind-type payloads. When the target system executes these commands, it sends requests to the collaborator server, triggering a callback. If the server receives the request, it means the command ran successfully. But in this script, we use the rand package to make a random token, part of the payload, with the seconds parameter set to 1-10s, to understand payload generation.
+Этот скрипт-генератор из репозитория sql-injection-scanner компании Solidpath использует сервер-коллаборатор для обработки слепых (blind-type) полезных нагрузок. Когда целевая система выполняет эти команды, она отправляет запросы на сервер-коллаборатор, активируя обратный вызов (callback). Если сервер получает запрос, это означает, что команда выполнилась успешно. В данном скрипте используется пакет `rand` для генерации случайного токена, который является частью полезной нагрузки, с параметром `seconds`, установленным в диапазон 1-10 секунд, чтобы понять процесс генерации полезной нагрузки.
 
-## Overview
+## Обзор
 
-### Components
+### Компоненты
 
-#### Transformers and Encoding
+#### Трансформеры и кодирование
 
-- **Transformers**: Functions that modify or format payloads, such as escaping characters or applying specific command structures.
-- **Encoding Handlers**: Different encoding methods for various parameter contexts (e.g., URL encoding).
+- **Трансформеры**: Функции, которые модифицируют или форматируют полезные нагрузки (например, экранирование символов или применение специфических структур команд).
+- **Обработчики кодирования**: Различные методы кодирования для разных контекстов параметров (например, URL-кодирование).
 
-#### Payload Categories
+#### Категории полезных нагрузок
 
-- **OOB (Out-of-Band) Payloads**: Payloads designed for out-of-band detection using techniques like pingbacks.
-- **Time-based Payloads**: Payloads that introduce delays to detect vulnerabilities based on response time.
+- **OOB (Out-of-Band) полезные нагрузки**: Полезные нагрузки для обнаружения уязвимостей через техники обратных запросов (например, pingbacks).
+- **Временные полезные нагрузки**: Полезные нагрузки, создающие задержки для обнаружения уязвимостей на основе времени отклика.
 
-### Features
+### Особенности
 
-- **Customizable Payloads**: Supports different types of payloads and command structures.
-- **Flexible Encoding**: Escapes and formats payloads to bypass security filters.
-- **Context-aware Generation**: Generates payloads adapted to different SQL injection contexts.
+- **Настраиваемые полезные нагрузки**: Поддержка различных типов нагрузок и структур команд.
+- **Гибкое кодирование**: Экранирование и форматирование для обхода фильтров безопасности.
+- **Контекстно-зависимая генерация**: Создание нагрузок, адаптированных под разные контексты SQL-инъекций.
 
-## Contents
+## Содержание
 
-- **`main.go`**: Go script for generating the payloads.
-- **Generated Payloads**: Output file containing all the generated SQL injection payloads.
+- **`main.go`**: Go-скрипт для генерации полезных нагрузок.
+- **Сгенерированные полезные нагрузки**: Выходной файл (`sql_payloads.txt`) со всеми сгенерированными SQL-инъекциями.
 
-## Usage
+## Использование
 
-1. **Clone the repository**:
+1. **Клонируйте репозиторий**:
 
    ```bash
    git clone https://github.com/Xzr-0417/attack-vector-dataset/tree/main/SQL-injection/generator/Solidpoint
    cd sql-payload-generator
    ```
 
-2. **Generate Payloads**:
+2. **Сгенерируйте полезные нагрузки**:
 
-   Run the Go script to generate the payloads:
+   Запустите Go-скрипт для генерации:
 
    ```bash
    go run sql_injection_generator.go -output sql_payloads.txt
    ```
 
-   This will create a file named `sql_payloads.txt` containing all the generated SQL injection payloads.
+   Это создаст файл `sql_payloads.txt` со всеми сгенерированными SQL-инъекциями.
 
-3. **Inspect Payloads**:
+3. **Проверьте полезные нагрузки**:
 
-   You can view the generated payloads directly in the `sql_payloads.txt` file. These payloads can be tested against vulnerable applications to verify SQL injection vulnerabilities.
+   Результаты можно просмотреть в файле `sql_payloads.txt`. Эти нагрузки можно тестировать на уязвимых приложениях для проверки SQL-инъекций.
 
-4. **Customize Parameters**:
+4. **Настройка параметров**:
 
-   Modify the transformer functions, payloads, and encoding handlers in the Go script to adjust the types of payloads generated based on your testing requirements.
+   Измените функции-трансформеры, полезные нагрузки и обработчики кодирования в Go-скрипте, чтобы адаптировать генерацию под ваши задачи.
+```
