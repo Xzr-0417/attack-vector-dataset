@@ -1,19 +1,18 @@
-# Cross Site Scripting
+# Межсайтовый скриптинг (XSS)
 
-## Concept
+## Концепция
 
-XSS vulnerabilities enable attackers to inject malicious scripts into web pages viewed by other users. These scripts can execute in users' browsers and access any cookies, session tokens, or other sensitive data the browser keeps for that site. XSS can be categorized into reflected (non-persistent), stored (persistent), and DOM - based types.
+Уязвимости XSS позволяют злоумышленникам внедрять вредоносные скрипты на веб-страницы, которые просматривают другие пользователи. Эти скрипты могут выполняться в браузерах пользователей и получать доступ к кукам, токенам сессий или другим конфиденциальным данным, которые браузер сохраняет для данного сайта. XSS можно разделить на отраженные (непостоянные), сохраненные (постоянные) и DOM-ориентированные атаки.
 
-## Attack Principle
+## Принцип атаки
 
-When a web application doesn't properly validate or sanitize user - input data that's reflected back to the user's browser, it creates an opening for XSS attacks. Attackers can inject malicious scripts into input fields or URLs. When a user visits a page with the injected script, the script executes in their browser, allowing the attacker to hijack sessions, deface web pages, or spread web worms.
+Когда веб-приложение неправильно проверяет или санирует пользовательские данные, которые возвращаются обратно в браузер пользователя, это создает возможность для XSS-атак. Злоумышленники могут внедрять вредоносные скрипты в поля ввода или URL-адреса. Когда пользователь посещает страницу с внедренным скриптом, скрипт выполняется в его браузере, позволяя атакующему перехватывать сессии, изменять содержимое страниц или распространять веб-черви.
 
-## Attack Example
+## Пример атаки
 
-Consider a simple comment section on a website where users can leave comments. If the site doesn't sanitize user input, an attacker can post a comment containing a malicious script, such as:
+Рассмотрим простую секцию комментариев на сайте. Если сайт не санирует пользовательский ввод, злоумышленник может оставить комментарий с вредоносным скриптом, например:
 
 ```html
 <script>alert(document.cookie)</script>
 ```
-
-When another user views the comment, the script will execute in their browser, revealing their cookie information. Attackers can also use more sophisticated scripts to steal session tokens or redirect users to malicious sites.
+Когда другой пользователь просмотрит комментарий, скрипт выполнится в его браузере, раскрыв информацию о куках. Злоумышленники также могут использовать более сложные скрипты для кражи токенов сессий или перенаправления пользователей на вредоносные сайты.
