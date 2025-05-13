@@ -1,13 +1,13 @@
-# Remote Code Execution
+# Удаленное выполнение кода (RCE)
 
-## Concept
+## Концепция
 
-RCE vulnerabilities allow attackers to remotely inject and execute arbitrary code on a target system. This can happen when an application uses untrusted user input without proper validation and sanitization.
+Уязвимости RCE позволяют злоумышленникам удаленно внедрять и выполнять произвольный код в целевой системе. Это происходит, когда приложение использует непроверенные пользовательские данные без должной валидации и санитаризации.
 
-## Attack Principle
+## Принцип атаки
 
-When an application processes user input directly into code execution functions like Python’s `eval()` or PHP’s `system()`, it creates a pathway for attackers to inject malicious code. For example, if an application allows users to input a calculation formula, an attacker might input a command that executes system-level operations.
+Если приложение передает пользовательский ввод напрямую в функции выполнения кода (например, `eval()` в Python или `system()` в PHP), это создает возможность для внедрения вредоносного кода. Например, если приложение разрешает ввод математической формулы, злоумышленник может ввести команду для выполнения операций на уровне системы.
 
-## Attack Example
+## Пример атаки
 
-Consider a web application that provides a calculator feature. The application uses the `eval()` function to evaluate user input as Python code. If the input is not properly sanitized, an attacker can input something like `__import__('os').system('ls')` to list the files in the system directory.
+Предположим, веб-приложение предоставляет калькулятор, использующий функцию `eval()` Python для вычисления пользовательского ввода. Без должной санитаризации злоумышленник может ввести `__import__('os').system('ls')`, чтобы вывести список файлов в системной директории.
