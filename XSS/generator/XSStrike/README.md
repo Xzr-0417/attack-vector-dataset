@@ -1,88 +1,88 @@
-# XSS Payload Generator
+# Генератор XSS-полезных нагрузок
 
-This generator script originates from the XSStrike repository. It integrates utils.py, jsContexter.py, and config.py into generator.py. In the main section, it simulates occurrences (the contexts where XSS tags appear, such as HTML and attributes) and response (HTTP response content). The goal is to grasp the mechanics of payload generation.
+Данный скрипт-генератор основан на репозитории XSStrike. Он объединяет функционал utils.py, jsContexter.py и config.py в generator.py. В основном разделе имитируются контексты (места появления XSS-тегов, например HTML и атрибуты) и ответ (содержимое HTTP-ответа). Цель — понять механизм генерации полезных нагрузок.
 
-### Overview
+## Обзор
 
-#### Core Configuration
-The script includes a core configuration section that defines:
-- **XSS Check String**: A unique string (`v3dm0s`) used to identify successful payload execution.
-- **Blacklisted Tags**: Tags such as `iframe`, `title`, and `textarea` that are typically filtered by security mechanisms.
-- **Allowed Tags**: Tags like `html`, `a`, and `details` that can be leveraged for XSS.
-- **Fillings**: Character sequences used to obfuscate payloads and bypass simple filters.
-- **Event Handlers**: Events like `ontoggle`, `onmouseover`, and `onpointerenter` that can trigger JavaScript execution.
-- **JavaScript Functions**: Functions like `confirm()` and `prompt()` that can be used to test for XSS vulnerabilities.
+### Основная конфигурация
+Скрипт содержит раздел базовой конфигурации, который определяет:
+- **Строку проверки XSS**: Уникальная строка (`v3dm0s`) для идентификации успешного выполнения нагрузки.
+- **Черный список тегов**: Теги вроде `iframe`, `title` и `textarea`, которые обычно фильтруются системами защиты.
+- **Разрешенные теги**: Теги типа `html`, `a` и `details`, которые можно использовать для XSS.
+- **Наполнители**: Последовательности символов для обфускации нагрузок и обхода простых фильтров.
+- **Обработчики событий**: События вроде `ontoggle`, `onmouseover` и `onpointerenter`, запускающие выполнение JavaScript.
+- **JavaScript-функции**: Функции типа `confirm()` и `prompt()` для тестирования уязвимостей XSS.
 
-#### JavaScript Context Closure
-The `jsContexter` function is designed to close JavaScript contexts properly. It analyzes the context before the XSS check string and generates the necessary closing characters to ensure the payload executes correctly.
+### Замыкание JavaScript-контекста
+Функция `jsContexter` корректно закрывает JavaScript-контексты. Она анализирует контекст перед строкой проверки XSS и генерирует необходимые закрывающие символы для корректного выполнения нагрузки.
 
-#### Utility Functions
-- **Random Case Modification**: The `randomUpper` function randomizes the case of characters in a string to bypass case-sensitive filters.
-- **Script Extraction**: The `extractScripts` function identifies where the XSS check string appears in script tags within a response.
+### Вспомогательные функции
+- **Случайное изменение регистра**: Функция `randomUpper` рандомизирует регистр символов для обхода регистрозависимых фильтров.
+- **Извлечение скриптов**: Функция `extractScripts` находит места появления строки проверки в тегах скриптов ответа.
 
-#### Payload Generation Logic
-The `generator` function is the core of the payload generation process. It:
-- Analyzes the context in which the XSS check string appears (HTML, attribute, script).
-- Generates payloads specifically designed for each context.
-- Prioritizes payloads based on their likelihood of success.
+### Логика генерации нагрузок
+Функция `generator` — ядро процесса генерации. Она:
+- Анализирует контекст появления строки проверки (HTML, атрибут, скрипт).
+- Создает нагрузки, адаптированные под каждый контекст.
+- Приоритезирует нагрузки по вероятности успеха.
 
-### Features
+## Особенности
 
-- **Context-Aware Payloads**: Generates payloads tailored to different contexts:
-  - **HTML Context**: Payloads that break out of HTML and inject script tags.
-  - **Attribute Context**: Payloads that close attributes and inject event handlers.
-  - **Script Context**: Payloads that execute within JavaScript code.
+- **Контекстно-зависимые нагрузки**: Генерация нагрузок для разных контекстов:
+  - **HTML-контекст**: Нагрузки, выходящие из HTML и внедряющие теги скриптов.
+  - **Контекст атрибутов**: Нагрузки, закрывающие атрибуты и внедряющие обработчики событий.
+  - **Контекст скриптов**: Нагрузки, выполняющиеся внутри JavaScript-кода.
 
-- **Obfuscation Techniques**: Uses various methods to obfuscate payloads:
-  - Random case modification.
-  - URL encoding and other character transformations.
-  - Insertion of filler characters and comments.
+- **Методы обфускации**:
+  - Случайное изменение регистра.
+  - URL-кодирование и трансформация символов.
+  - Вставка наполнителей и комментариев.
 
-- **Event Handler Utilization**: Leverages different event handlers to trigger JavaScript execution in various scenarios.
+- **Использование обработчиков событий**: Задействует различные события для запуска JavaScript в разных сценариях.
 
-- **Prioritized Payloads**: Generates payloads with different priority levels based on their likelihood of success.
+- **Приоритезация нагрузок**: Генерация нагрузок с разным уровнем приоритета в зависимости от вероятности успеха.
 
-### Usage
+## Использование
 
-1. **Clone the Repository**:
+1. **Клонирование репозитория**:
 
 ```bash
 git clone https://github.com/Xzr-0417/attack-vector-dataset/tree/main/XSS/generator/XSStrike
 cd xss-generator
 ```
 
-2. **Generate Payloads**:
+2. **Генерация нагрузок**:
 
-Run the Python script to generate XSS payloads:
+Запустите Python-скрипт:
 
 ```bash
 python xss_generator.py
 ```
 
-3. **Inspect Payloads**:
+3. **Просмотр нагрузок**:
 
-The script will output generated payloads to the console. You can integrate these payloads into your testing workflow to identify XSS vulnerabilities in web applications.
+Скрипт выведет нагрузки в консоль. Их можно интегрировать в процесс тестирования для выявления XSS-уязвимостей.
 
-4. **Customize Parameters**:
+4. **Настройка параметров**:
 
-Modify the parameters in the core configuration section of the Python script to adjust the types of payloads generated based on your testing requirements.
+Изменяйте параметры в разделе конфигурации для адаптации под конкретные задачи.
 
-### Example Output
+## Пример вывода
 
-When run with the provided test cases, the script generates payloads like:
+Пример сгенерированных нагрузок:
 
 ```
 Generated XSS Payloads:
 
-▶ Priority 10 (共 24 条):
+▶ Приоритет 10 (всего 24):
   01. </TEXTAREA><html%09ontoggle=%09coFirM()%0D>v3dm0s
   02. </TEXTAREA><html%09ontoggle=%09(confirm)()%0D>v3dm0s
   03. </TEXTAREA><html%09ontoggle=%09a=prompt,a()%0D>v3dm0s
   ...
 ```
 
-These payloads can be tested against web applications to verify XSS vulnerabilities.
+Эти нагрузки можно использовать для проверки уязвимостей в веб-приложениях.
 
-### Note
+## Важно
 
-This tool is designed for authorized security testing and research purposes only. Always ensure you have proper authorization before testing any system.
+Инструмент предназначен исключительно для авторизованного тестирования безопасности и исследований. Всегда получайте разрешение перед тестированием любых систем.
