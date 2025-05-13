@@ -1,15 +1,24 @@
-## Citations
-- InfoSecWarrior:  https://github.com/InfoSecWarrior/Offensive-Pentesting-Web/tree/main/Injections/LDAP-Injection
-- PayLoadAllTheThings: https://github.com/Ne3o1/PayLoadAllTheThings/tree/master/LDAP%20injection
-- LDAP_payload:https://www.freebuf.com/vuls/356049.html
-               https://exp-blog.com/safe/ctf/rootme/web-server/ldap-injection-authentication/
-               https://blog.csdn.net/qq_45290991/article/details/113713261
-               https://blog.csdn.net/luoshu88/article/details/132149278
-               https://rce.moe/2022/01/25/ldap-inject-1/
+## Список полезных нагрузок LDAP:
 
+## Источники:
+- InfoSecWarrior:  
+  https://github.com/InfoSecWarrior/Offensive-Pentesting-Web/tree/main/Injections/LDAP-Injection  
+  (Ресурсы по пентесту веб-приложений с примерами LDAP-инъекций)
 
+- PayLoadAllTheThings:  
+  https://github.com/Ne3o1/PayLoadAllTheThings/tree/master/LDAP%20injection  
+  (Коллекция полезных нагрузок для эксплуатации уязвимостей LDAP)
 
-## LDAP payload list：
+- LDAP_payload:  
+  https://www.freebuf.com/vuls/356049.html  
+  https://exp-blog.com/safe/ctf/rootme/web-server/ldap-injection-authentication/  
+  https://blog.csdn.net/qq_45290991/article/details/113713261  
+  https://blog.csdn.net/luoshu88/article/details/132149278  
+  https://rce.moe/2022/01/25/ldap-inject-1/  
+  (Технические статьи и руководства по эксплуатации LDAP-инъекций в различных сценариях)
+
+## Список LDAP-полезных нагрузок:
+(Примеры эксплуатации уязвимостей LDAP-инъекций)
 ```
 *
 *)(&
